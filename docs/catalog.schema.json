@@ -1,0 +1,224 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/catalog.schema.json",
+  "title": "Catalog",
+  "description": "Describes a collection of SKU which may be loaded onto the SKNUPS platform",
+  "type": "object",
+  "properties": {
+    "brands": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/brand"
+      }
+    },
+    "platforms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/platform"
+      }
+    },
+    "designItems": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/design"
+      }
+    },
+    "skus": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sku"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "brand": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "wholesalerShare": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name",
+        "wholesalerShare"
+      ]
+    },
+    "platform": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name"
+      ]
+    },
+    "design": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "brandCode": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "brandCode"
+      ]
+    },
+    "sku": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 5,
+          "maxLength": 30
+        },
+        "maxQty": {
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "rarity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "platformCode": {
+          "type": "string"
+        },
+        "designItemCode": {
+          "type": "string"
+        },
+        "brandWholesalePrice": {
+          "$ref": "#/definitions/wholesale-price"
+        },
+        "recommendedRetailPrice": {
+          "$ref": "#/definitions/retail-price"
+        },
+        "permissions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/permission"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name",
+        "maxQty",
+        "description",
+        "rarity",
+        "platformCode",
+        "designItemCode",
+        "permissions"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/sellable-must-have-retail-price"
+        },
+        {
+          "$ref": "#/definitions/sellable-must-have-wholesale-price"
+        }
+      ]
+    },
+    "permission": {
+      "enum": [
+        "GIVEAWAY",
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    },
+    "retail-price": {
+      "type": "integer",
+      "minimum": 100,
+      "maximum": 1000000
+    },
+    "wholesale-price": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 1000000
+    },
+    "sellable-must-have-retail-price": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "permissions": {
+            "type": "array",
+            "contains": {
+              "type": "string",
+              "const": "SELL"
+            }
+          }
+        }
+      },
+      "then": {
+        "type": "object",
+        "properties": {
+          "recommendedRetailPrice": {
+            "$ref": "#/definitions/retail-price"
+          }
+        },
+        "required": [
+          "recommendedRetailPrice"
+        ]
+      }
+    },
+    "sellable-must-have-wholesale-price": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "permissions": {
+            "type": "array",
+            "contains": {
+              "type": "string",
+              "const": "SELL"
+            }
+          }
+        }
+      },
+      "then": {
+        "type": "object",
+        "properties": {
+          "brandWholesalePrice": {
+            "$ref": "#/definitions/wholesale-price"
+          }
+        },
+        "required": [
+          "brandWholesalePrice"
+        ]
+      }
+    }
+  }
+}
