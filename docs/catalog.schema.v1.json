@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/catalog.schema.v1.json",
+  "title": "catalog",
+  "description": "Describes all SKU which exist in SKNUPS wholesale system.",
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": ["name"]
+      }
+    },
+    "sku": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "brand": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "maximum": {
+            "type": "number"
+          },
+          "name": {
+            "type": "string"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "GIVEAWAY",
+                "SELL",
+                "DISCOVER",
+                "METAPLEX_MINT"
+              ]
+            }
+          },
+          "price": {
+            "type": "number"
+          },
+          "rarity": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 5
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "brand",
+          "description",
+          "maximum",
+          "name",
+          "permissions",
+          "price",
+          "rarity"
+        ]
+      }
+    }
+  },
+  "required": ["brand", "sku"]
+}
