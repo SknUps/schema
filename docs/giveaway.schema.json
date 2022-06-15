@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://sknups.github.io/schema/giveaway.schema.json",
-  "title": "Giveaway",
+  "title": "giveaway",
   "description": "Describes a Giveaway which may be operated by the SKNUPS platform",
   "type": "object",
   "properties": {
