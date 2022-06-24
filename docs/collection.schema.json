@@ -17,12 +17,6 @@
         "$ref": "#/definitions/platform"
       }
     },
-    "designItems": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/design"
-      }
-    },
     "skus": {
       "type": "array",
       "items": {
@@ -71,19 +65,6 @@
         "name"
       ]
     },
-    "design": {
-      "type": "object",
-      "properties": {
-        "code": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
-        "brandCode": {
-          "type": "string"
-        }
-      },
       "additionalProperties": false,
       "required": [
         "code",
@@ -116,9 +97,6 @@
         "platformCode": {
           "type": "string"
         },
-        "designItemCode": {
-          "type": "string"
-        },
         "brandCode": {
           "type": "string"
         },
@@ -143,7 +121,6 @@
         "description",
         "rarity",
         "platformCode",
-        "designItemCode",
         "brandCode",
         "permissions"
       ],
