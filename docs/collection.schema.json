@@ -65,12 +65,6 @@
         "name"
       ]
     },
-      "additionalProperties": false,
-      "required": [
-        "code",
-        "brandCode"
-      ]
-    },
     "sku": {
       "type": "object",
       "properties": {
