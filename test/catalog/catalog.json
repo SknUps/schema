@@ -1,0 +1,1369 @@
+{
+  "sku": {
+    "JAMES-MACK-BOILING-POINT": {
+      "name": "Boiling Point",
+      "description": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "JAMES-MACK"
+    },
+    "JAMES-MACK-BOILING-POINT-SCENIC": {
+      "name": "Boiling Point | Scenic",
+      "description": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry.",
+      "price": 8000,
+      "maximum": 100,
+      "rarity": 2,
+      "permissions": [
+        "DISCOVER",
+        "METAPLEX_MINT",
+        "SELL"
+      ],
+      "brand": "JAMES-MACK"
+    },
+    "TEST-CUBE-EPIC": {
+      "name": "Epic Cube",
+      "description": "DO NOT BUY THE LAST REMAINING ITEM! This SKU exists to test \"FEW REMAINING\" in Discover.",
+      "price": 10000,
+      "maximum": 4,
+      "rarity": 4,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "BNNYND-BKRCRJ-CAVTBAS": {
+      "name": "Baker Crown Juicy",
+      "description": "Every King and Queen deserves a Crown. This Baker Crown hat in Juicy colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "BNNYND-BKRCRL-CAVTBAS": {
+      "name": "Baker Crown Leopard",
+      "description": "Every King and Queen deserves a Crown. This Baker Crown hat in Leopard colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "BNNYND-FZZDMF-CAVTBAS": {
+      "name": "Fuzz Dome Fuchsia",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Fuchsia colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "BNNYND-FZZDMP-CAVTBAS": {
+      "name": "Fuzz Dome Purple",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Purple colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": 0,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "SKNUPS-OLMWHM-CCLRBAS": {
+      "name": "Olympus White Matte",
+      "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
+      "price": 1000,
+      "maximum": 10,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMBKM-CCLRBAS": {
+      "name": "Olympus Black Matte",
+      "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
+      "price": 1000,
+      "maximum": 10,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMBKG-CCLRBAS": {
+      "name": "Olympus Black Gloss",
+      "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
+      "price": 1000,
+      "maximum": 10,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-GVRCRY-CCLRBAS": {
+      "name": "Geode Marble Jacket",
+      "description": "Sculpted from the finest digital Marquina marble and embellished with crystal.",
+      "price": 2500,
+      "maximum": 5,
+      "rarity": 3,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "BNNYND-WNKDMM-CAVTBAS": {
+      "name": "Wonky Dome Moo Moo",
+      "description": "Step off the straight and narrow… Take a walk on the Wonky side.  This Wonky Dome hat in Moo Moo colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "BNNYND-WNKDMA-CAVTBAS": {
+      "name": "Wonky Dome Acid",
+      "description": "Step off the straight and narrow… Take a walk on the Wonky side. This Wonky Dome hat in Acid colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "BNNYND"
+    },
+    "SKNTMR-DAODSK-CCBRPLA": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are they key to unlocking Cybermonk’s inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": 0,
+      "maximum": 1,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-DAODSK-CPPRBAS": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are they key to unlocking Cybermonk’s inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-DAODSK-CCBRBAS": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are they key to unlocking Cybermonk’s inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": 0,
+      "maximum": 60,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-KAPTCH-CCBRPLA": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": 0,
+      "maximum": 1,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-KAPTCH-CPPRBAS": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-KAPTCH-CCBRBAS": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": 0,
+      "maximum": 60,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-LUNRGT-CCBRPLA": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": 0,
+      "maximum": 1,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-LUNRGT-CPPRBAS": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-LUNRGT-CCBRBAS": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": 0,
+      "maximum": 60,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNUPS-OLMHDS-CCNNPLA": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CSLRPLA": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CCNNPLB": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CSLRPLB": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CCNNPLC": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CSLRPLC": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CCNNBAS": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHDS-CSLRBAS": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CCNNPLA": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CSLRPLA": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CCNNPLB": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CSLRPLB": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CCNNPLC": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CSLRPLC": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CCNNBAS": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMHER-CSLRBAS": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMKHR-CMYABAS": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
+      "price": 0,
+      "maximum": 500000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-OLMKHR-CMYBBAS": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
+      "price": 0,
+      "maximum": 500000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNTMR-HDETMR-CCBRPLA": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom.",
+      "price": 0,
+      "maximum": 1,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-HDETMR-CPPRBAS": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-HDETMR-CCBRBAS": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom. ",
+      "price": 0,
+      "maximum": 60,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-TCTQLT-CCBRBAS": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer l yer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": 0,
+      "maximum": 60,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-TCTQLT-CCBRPLA": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": 0,
+      "maximum": 1,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "SKNTMR-TCTQLT-CPPRBAS": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNTMR"
+    },
+    "TEST-OCTAHEDRON-COMMON": {
+      "name": "Common Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 100,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-OCTAHEDRON-EPIC": {
+      "name": "Epic Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 10000,
+      "maximum": 100,
+      "rarity": 4,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-OCTAHEDRON-LEGENDARY": {
+      "name": "Legendary Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 100000,
+      "maximum": 100,
+      "rarity": 5,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-OCTAHEDRON-RARE": {
+      "name": "Rare Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 1000,
+      "maximum": 100,
+      "rarity": 3,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-OCTAHEDRON-UNCOMMON": {
+      "name": "Uncommon Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 500,
+      "maximum": 1000,
+      "rarity": 2,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-COMMON": {
+      "name": "Common Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-COMMON-V2": {
+      "name": "Common Tetrahedron v2",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-COMMON-V3": {
+      "name": "Common Tetrahedron v3",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-COMMON-V4": {
+      "name": "Common Tetrahedron v4",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-COMMON-V5": {
+      "name": "Common Tetrahedron v5",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-RARE": {
+      "name": "Rare Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 100,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-UNCOMMON": {
+      "name": "Uncommon Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 0,
+      "maximum": 1000,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-DODECAHEDRON-COMMON": {
+      "name": "Common Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-DODECAHEDRON-EPIC": {
+      "name": "Epic Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 0,
+      "maximum": 20,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-DODECAHEDRON-LEGENDARY": {
+      "name": "Legendary Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 0,
+      "maximum": 5,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-DODECAHEDRON-RARE": {
+      "name": "Rare Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 0,
+      "maximum": 200,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-DODECAHEDRON-UNCOMMON": {
+      "name": "Uncommon Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 0,
+      "maximum": 1000,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-CUBE-3DENV": {
+      "name": "3D Environment Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 300,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-CUBE-COMMON": {
+      "name": "Common Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 300,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-CUBE-RARE": {
+      "name": "Rare Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 1000,
+      "maximum": 100,
+      "rarity": 3,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-CUBE-UNCOMMON": {
+      "name": "Uncommon Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 500,
+      "maximum": 1000,
+      "rarity": 2,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-ICOSAHEDRON-COMMON": {
+      "name": "Common Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 0,
+      "maximum": 10000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-ICOSAHEDRON-RARE": {
+      "name": "Rare Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 1000,
+      "maximum": 100,
+      "rarity": 3,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-ICOSAHEDRON-UNCOMMON": {
+      "name": "Uncommon Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 500,
+      "maximum": 1000,
+      "rarity": 2,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-EPIC": {
+      "name": "Epic Tetrahedron",
+      "description": "This SKU can never be manufactured!",
+      "price": 0,
+      "maximum": 0,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-TETRAHEDRON-LEGENDARY": {
+      "name": "Legendary Tetrahedron",
+      "description": "This SKU can never be manufactured!",
+      "price": 0,
+      "maximum": 0,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-CUBE-LEGENDARY": {
+      "name": "Legendary Cube",
+      "description": "This SKU exists to test \"SOLD OUT\" in Discover.",
+      "price": 100000,
+      "maximum": 0,
+      "rarity": 5,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "TEST"
+    },
+    "TEST-ICOSAHEDRON-EPIC": {
+      "name": "Epic Icosahedron",
+      "description": "This SKU is reserved for future use!",
+      "price": 0,
+      "maximum": 10,
+      "rarity": 4,
+      "permissions": [],
+      "brand": "TEST"
+    },
+    "TEST-ICOSAHEDRON-LEGENDARY": {
+      "name": "Legendary Icosahedron",
+      "description": "This SKU is reserved for future use!",
+      "price": 0,
+      "maximum": 10,
+      "rarity": 5,
+      "permissions": [],
+      "brand": "TEST"
+    },
+    "SKNUPS-OLMKHR-CBNRPLD": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "This is the Early Adopters limited edition of the KHRONOS Sneaker.  Thank you for joining SKNUPS for our initial drop - your timing is impeccable.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 2,
+      "permissions": [
+        "GIVEAWAY"
+      ],
+      "brand": "SKNUPS"
+    },
+    "JAMES-MACK-SCRAPS": {
+      "name": "SCRAPS",
+      "description": "This season's hottest trend: SCRAPS is a dress made from plastic scraps based on an estimated 80% of things we throw away being recyclable.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "JAMES-MACK"
+    },
+    "JAMES-MACK-SCRAPS-SCENIC": {
+      "name": "SCRAPS | Scenic",
+      "description": "This season's hottest trend: SCRAPS is a dress made from plastic scraps based on an estimated 80% of things we throw away being recyclable.",
+      "price": 4000,
+      "maximum": 250,
+      "rarity": 2,
+      "permissions": [
+        "DISCOVER",
+        "METAPLEX_MINT",
+        "SELL"
+      ],
+      "brand": "JAMES-MACK"
+    },
+    "SKNUPS-DPHSLV-CCLRBAS": {
+      "name": "Daphne Silver Dress",
+      "description": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself.",
+      "price": 2500,
+      "maximum": 5,
+      "rarity": 3,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CCNNPLA": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CSLRPLA": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CCNNPLB": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CSLRPLB": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CCNNPLC": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CSLRPLC": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CCNNBAS": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DPHESC-CSLRBAS": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "DOLCE-GABBANA-WELCOME": {
+      "name": "DG Welcome",
+      "description": "Welcome to the start of the DG journey into gaming and digital collectibles",
+      "price": 0,
+      "maximum": 10000000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY"
+      ],
+      "brand": "DOLCE-GABBANA"
+    },
+    "SKNUPS-DEPCVR-CCNNPLA": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CSLRPLA": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CCNNPLB": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CSLRPLB": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CCNNPLC": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CSLRPLC": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CCNNBAS": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPCVR-CSLRBAS": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CCNNPLA": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CSLRPLA": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 50,
+      "rarity": 5,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CCNNPLB": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CSLRPLB": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 150,
+      "rarity": 4,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CCNNPLC": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CSLRPLC": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 3,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CCNNBAS": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "SKNUPS-DEPOCN-CSLRBAS": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": 0,
+      "maximum": 2000,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ],
+      "brand": "SKNUPS"
+    },
+    "JAMES-MACK-WHATS-IN-YOUR-BAG-SCENIC": {
+      "name": "What's In Your Bag | Scenic",
+      "description": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tones of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University).",
+      "price": 2000,
+      "maximum": 500,
+      "rarity": 2,
+      "permissions": [
+        "DISCOVER",
+        "METAPLEX_MINT",
+        "SELL"
+      ],
+      "brand": "JAMES-MACK"
+    },
+    "JAMES-MACK-WHATS-IN-YOUR-BAG": {
+      "name": "What's In Your Bag",
+      "description": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tons of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University).",
+      "price": 0,
+      "maximum": 300,
+      "rarity": 1,
+      "permissions": [
+        "GIVEAWAY",
+        "DISCOVER"
+      ],
+      "brand": "JAMES-MACK"
+    }
+  },
+  "brand": {
+    "JAMES-MACK": {
+      "name": "James Mack"
+    },
+    "TEST": {
+      "name": "TEST"
+    },
+    "BNNYND": {
+      "name": "Benny Andallo"
+    },
+    "SKNUPS": {
+      "name": "SKNUPS"
+    },
+    "SKNTMR": {
+      "name": "SKNUPS x TIMO RUSALL"
+    },
+    "DOLCE-GABBANA": {
+      "name": "Dolce & Gabbana"
+    }
+  }
+}
