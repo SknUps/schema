@@ -1,0 +1,39 @@
+---
+name: Merge
+
+'on':
+  push:
+    branches:
+      - main
+
+jobs:
+  validation:
+    name: 'validation'
+    runs-on: ubuntu-20.04
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Configure npm
+        run: |
+          npm config set update-notifier false
+          npm config set audit false
+          npm config set fund false
+
+      - name: Install npm dependencies
+        run: |
+          npm ci
+
+      - name: Lint source code
+        run: |
+          npm run lint
+
+      - name: Run unit tests
+        run: |
+          npm test

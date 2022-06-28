@@ -1,0 +1,31 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "description": "This repository hosts JSON schema files related to the SKNUPS platform.",
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/",
+    "test": "mocha --bail --fail-zero test/**"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SknUps/schema.git"
+  },
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "chai": "^4.3.6",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "mocha": "^10.0.0"
+  }
+}
