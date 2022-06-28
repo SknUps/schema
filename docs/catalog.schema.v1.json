@@ -46,7 +46,10 @@
             }
           },
           "price": {
-            "type": "number"
+            "anyOf": [
+              {"type": "number"},
+              {"type": "null"}
+            ]
           },
           "rarity": {
             "type": "number",
