@@ -1,0 +1,97 @@
+{
+  "brands": [
+    {
+      "code": "SKNUPS",
+      "name": "SKNUPS",
+      "wholesalerShare": 0.5
+    }
+  ],
+  "platforms": [
+    {
+      "code": "SKN",
+      "name": "Digital Fashion Collectible"
+    }
+  ],
+  "skus": [
+    {
+      "code": "SKNUPS-OLMBKM-CCLRBAS",
+      "name": "Olympus Black Matte",
+      "maxQty": 10,
+      "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
+      "rarity": 2,
+      "platformCode": "SKN",
+      "brandCode": "SKNUPS",
+      "brandWholesalePrice": 900,
+      "recommendedRetailPrice": 1000,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    },
+    {
+      "code": "SKNUPS-OLMBKG-CCLRBAS",
+      "name": "Olympus Black Gloss",
+      "maxQty": 10,
+      "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
+      "rarity": 2,
+      "platformCode": "SKN",
+      "brandCode": "SKNUPS",
+      "brandWholesalePrice": 900,
+      "recommendedRetailPrice": 1000,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    },
+    {
+      "code": "SKNUPS-OLMWHM-CCLRBAS",
+      "name": "Olympus White Matte",
+      "maxQty": 10,
+      "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
+      "rarity": 2,
+      "platformCode": "SKN",
+      "brandCode": "SKNUPS",
+      "brandWholesalePrice": 900,
+      "recommendedRetailPrice": 1000,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    },
+    {
+      "code": "SKNUPS-GVRCRY-CCLRBAS",
+      "name": "Geode Marble Jacket",
+      "maxQty": 5,
+      "description": "Sculpted from the finest digital Marquina marble and embellished with crystal.",
+      "rarity": 3,
+      "platformCode": "SKN",
+      "brandCode": "SKNUPS",
+      "brandWholesalePrice": 2400,
+      "recommendedRetailPrice": 2500,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    },
+    {
+      "code": "SKNUPS-DPHSLV-CCLRBAS",
+      "name": "Daphne Silver Dress",
+      "maxQty": 5,
+      "description": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself.",
+      "rarity": 3,
+      "platformCode": "SKN",
+      "brandCode": "SKNUPS",
+      "brandWholesalePrice": 2400,
+      "recommendedRetailPrice": 2500,
+      "permissions": [
+        "SELL",
+        "DISCOVER",
+        "METAPLEX_MINT"
+      ]
+    }
+  ]
+}

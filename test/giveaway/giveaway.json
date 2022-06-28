@@ -1,0 +1,480 @@
+{
+  "claims": [
+    {
+      "code": "wave1-hera",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS OLYMPUS HERA",
+      "description": "Join us for the launch of the SKNUPS Olympus sneaker, HERA",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-OLMHER-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1pdyTQBIQG3VxH2MlHlq\naaVA9Xk1gTT/my6HlhJI9Jujey3GFM/xQ/8C7Nl2KQlU5Z9bKkA8+d8eOrFfmpeX\nuv7S+sZmbbXiHcXehyMMuxvQUPYAVilmzjmdLglkBrP+JwIufKp7xu5Z53jTuqJA\n9Nkso7TScfy8bfQI/eXyL2JmkwQ7ToSLMn6DakSL1ByfpO/DSHUMnW0m9bUUkVrJ\nbuGqlARcqqgPqP9usQR/vbyGKZSEcOtwpdNEt5HD6VbmrNCTbW8YoXF5SmHEfK/P\nSgzlXb0Guot/QXau2T7oDon84TjmYKDdxHJv5qAuMSIdrd1EjYuw4pQBoi6PA+TQ\nUwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-cover",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DEEP COVER",
+      "description": "Don the SKNUPS backpack, the DEEPS, with a SKNUPS undercover style",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPCVR-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqJZ2tmvtk5s3dLMZIqcR\nNrRu/aUh2YsirUqGrDqbpum6yN+oHn+hgGD+Qy/Tlxtku0iEV5h+iwJSjpLTaT34\nVUjSd1EKTFcxU3HGu4QGzbC3qWnJKsiA2VdNkUH52y0uT5qdZFMd4+4+9nB7JjUw\ndRIv1xSYmeX1zs7lVQzdctxVc4ariRsRDi16I1aI2Q6Xyp7uuMF2FuwFS9UglUze\nj9/NdK7/exuodAp7isQHUg9lDsIGYx1urSmaPalMYLdcd/Nwsi5EcVZ0yv7ZZhJ3\ndgGkpZ9iGWNuvuIQA0HUFf4OeJPG9ZZd2zWTb19IXQ427cOPhopQgGLcZo1Fx9Np\nuwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-hades-slr",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS HADES SOLAR",
+      "description": "Enter the Solar System alongside the second of the SKNUPS Olympus sneakers, HADES",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-OLMHDS-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2I0lKlquu0qWejW65SY5\nghmommVwyxd4V/YhIRTM+qjOZ52rQE6nG15ykTkBDGQfwu7A+14a3bwx62V0WrEb\numhZMi+1+QYlDL5P9PmYO5zgdXgn/oN25jTyRwHXH1DWefP9l9V0s6/+2txUVC/P\npigI0rR/Vg7V9djKZXoWLuzEtBVic1ogDaeym/Ijuyyinwk0PyOTOCXg7UW1/xw0\n0JhtmFTUwtHiONCYMn1WqYIpcJUxCNKddjNmQbAOvY8E2biKjNUjyutYoFwrSYkO\nMjszOHZXQRxfRt2V9IF/uGt772fpmrP95QQ1YC8d5qnsxnAZvhJeYf2nqDPqPLVx\nvwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-hades-cnn",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS HADES - The Canyon",
+      "description": "Dive into the Canyon with the second of the SKNUPS Olympus sneakers, HADES",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-OLMHDS-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwK4QLnqxr6ped6vvR3BL\nBuaApzBaoFn4MoTMqzrKjLNg1pC/RVua459cCIZBkefCH/vcUFfGufqXoyDDxv/f\nWqgSJYQYZfGQUiqH/Xxq1d2WYk155uRCDTJ0ammN4L486DSuO1OSQuk8YM3QCkqA\n63hLHLUzmhXQGLpeQK06bPEJzpJQ1i58TBLSBMpPmGdDwSikhqHdhnVF2z5fttnG\nJWKZcBx27CB9qlfJWMA1C0lkGo/uMH7DyJwspBKFoEiP3MTXjbOaVVmLdxaa944h\nKBMhtjPaqK4bPL112Z1Pmzqofap0qiotEBA4lZMONO6t82BJwVN4QKx/aLxhY3K/\noQIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-escape-cnn",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DAPHNE ESCAPE Canyon",
+      "description": "Plunge into the Canyon, where we will launch SKNUPS Fashion with the DAPHNE ESCAPE dress",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DPHESC-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy5Sp96SklfJ115ou7g17\nXt8Ut6tx05po4N2nC4SXLlwa3v0e/fSjvlmXnrn+otE81RMaQU/sKDz2NVUrqzJi\nidRWBaqG8YrWDDi0Ybzk3Ab19bZf9QzsCHuh2NhrijS5CsqX2sG7gv7nAf10ZRuY\nSJoduBGW20m/zPU4w7+ZfxuJ0GDtBj6B8CekCokvLJSZCWha6UeHKbLeBBGDILpY\nEdXlyKDDjJ9N6QtFekPMWFFbm2ylErSHDLCp4Ob4lirK8TaF+euJFBztTMZjmTeh\nAlQKf3CtbYtcs5kHTAb/KTJRjN5BNuYpPie3RdguHz/vA+oOFq7veDyqKdo+9jsZ\n/wIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-escape-slr",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DAPHNE ESCAPE - SOLAR",
+      "description": "We launch SKNUPS Fashion into the solar system with the DAPHNE ESCAPE dress",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DPHESC-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsjW5wxuXhRy5cTz1oaZQ\n6b8i9+ND1sUKnysqAnr33YKuZRm5qG2g9Yrd3FMcY95UN1t99JoAhfdVJnW/ZzXe\nu9JKtfPcqquCPaq8GnQxXqOpmdlxfEZua09zAOk57er+ZLf4UJTBGOePIQ7x4JCD\nxc1Hk5TFmAfP+Mfhr7HMCpwYPQhcX6aDKkykX5l1Qp6ZHPJm+7et+L11sr3oh7DP\nPxhXPcLCP6JzXndV+axHJwzB/FOSpAKpTt+O7P6pUACqDkDB0CffEfq6bhO8hOxo\n3oTMnJg/1TJcaEKN45zaBr645ucaNGGtvfndMDB36Wp1UKm8zs8OHyNdCN8fx2Kc\nEQIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-ocean-pc1",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DEEP OCEAN Canyon",
+      "description": "Taking the SKNUPS backpack underwater, we enter the DEEP OCEAN.",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPOCN-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLB",
+            "weight": 10
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxrfzMZVwxSxQ3NP/UpV8\nnTxj/bkcXTsKkOn3m55FLeUCVfYoV9DhRE+NahBuZtJgWjgPUpmS2EFkioxeyWRV\nq4U9qb9KoSguO7qXxsjR9YaCrjP8ZF2oVZJuJHkziXeoNT/HbTTP362FoJnCp3We\n2ZyfTDRTHN6f142BoFNN+EHjzcYfK7tlHIpM0HA7VlVsk9fKLNm2ZB2HkxG3I3RQ\nEi0OWvjPvqkrFA+2Y02obrK2IRVnQYabSHMeEc8/JHgtttOdmL7LStt4mPDdFK0w\nxS+mHluXxh+grJDGUMY9EovC7sNNgNsG11Hi6K2rtrBFCB4mgIo5ko3RwLrRhkPO\nZQIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-ocean-ps1",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DEEP OCEAN Solar",
+      "description": "Taking the SKNUPS backpack underwater, we enter the DEEP OCEAN.",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPOCN-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLB",
+            "weight": 10
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAytUK1hk2mKBtNDfi07Ql\nWOOJHnuR5wNNLXjix0lDUjE745qYYEbkN7vHMkNe4qJxeW73+orvzE8nvYl1y+/u\nu83ccXRMe2ErZEWvDgl76u/NijuQcgiqPg4v9vscklxqaPSz9Geu6uho+HbLztcr\nzS8qv0bg1zsXoVnGGUJa9vXGVD6Y5QfbOBvFVcAqTgQ1gx07pSYW9m5YImhUw5Kq\nXNq/THLHNvjIGvT+Hw7P3w4ojZ8w+88IPIiZSrsY5y+Iosd34hzoxmPlJUbEruLq\n/Llz7a0Rv07BgRGWZ4VK5bxEqEDgMzGCxcDoJMKFLc1hcv4zRBGS4z0GvbW1hhdw\nsQIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-ocean-ps2",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DEEP OCEAN",
+      "description": "Taking the SKNUPS backpack underwater, we enter the DEEP OCEAN.",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPOCN-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArdm1MvmnjEqYVxpAmUyi\ng1zMsD7e7GdekktwpAGpdaZ7n7Kh2JPQkwoDXtMNJi2Qbe+Xbstz7sLI29qP99Vb\n+DgOMm6qO2nG9qKgbGppUIPJJJS/Zzgw0mFisEt8o8rCshmR2lNJsVPP69FB/CgL\ncS4PggYi2I0iVaAeUB3Lh1mY9MG8XGyOnVMVZKdIaSQ9E/Qe6lKO87Boot5gZ5C4\nk1e+9JJH5Jzx6HOKJLNJJu/0Gvhwo2x1q2zUoVCiF7bUvBi4Rl/sl8yp+WcA90SM\nf7lbwErhOqf/Z7CD7Lu+QS7z1czEpCqip9tiEsSSyn5ZnS/muVSloqhX8i2t2Qid\nXwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-ocean-pc2",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS DEEP OCEAN",
+      "description": "Taking the SKNUPS backpack underwater, we enter the DEEP OCEAN.",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPOCN-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0OMdS2RSkEgj67e2z4CT\n4P7Z8K5VsgHQKXQL+P+N1oZoBVcMPHx7wMX0MSTbZYnXp9TE+fCt0wYFqzfXkLaZ\nC+MDF5cuy2jpPH2HNo5w/wHUVNT1DSzWcbbrXwJgTRL1gOrCAjBX9t8fGQ33/dWZ\nQt4yA2sMWcGbBlTeyUjx8g8vVgyg9/gYvE+axX+h9RgpUsgtuxKUFAjWzwEIxm8v\nWyeQcuEKYtXmTQpwvCzEp2D3RjYvEax86ZIoRmFnzQpamkWkuUJhLLziTx78p8vY\nu3aUOyd+UAixJHtihc8Or5kujFmJgrB+Hv5Lq/JhiUt9OLRNHpB+Vklfqh/Fh7DA\nOwIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "wave1-allin",
+      "type": "FORTUNE",
+      "state": "ACTIVE",
+      "title": "SKNUPS Wave One",
+      "description": "Join us for yet another pass through all the SKNUPS Wave 1 items",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-DEPCVR-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DEPCVR-CSLRPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DEPOCN-CSLRPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-DPHESC-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-DPHESC-CSLRPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-OLMHDS-CSLRPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRBAS",
+            "weight": 190
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLA",
+            "weight": 20
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLB",
+            "weight": 10
+          },
+          {
+            "code": "SKNUPS-OLMHER-CCNNPLC",
+            "weight": 30
+          },
+          {
+            "code": "SKNUPS-OLMHER-CSLRPLC",
+            "weight": 30
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuGg0YLzl2OkYbkSZT+hJ\njbOc46AbdHH/F8enShqUv5XnfqAZvuBRf9hZAFEe9NFeuoqwObRgybDSuEgbz1sl\nCiFARp8grXnyaPE2jzjAUFWvieKbN5BKUK8JWBKA0W7Gd9OwEFPx6l8sSTUMbJLo\ngnoHcjrpB5GQzhcOo6/cVQ4wQm38Ds3sIX+8hUkD3cJoHy1uI/qSrCGmlyJvqO3b\n0u/lFfpPCEZmtEED3XSDDQrap4eeu+Ls0k4ZShExriNHGp+R2sw2yFZmzvRbEay0\nRAywMjTsXiP21034f9eEtZH41iSJjOLjMDqrmZdJd6yke/7vFF8Kmjfmw9zR3240\nTQIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    {
+      "code": "promo-binarykhronos",
+      "type": "SIMPLE",
+      "state": "ACTIVE",
+      "title": "SKNUPS Launch promotion",
+      "description": "Thank you for joining us on our journey into the metaverse.",
+      "config": {
+        "skuEntries": [
+          {
+            "code": "SKNUPS-OLMKHR-CBNRPLD",
+            "weight": 10
+          }
+        ]
+      },
+      "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0u8Q1aJtlnkBtXNqTeJK\nkzruYlrCKpgxqDmsPh/IDPItIPPwmiV/dNs3FOOOdcGzFzS1YSScZaC1DocOX6Pb\n0S9dn4Bfs6TA42ySQJFmZFTpeMUxy2pOXSK7no7ude9I3VRUpIE0Zwqxx8l+dTn2\nIxuTvx+vL3Sr6WvGWJUkYhQPZWBf5RmxuhhWds2RKzEzRJyiIQFbvOzXGpmKw2uI\nACF2d5sfjVPxzRhrTTjvBDjtZWxpvaFL1Zwz6sfBQry03NemcwrpUhyBWAmEiKfg\nED1Q5jOHiODmDVPRuUkMmVeRivHCWn6QoyGhfjUAvbjXliNLtAc/ijt9PioB230W\npQIDAQAB\n-----END PUBLIC KEY-----\n"
+    }
+  ]
+}
