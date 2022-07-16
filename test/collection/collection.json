@@ -21,8 +21,10 @@
       "rarity": 2,
       "platform": "SKN",
       "brand": "SKNUPS",
-      "brandWholesalePrice": 900,
-      "recommendedRetailPrice": 1000,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
       "permissions": [
         "SELL",
         "DISCOVER",
@@ -37,8 +39,10 @@
       "rarity": 2,
       "platform": "SKN",
       "brand": "SKNUPS",
-      "brandWholesalePrice": 900,
-      "recommendedRetailPrice": 1000,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
       "permissions": [
         "SELL",
         "DISCOVER",
@@ -53,8 +57,10 @@
       "rarity": 2,
       "platform": "SKN",
       "brand": "SKNUPS",
-      "brandWholesalePrice": 900,
-      "recommendedRetailPrice": 1000,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
       "permissions": [
         "SELL",
         "DISCOVER",
@@ -69,8 +75,10 @@
       "rarity": 3,
       "platform": "SKN",
       "brand": "SKNUPS",
-      "brandWholesalePrice": 2400,
-      "recommendedRetailPrice": 2500,
+      "price": {
+        "retail": 2500,
+        "wholesale": 2400
+      },
       "permissions": [
         "SELL",
         "DISCOVER",
@@ -85,8 +93,10 @@
       "rarity": 3,
       "platform": "SKN",
       "brand": "SKNUPS",
-      "brandWholesalePrice": 2400,
-      "recommendedRetailPrice": 2500,
+      "price": {
+        "retail": 2500,
+        "wholesale": 2400
+      },
       "permissions": [
         "SELL",
         "DISCOVER",

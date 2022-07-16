@@ -96,11 +96,8 @@
           "minimum": 0,
           "maximum": 5
         },
-        "brandWholesalePrice": {
-          "$ref": "#/definitions/wholesale-price"
-        },
-        "recommendedRetailPrice": {
-          "$ref": "#/definitions/retail-price"
+        "price": {
+          "$ref": "#/definitions/price"
         },
         "permissions": {
           "type": "array",
@@ -121,10 +118,7 @@
       ],
       "allOf": [
         {
-          "$ref": "#/definitions/sellable-must-have-retail-price"
-        },
-        {
-          "$ref": "#/definitions/sellable-must-have-wholesale-price"
+          "$ref": "#/definitions/sell-requires-price"
         }
       ]
     },
@@ -136,17 +130,27 @@
         "METAPLEX_MINT"
       ]
     },
-    "retail-price": {
-      "type": "integer",
-      "minimum": 100,
-      "maximum": 1000000
+    "price": {
+      "type": "object",
+      "properties": {
+        "retail": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 1000000
+        },
+        "wholesale": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "retail",
+        "wholesale"
+      ]
     },
-    "wholesale-price": {
-      "type": "integer",
-      "minimum": 0,
-      "maximum": 1000000
-    },
-    "sellable-must-have-retail-price": {
+    "sell-requires-price": {
       "if": {
         "type": "object",
         "properties": {
@@ -162,37 +166,12 @@
       "then": {
         "type": "object",
         "properties": {
-          "recommendedRetailPrice": {
-            "$ref": "#/definitions/retail-price"
+          "price": {
+            "$ref": "#/definitions/price"
           }
         },
         "required": [
-          "recommendedRetailPrice"
-        ]
-      }
-    },
-    "sellable-must-have-wholesale-price": {
-      "if": {
-        "type": "object",
-        "properties": {
-          "permissions": {
-            "type": "array",
-            "contains": {
-              "type": "string",
-              "const": "SELL"
-            }
-          }
-        }
-      },
-      "then": {
-        "type": "object",
-        "properties": {
-          "brandWholesalePrice": {
-            "$ref": "#/definitions/wholesale-price"
-          }
-        },
-        "required": [
-          "brandWholesalePrice"
+          "price"
         ]
       }
     }
