@@ -20,7 +20,7 @@
       "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
       "rarity": 2,
       "platform": "SKN",
-      "brandCode": "SKNUPS",
+      "brand": "SKNUPS",
       "brandWholesalePrice": 900,
       "recommendedRetailPrice": 1000,
       "permissions": [
@@ -36,7 +36,7 @@
       "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
       "rarity": 2,
       "platform": "SKN",
-      "brandCode": "SKNUPS",
+      "brand": "SKNUPS",
       "brandWholesalePrice": 900,
       "recommendedRetailPrice": 1000,
       "permissions": [
@@ -52,7 +52,7 @@
       "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
       "rarity": 2,
       "platform": "SKN",
-      "brandCode": "SKNUPS",
+      "brand": "SKNUPS",
       "brandWholesalePrice": 900,
       "recommendedRetailPrice": 1000,
       "permissions": [
@@ -68,7 +68,7 @@
       "description": "Sculpted from the finest digital Marquina marble and embellished with crystal.",
       "rarity": 3,
       "platform": "SKN",
-      "brandCode": "SKNUPS",
+      "brand": "SKNUPS",
       "brandWholesalePrice": 2400,
       "recommendedRetailPrice": 2500,
       "permissions": [
@@ -84,7 +84,7 @@
       "description": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself.",
       "rarity": 3,
       "platform": "SKN",
-      "brandCode": "SKNUPS",
+      "brand": "SKNUPS",
       "brandWholesalePrice": 2400,
       "recommendedRetailPrice": 2500,
       "permissions": [

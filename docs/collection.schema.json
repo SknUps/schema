@@ -68,6 +68,13 @@
     "sku": {
       "type": "object",
       "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "brand": {
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+        },
         "code": {
           "type": "string",
           "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
@@ -88,12 +95,6 @@
           "minimum": 0,
           "maximum": 5
         },
-        "platform": {
-          "type": "string"
-        },
-        "brandCode": {
-          "type": "string"
-        },
         "brandWholesalePrice": {
           "$ref": "#/definitions/wholesale-price"
         },
@@ -109,12 +110,12 @@
       },
       "additionalProperties": false,
       "required": [
+        "brand",
         "code",
         "name",
         "maxQty",
         "description",
         "rarity",
-        "brandCode",
         "permissions"
       ],
       "allOf": [
