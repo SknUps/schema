@@ -104,6 +104,12 @@
           "items": {
             "$ref": "#/definitions/permission"
           }
+        },
+        "mint": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/blockchain"
+          }
         }
       },
       "additionalProperties": false,
@@ -126,8 +132,7 @@
       "enum": [
         "GIVEAWAY",
         "SELL",
-        "DISCOVER",
-        "METAPLEX_MINT"
+        "DISCOVER"
       ]
     },
     "price": {
@@ -148,6 +153,11 @@
       "required": [
         "retail",
         "wholesale"
+      ]
+    },
+    "blockchain": {
+      "enum": [
+        "SOLANA"
       ]
     },
     "sell-requires-price": {
