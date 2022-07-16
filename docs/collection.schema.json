@@ -130,7 +130,6 @@
     },
     "permission": {
       "enum": [
-        "GIVEAWAY",
         "SELL",
         "DISCOVER"
       ]
