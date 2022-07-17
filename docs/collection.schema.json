@@ -84,12 +84,19 @@
           "minLength": 5,
           "maxLength": 30
         },
+        "description": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "LEGACY",
+            "GIVEAWAY",
+            "PREMIUM"
+          ]
+        },
         "quantity": {
           "type": "integer",
           "minimum": 0
-        },
-        "description": {
-          "type": "string"
         },
         "rarity": {
           "type": "integer",
@@ -102,13 +109,18 @@
         "permissions": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/permission"
+            "enum": [
+              "SELL",
+              "DISCOVER"
+            ]
           }
         },
         "mint": {
           "type": "array",
           "items": {
-            "$ref": "#/definitions/blockchain"
+            "enum": [
+              "SOLANA"
+            ]
           }
         }
       },
@@ -117,8 +129,9 @@
         "brand",
         "code",
         "name",
-        "quantity",
         "description",
+        "type",
+        "quantity",
         "rarity",
         "permissions"
       ],
@@ -126,12 +139,6 @@
         {
           "$ref": "#/definitions/sell-requires-price"
         }
-      ]
-    },
-    "permission": {
-      "enum": [
-        "SELL",
-        "DISCOVER"
       ]
     },
     "price": {
@@ -152,11 +159,6 @@
       "required": [
         "retail",
         "wholesale"
-      ]
-    },
-    "blockchain": {
-      "enum": [
-        "SOLANA"
       ]
     },
     "sell-requires-price": {
