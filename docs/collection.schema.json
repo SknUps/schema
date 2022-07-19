@@ -94,6 +94,14 @@
             "PREMIUM"
           ]
         },
+        "discover": {
+          "enum": [
+            null,
+            "STATIC",
+            "VIDEO",
+            "STREAMING"
+          ]
+        },
         "quantity": {
           "type": "integer",
           "minimum": 0
@@ -131,6 +139,7 @@
         "name",
         "description",
         "type",
+        "discover",
         "quantity",
         "rarity",
         "permissions"
