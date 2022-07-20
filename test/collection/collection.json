@@ -20,6 +20,7 @@
       "name": "Olympus Black Matte",
       "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
       "type": "LEGACY",
+      "discover": "STATIC",
       "quantity": 10,
       "rarity": 2,
       "price": {
@@ -39,6 +40,7 @@
       "name": "Olympus Black Gloss",
       "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
       "type": "LEGACY",
+      "discover": "VIDEO",
       "quantity": 10,
       "rarity": 2,
       "brand": "SKNUPS",
@@ -61,6 +63,7 @@
       "name": "Olympus White Matte",
       "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
       "type": "LEGACY",
+      "discover": null,
       "quantity": 10,
       "rarity": 2,
       "price": {
@@ -81,6 +84,7 @@
       "name": "Geode Marble Jacket",
       "description": "Sculpted from the finest digital Marquina marble and embellished with crystal.",
       "type": "LEGACY",
+      "discover": "STREAMING",
       "quantity": 5,
       "rarity": 3,
       "price": {
@@ -102,6 +106,7 @@
       "name": "Daphne Silver Dress",
       "description": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself.",
       "type": "LEGACY",
+      "discover": "STATIC",
       "quantity": 5,
       "rarity": 3,
       "price": {
