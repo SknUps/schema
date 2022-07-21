@@ -5,12 +5,13 @@
       "description": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry.",
       "price": 0,
       "maximum": 300,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     },
     "JAMES-MACK-BOILING-POINT-SCENIC": {
       "name": "Boiling Point | Scenic",
@@ -23,7 +24,8 @@
         "METAPLEX_MINT",
         "SELL"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     },
     "TEST-CUBE-EPIC": {
       "name": "Epic Cube",
@@ -36,7 +38,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "BNNYND-BKRCRJ-CAVTBAS": {
       "name": "Baker Crown Juicy",
@@ -49,7 +52,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "BNNYND-BKRCRL-CAVTBAS": {
       "name": "Baker Crown Leopard",
@@ -62,7 +66,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "BNNYND-FZZDMF-CAVTBAS": {
       "name": "Fuzz Dome Fuchsia",
@@ -75,7 +80,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "BNNYND-FZZDMP-CAVTBAS": {
       "name": "Fuzz Dome Purple",
@@ -88,46 +94,50 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "SKNUPS-OLMWHM-CCLRBAS": {
       "name": "Olympus White Matte",
       "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
       "price": 1000,
       "maximum": 10,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "SELL",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMBKM-CCLRBAS": {
       "name": "Olympus Black Matte",
       "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
       "price": 1000,
       "maximum": 10,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "SELL",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMBKG-CCLRBAS": {
       "name": "Olympus Black Gloss",
       "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
       "price": 1000,
       "maximum": 10,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "SELL",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-GVRCRY-CCLRBAS": {
       "name": "Geode Marble Jacket",
@@ -140,7 +150,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "BNNYND-WNKDMM-CAVTBAS": {
       "name": "Wonky Dome Moo Moo",
@@ -153,7 +164,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "BNNYND-WNKDMA-CAVTBAS": {
       "name": "Wonky Dome Acid",
@@ -166,7 +178,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "BNNYND"
+      "brand": "BNNYND",
+      "discover": null
     },
     "SKNTMR-DAODSK-CCBRPLA": {
       "name": "Dao-Disk Gloves",
@@ -179,7 +192,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-DAODSK-CPPRBAS": {
       "name": "Dao-Disk Gloves",
@@ -192,7 +206,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-DAODSK-CCBRBAS": {
       "name": "Dao-Disk Gloves",
@@ -205,7 +220,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-KAPTCH-CCBRPLA": {
       "name": "Kap-Tec Helmet",
@@ -218,7 +234,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-KAPTCH-CPPRBAS": {
       "name": "Kap-Tec Helmet",
@@ -231,7 +248,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-KAPTCH-CCBRBAS": {
       "name": "Kap-Tec Helmet",
@@ -244,7 +262,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-LUNRGT-CCBRPLA": {
       "name": "Luna Geta-boots",
@@ -257,7 +276,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-LUNRGT-CPPRBAS": {
       "name": "Luna Geta-boots",
@@ -270,7 +290,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-LUNRGT-CCBRBAS": {
       "name": "Luna Geta-boots",
@@ -283,7 +304,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNUPS-OLMHDS-CCNNPLA": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -296,7 +318,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CSLRPLA": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -309,7 +332,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CCNNPLB": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -322,7 +346,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CSLRPLB": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -335,7 +360,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CCNNPLC": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -348,7 +374,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CSLRPLC": {
       "name": "OLYMPUS SNEAKER: HADES",
@@ -361,33 +388,36 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CCNNBAS": {
       "name": "OLYMPUS SNEAKER: HADES",
       "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHDS-CSLRBAS": {
       "name": "OLYMPUS SNEAKER: HADES",
       "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CCNNPLA": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -400,7 +430,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CSLRPLA": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -413,7 +444,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CCNNPLB": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -426,7 +458,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CSLRPLB": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -439,7 +472,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CCNNPLC": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -452,7 +486,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CSLRPLC": {
       "name": "OLYMPUS SNEAKER: HERA",
@@ -465,55 +500,60 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CCNNBAS": {
       "name": "OLYMPUS SNEAKER: HERA",
       "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMHER-CSLRBAS": {
       "name": "OLYMPUS SNEAKER: HERA",
       "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMKHR-CMYABAS": {
       "name": "OLYMPUS SNEAKER: KHRONOS",
       "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
       "price": 0,
       "maximum": 500000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-OLMKHR-CMYBBAS": {
       "name": "OLYMPUS SNEAKER: KHRONOS",
       "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
       "price": 0,
       "maximum": 500000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNTMR-HDETMR-CCBRPLA": {
       "name": "Timo Rusall Hoodie",
@@ -526,7 +566,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-HDETMR-CPPRBAS": {
       "name": "Timo Rusall Hoodie",
@@ -539,7 +580,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-HDETMR-CCBRBAS": {
       "name": "Timo Rusall Hoodie",
@@ -552,7 +594,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-TCTQLT-CCBRBAS": {
       "name": "Tactiquilt Robe",
@@ -565,7 +608,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-TCTQLT-CCBRPLA": {
       "name": "Tactiquilt Robe",
@@ -578,7 +622,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "SKNTMR-TCTQLT-CPPRBAS": {
       "name": "Tactiquilt Robe",
@@ -591,20 +636,22 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNTMR"
+      "brand": "SKNTMR",
+      "discover": "STREAMING"
     },
     "TEST-OCTAHEDRON-COMMON": {
       "name": "Common Octahedron",
       "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
       "price": 100,
       "maximum": 10000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "SELL",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-OCTAHEDRON-EPIC": {
       "name": "Epic Octahedron",
@@ -617,7 +664,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-OCTAHEDRON-LEGENDARY": {
       "name": "Legendary Octahedron",
@@ -630,7 +678,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-OCTAHEDRON-RARE": {
       "name": "Rare Octahedron",
@@ -643,7 +692,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-OCTAHEDRON-UNCOMMON": {
       "name": "Uncommon Octahedron",
@@ -656,31 +706,34 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-COMMON": {
       "name": "Common Tetrahedron",
       "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
       "price": 0,
       "maximum": 10000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-COMMON-V2": {
       "name": "Common Tetrahedron v2",
       "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
       "price": 0,
       "maximum": 10000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-COMMON-V3": {
       "name": "Common Tetrahedron v3",
@@ -692,7 +745,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-COMMON-V4": {
       "name": "Common Tetrahedron v4",
@@ -704,7 +758,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-COMMON-V5": {
       "name": "Common Tetrahedron v5",
@@ -716,7 +771,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-RARE": {
       "name": "Rare Tetrahedron",
@@ -728,7 +784,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-UNCOMMON": {
       "name": "Uncommon Tetrahedron",
@@ -740,7 +797,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-DODECAHEDRON-COMMON": {
       "name": "Common Dodecahedron",
@@ -752,7 +810,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-DODECAHEDRON-EPIC": {
       "name": "Epic Dodecahedron",
@@ -764,7 +823,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-DODECAHEDRON-LEGENDARY": {
       "name": "Legendary Dodecahedron",
@@ -776,7 +836,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-DODECAHEDRON-RARE": {
       "name": "Rare Dodecahedron",
@@ -788,7 +849,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-DODECAHEDRON-UNCOMMON": {
       "name": "Uncommon Dodecahedron",
@@ -800,7 +862,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-CUBE-3DENV": {
       "name": "3D Environment Cube",
@@ -813,7 +876,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-CUBE-COMMON": {
       "name": "Common Cube",
@@ -826,7 +890,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-CUBE-RARE": {
       "name": "Rare Cube",
@@ -839,7 +904,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-CUBE-UNCOMMON": {
       "name": "Uncommon Cube",
@@ -852,7 +918,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-ICOSAHEDRON-COMMON": {
       "name": "Common Icosahedron",
@@ -865,7 +932,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-ICOSAHEDRON-RARE": {
       "name": "Rare Icosahedron",
@@ -878,7 +946,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-ICOSAHEDRON-UNCOMMON": {
       "name": "Uncommon Icosahedron",
@@ -891,7 +960,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-EPIC": {
       "name": "Epic Tetrahedron",
@@ -903,7 +973,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-TETRAHEDRON-LEGENDARY": {
       "name": "Legendary Tetrahedron",
@@ -915,7 +986,8 @@
         "GIVEAWAY",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-CUBE-LEGENDARY": {
       "name": "Legendary Cube",
@@ -928,7 +1000,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-ICOSAHEDRON-EPIC": {
       "name": "Epic Icosahedron",
@@ -937,7 +1010,8 @@
       "maximum": 10,
       "rarity": 4,
       "permissions": [],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "TEST-ICOSAHEDRON-LEGENDARY": {
       "name": "Legendary Icosahedron",
@@ -946,7 +1020,8 @@
       "maximum": 10,
       "rarity": 5,
       "permissions": [],
-      "brand": "TEST"
+      "brand": "TEST",
+      "discover": "STATIC"
     },
     "SKNUPS-OLMKHR-CBNRPLD": {
       "name": "OLYMPUS SNEAKER: KHRONOS",
@@ -957,7 +1032,8 @@
       "permissions": [
         "GIVEAWAY"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "JAMES-MACK-SCRAPS": {
       "name": "SCRAPS",
@@ -969,7 +1045,8 @@
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     },
     "JAMES-MACK-SCRAPS-SCENIC": {
       "name": "SCRAPS | Scenic",
@@ -982,7 +1059,8 @@
         "METAPLEX_MINT",
         "SELL"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     },
     "SKNUPS-DPHSLV-CCLRBAS": {
       "name": "Daphne Silver Dress",
@@ -995,7 +1073,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CCNNPLA": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1008,7 +1087,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CSLRPLA": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1021,7 +1101,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CCNNPLB": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1034,7 +1115,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CSLRPLB": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1047,7 +1129,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CCNNPLC": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1060,7 +1143,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CSLRPLC": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1073,7 +1157,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CCNNBAS": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1086,7 +1171,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DPHESC-CSLRBAS": {
       "name": "DAPHNE DRESS: THE ESCAPE",
@@ -1099,7 +1185,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "DOLCE-GABBANA-WELCOME": {
       "name": "DG Welcome",
@@ -1110,7 +1197,8 @@
       "permissions": [
         "GIVEAWAY"
       ],
-      "brand": "DOLCE-GABBANA"
+      "brand": "DOLCE-GABBANA",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CCNNPLA": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1123,7 +1211,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CSLRPLA": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1136,7 +1225,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CCNNPLB": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1149,7 +1239,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CSLRPLB": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1162,7 +1253,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CCNNPLC": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1175,7 +1267,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CSLRPLC": {
       "name": "DEEPS BACKPACK: DEEP COVER",
@@ -1188,33 +1281,36 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CCNNBAS": {
       "name": "DEEPS BACKPACK: DEEP COVER",
       "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPCVR-CSLRBAS": {
       "name": "DEEPS BACKPACK: DEEP COVER",
       "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CCNNPLA": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1227,7 +1323,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CSLRPLA": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1240,7 +1337,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CCNNPLB": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1253,7 +1351,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CSLRPLB": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1266,7 +1365,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CCNNPLC": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1279,7 +1379,8 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CSLRPLC": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
@@ -1292,33 +1393,36 @@
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CCNNBAS": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
       "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "SKNUPS-DEPOCN-CSLRBAS": {
       "name": "DEEPS BACKPACK: DEEP OCEAN",
       "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
       "price": 0,
       "maximum": 2000,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER",
         "METAPLEX_MINT"
       ],
-      "brand": "SKNUPS"
+      "brand": "SKNUPS",
+      "discover": "VIDEO"
     },
     "JAMES-MACK-WHATS-IN-YOUR-BAG-SCENIC": {
       "name": "What's In Your Bag | Scenic",
@@ -1331,19 +1435,21 @@
         "METAPLEX_MINT",
         "SELL"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     },
     "JAMES-MACK-WHATS-IN-YOUR-BAG": {
       "name": "What's In Your Bag",
       "description": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tons of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University).",
       "price": 0,
       "maximum": 300,
-      "rarity": 1,
+      "rarity": 0,
       "permissions": [
         "GIVEAWAY",
         "DISCOVER"
       ],
-      "brand": "JAMES-MACK"
+      "brand": "JAMES-MACK",
+      "discover": null
     }
   },
   "brand": {
