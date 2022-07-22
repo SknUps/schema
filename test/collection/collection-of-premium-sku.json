@@ -1,0 +1,184 @@
+{
+  "skus": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-01",
+      "name": "Premium SKU 01",
+      "description": "can be discovered, can be minted",
+      "type": "PREMIUM",
+      "discover": "STATIC",
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "35pt",
+            "font-family": "Share Tech Mono",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-02",
+      "name": "Premium SKU 02",
+      "description": "can be discovered, cannot be minted",
+      "type": "PREMIUM",
+      "discover": "STATIC",
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "35pt",
+            "font-family": "Share Tech Mono",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-03",
+      "name": "Premium SKU 03",
+      "description": "cannot be discovered, can be minted",
+      "type": "PREMIUM",
+      "discover": null,
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "35pt",
+            "font-family": "Share Tech Mono",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-04",
+      "name": "Premium SKU 04",
+      "description": "cannot be discovered, cannot be minted",
+      "type": "PREMIUM",
+      "discover": null,
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "35pt",
+            "font-family": "Share Tech Mono",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "Share Tech Mono",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    }
+  ]
+}

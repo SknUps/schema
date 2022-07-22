@@ -1,8 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://sknups.github.io/schema/inventory.schema.v1.json",
+    "$id": "https://sknups.github.io/schema/inventory/inventory-schema-v1.json",
     "title": "inventory",
-    "description": "Describes the inventory available to SKNAPP",
+    "description": "the remaining stock level of each SKU in the catalog",
     "type": "object",
     "properties": {
       "sku": {
