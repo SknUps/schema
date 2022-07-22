@@ -1,0 +1,60 @@
+{
+  "skus": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-01",
+      "name": "Giveaway SKU 01",
+      "description": "can be discovered, with token",
+      "type": "GIVEAWAY",
+      "discover": "STATIC",
+      "card": {
+        "back": {
+          "token": {
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "ShareTechMono-Regular",
+            "x": 470,
+            "y": 340
+          }
+        }
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-02",
+      "name": "Giveaway SKU 02",
+      "description": "can be discovered, without token",
+      "type": "GIVEAWAY",
+      "discover": "STATIC",
+      "card": {}
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-03",
+      "name": "Giveaway SKU 03",
+      "description": "cannot be discovered, with token",
+      "type": "GIVEAWAY",
+      "discover": null,
+      "card": {
+        "back": {
+          "token": {
+            "color": "#FFFFFFFF",
+            "font-size": "25pt",
+            "font-family": "ShareTechMono-Regular",
+            "x": 470,
+            "y": 340
+          }
+        }
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-04",
+      "name": "Giveaway SKU 04",
+      "description": "cannot be discovered, without token",
+      "type": "GIVEAWAY",
+      "discover": null,
+      "card": {}
+    }
+  ]
+}

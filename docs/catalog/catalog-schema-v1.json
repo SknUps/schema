@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/catalog.schema.v1.json",
+  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v1.json",
   "title": "catalog",
-  "description": "Describes all SKU which exist in SKNUPS wholesale system.",
+  "description": "the set of all SKUs",
   "type": "object",
   "properties": {
     "brand": {
