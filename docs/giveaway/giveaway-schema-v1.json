@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json",
+  "title": "giveaways",
+  "description": "giveaways in which users may claim items (SKNs) free of charge",
+  "type": "object",
+  "properties": {
+    "giveaways": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/giveaway"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "giveaways"
+  ],
+  "definitions": {
+    "giveaway": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{6,62}[a-z0-9]$"
+        },
+        "legacy": {
+          "type": "boolean"
+        },
+        "key": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "skus": {
+          "type": "array"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "key",
+        "type",
+        "skus"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "SIMPLE"
+              }
+            }
+          },
+          "then": {
+            "title": "must-have-array-of-simple-sku",
+            "type": "object",
+            "properties": {
+              "skus": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/simple-sku"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "FORTUNE"
+              }
+            }
+          },
+          "then": {
+            "title": "must-have-array-of-weighted-sku",
+            "type": "object",
+            "properties": {
+              "skus": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/weighted-sku"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "simple-sku": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code"
+      ]
+    },
+    "weighted-sku": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "weight"
+      ]
+    }
+  }
+}

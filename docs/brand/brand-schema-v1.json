@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/brand/brand-schema-v1.json",
+  "title": "brands",
+  "description": "brands which may be added to the catalog",
+  "type": "object",
+  "properties": {
+    "brands": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/brand"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "brand": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "revenue": {
+          "description": "percentage of wholesale price which the brand will receive as revenue share",
+          "type": "string",
+          "pattern": "^(100|[1-9][0-9]|[0-9])%$"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name",
+        "revenue"
+      ]
+    }
+  }
+}

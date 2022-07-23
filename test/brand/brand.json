@@ -1,9 +1,29 @@
 {
   "brands": [
     {
-      "code": "SKNUPS",
-      "name": "SKNUPS",
-      "wholesalerShare": 0.5
+      "code": "BRAND-CODE-000",
+      "name": "Brand 000",
+      "revenue": "0%"
+    },
+    {
+      "code": "BRAND-CODE-001",
+      "name": "Brand 001",
+      "revenue": "1%"
+    },
+    {
+      "code": "BRAND-CODE-010",
+      "name": "Brand 010",
+      "revenue": "10%"
+    },
+    {
+      "code": "BRAND-CODE-099",
+      "name": "Brand 099",
+      "revenue": "99%"
+    },
+    {
+      "code": "BRAND-CODE-100",
+      "name": "Brand 100",
+      "revenue": "100%"
     }
   ]
 }

@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/platform/platform-schema-v1.json",
+  "title": "platforms",
+  "description": "platforms which may be added to the catalog",
+  "type": "object",
+  "properties": {
+    "platforms": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/platform"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "platform": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,30}[A-Z0-9]$"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "name"
+      ]
+    }
+  }
+}

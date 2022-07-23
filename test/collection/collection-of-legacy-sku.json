@@ -13,10 +13,6 @@
         "retail": 1000,
         "wholesale": 900
       },
-      "permissions": [
-        "SELL",
-        "DISCOVER"
-      ],
       "mint": [
         "SOLANA"
       ]
@@ -34,10 +30,6 @@
         "retail": 1000,
         "wholesale": 900
       },
-      "permissions": [
-        "SELL",
-        "DISCOVER"
-      ],
       "mint": []
     },
     {
@@ -53,9 +45,6 @@
         "retail": 1000,
         "wholesale": 900
       },
-      "permissions": [
-        "SELL"
-      ],
       "mint": [
         "SOLANA"
       ]
@@ -73,9 +62,6 @@
         "retail": 1000,
         "wholesale": 900
       },
-      "permissions": [
-        "SELL"
-      ],
       "mint": []
     },
     {
@@ -87,9 +73,6 @@
       "discover": "STATIC",
       "quantity": 10,
       "rarity": 1,
-      "permissions": [
-        "DISCOVER"
-      ],
       "mint": [
         "SOLANA"
       ]
@@ -103,9 +86,6 @@
       "discover": "STATIC",
       "quantity": 10,
       "rarity": 1,
-      "permissions": [
-        "DISCOVER"
-      ],
       "mint": []
     },
     {
@@ -117,7 +97,6 @@
       "discover": null,
       "quantity": 10,
       "rarity": 1,
-      "permissions": [],
       "mint": [
         "SOLANA"
       ]
@@ -131,7 +110,6 @@
       "discover": null,
       "quantity": 10,
       "rarity": 1,
-      "permissions": [],
       "mint": []
     }
   ]
