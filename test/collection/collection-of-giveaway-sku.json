@@ -8,15 +8,17 @@
       "type": "GIVEAWAY",
       "discover": "STATIC",
       "card": {
-        "back": {
-          "token": {
+        "back": [
+          {
+            "text": "${token}",
             "color": "#FFFFFFFF",
             "font-size": "25pt",
-            "font-family": "ShareTechMono-Regular",
+            "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }
-        }
+        ]
       }
     },
     {
@@ -36,15 +38,17 @@
       "type": "GIVEAWAY",
       "discover": null,
       "card": {
-        "back": {
-          "token": {
+        "back": [
+          {
+            "text": "${token}",
             "color": "#FFFFFFFF",
             "font-size": "25pt",
-            "font-family": "ShareTechMono-Regular",
+            "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }
-        }
+        ]
       }
     },
     {

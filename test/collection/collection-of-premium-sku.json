@@ -22,6 +22,7 @@
             "color": "#FFFFFFFF",
             "font-size": "35pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 100,
             "y": 1100
           }
@@ -32,6 +33,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 270
           },
@@ -40,6 +42,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }
@@ -66,6 +69,7 @@
             "color": "#FFFFFFFF",
             "font-size": "35pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 100,
             "y": 1100
           }
@@ -76,6 +80,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 270
           },
@@ -84,6 +89,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }
@@ -112,6 +118,7 @@
             "color": "#FFFFFFFF",
             "font-size": "35pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 100,
             "y": 1100
           }
@@ -122,6 +129,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 270
           },
@@ -130,6 +138,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }
@@ -156,6 +165,7 @@
             "color": "#FFFFFFFF",
             "font-size": "35pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 100,
             "y": 1100
           }
@@ -166,6 +176,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 270
           },
@@ -174,6 +185,7 @@
             "color": "#FFFFFFFF",
             "font-size": "25pt",
             "font-family": "Share Tech Mono",
+            "font-weight": "Regular",
             "x": 470,
             "y": 340
           }

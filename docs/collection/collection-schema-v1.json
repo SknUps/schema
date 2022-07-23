@@ -5,19 +5,9 @@
   "description": "a collection of SKU which may be added to the catalog",
   "type": "object",
   "properties": {
-    "brands": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/brand"
-      }
-    },
-    "platforms": {
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/platform"
-      }
-    },
     "skus": {
+      "title": "collection of SKUs",
+      "description": "an unordered list of SKU which comprise this collection",
       "type": "array",
       "items": {
         "$ref": "#/definitions/sku"
@@ -26,46 +16,9 @@
   },
   "additionalProperties": false,
   "definitions": {
-    "brand": {
-      "type": "object",
-      "properties": {
-        "code": {
-          "type": "string",
-          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "wholesalerShare": {
-          "type": "number",
-          "minimum": 0,
-          "maximum": 1
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "code",
-        "name",
-        "wholesalerShare"
-      ]
-    },
-    "platform": {
-      "type": "object",
-      "properties": {
-        "code": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "code",
-        "name"
-      ]
-    },
     "sku": {
+      "title": "SKU",
+      "description": "a Stock Keeping Unit, from which individual items (\"SKNs\") can be manufactured on demand",
       "type": "object",
       "properties": {
         "platform": {
@@ -80,9 +33,7 @@
           "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
         },
         "name": {
-          "type": "string",
-          "minLength": 5,
-          "maxLength": 30
+          "type": "string"
         },
         "description": {
           "type": "string"
@@ -103,33 +54,19 @@
           ]
         },
         "quantity": {
-          "type": "integer",
-          "minimum": 0
+          "$ref": "#/definitions/quantity"
         },
         "rarity": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 5
+          "$ref": "#/definitions/rarity"
         },
         "price": {
           "$ref": "#/definitions/price"
         },
-        "permissions": {
-          "type": "array",
-          "items": {
-            "enum": [
-              "SELL",
-              "DISCOVER"
-            ]
-          }
+        "card": {
+          "$ref": "#/definitions/card"
         },
         "mint": {
-          "type": "array",
-          "items": {
-            "enum": [
-              "SOLANA"
-            ]
-          }
+          "$ref": "#/definitions/mint"
         }
       },
       "additionalProperties": false,
@@ -139,16 +76,28 @@
         "name",
         "description",
         "type",
-        "discover",
-        "quantity",
-        "rarity",
-        "permissions"
+        "discover"
       ],
       "allOf": [
         {
-          "$ref": "#/definitions/sell-requires-price"
+          "$ref": "#/definitions/legacy-sku-rules"
+        },
+        {
+          "$ref": "#/definitions/giveaway-sku-rules"
+        },
+        {
+          "$ref": "#/definitions/premium-sku-rules"
         }
       ]
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rarity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
     },
     "price": {
       "type": "object",
@@ -170,28 +119,370 @@
         "wholesale"
       ]
     },
-    "sell-requires-price": {
+    "card": {
+      "title": "card",
+      "description": "instructions for printing text onto the card image(s)",
+      "type": "object",
+      "properties": {
+        "front": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/label"
+          }
+        },
+        "back": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/label"
+          }
+        }
+      }
+    },
+    "label": {
+      "title": "label",
+      "description": "a piece of text which should be printed onto a card image",
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "color": {
+          "$comment": "#RGBA",
+          "type": "string",
+          "pattern": "^#[0-9A-F]{8}$"
+        },
+        "font-size": {
+          "type": "string"
+        },
+        "font-family": {
+          "$ref": "#/definitions/font-family"
+        },
+        "font-weight": {
+          "$ref": "#/definitions/font-weight"
+        },
+        "x": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "y": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "color",
+        "font-size",
+        "font-family",
+        "font-weight",
+        "x",
+        "y"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/font-rules"
+        }
+      ]
+    },
+    "font-family": {
+      "enum": [
+        "Jost",
+        "Share Tech Mono",
+        "Crimson Text"
+      ]
+    },
+    "font-weight": {
+      "enum": [
+        "Regular",
+        "Semibold"
+      ]
+    },
+    "font-rules": {
+      "allOf": [
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font-family": {
+                "const": "Jost"
+              }
+            }
+          },
+          "then": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "font-weight": {
+                    "const": "Regular"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "font-weight": {
+                    "const": "Semibold"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font-family": {
+                "const": "Share Tech Mono"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "font-weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font-family": {
+                "const": "Crimson Text"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "font-weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "mint": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "SOLANA"
+        ]
+      }
+    },
+    "legacy-sku-rules": {
       "if": {
         "type": "object",
         "properties": {
-          "permissions": {
-            "type": "array",
-            "contains": {
-              "type": "string",
-              "const": "SELL"
-            }
+          "type": {
+            "const": "LEGACY"
           }
         }
       },
       "then": {
+        "allOf": [
+          {
+            "title": "must-have-quantity",
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "$ref": "#/definitions/quantity"
+              }
+            },
+            "required": [
+              "quantity"
+            ]
+          },
+          {
+            "title": "must-have-rarity",
+            "type": "object",
+            "properties": {
+              "rarity": {
+                "$ref": "#/definitions/rarity"
+              }
+            },
+            "required": [
+              "rarity"
+            ]
+          },
+          {
+            "title": "must-not-have-card",
+            "not": {
+              "type": "object",
+              "properties": {
+                "card": {
+                  "$ref": "#/definitions/card"
+                }
+              },
+              "required": [
+                "card"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "giveaway-sku-rules": {
+      "if": {
         "type": "object",
         "properties": {
-          "price": {
-            "$ref": "#/definitions/price"
+          "type": {
+            "const": "GIVEAWAY"
           }
-        },
-        "required": [
-          "price"
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "title": "must-not-have-quantity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "quantity": {
+                  "$ref": "#/definitions/quantity"
+                }
+              },
+              "required": [
+                "quantity"
+              ]
+            }
+          },
+          {
+            "title": "must-not-have-rarity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "rarity": {
+                  "$ref": "#/definitions/rarity"
+                }
+              },
+              "required": [
+                "rarity"
+              ]
+            }
+          },
+          {
+            "title": "must-not-have-price",
+            "not": {
+              "type": "object",
+              "properties": {
+                "price": {
+                  "$ref": "#/definitions/price"
+                }
+              },
+              "required": [
+                "price"
+              ]
+            }
+          },
+          {
+            "title": "must-have-card",
+            "type": "object",
+            "properties": {
+              "card": {
+                "$ref": "#/definitions/card"
+              }
+            },
+            "required": [
+              "card"
+            ]
+          },
+          {
+            "title": "must-not-have-mint",
+            "not": {
+              "type": "object",
+              "properties": {
+                "mint": {
+                  "$ref": "#/definitions/mint"
+                }
+              },
+              "required": [
+                "mint"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "premium-sku-rules": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "PREMIUM"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "title": "must-have-quantity",
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "$ref": "#/definitions/quantity"
+              }
+            },
+            "required": [
+              "quantity"
+            ]
+          },
+          {
+            "title": "must-not-have-rarity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "rarity": {
+                  "$ref": "#/definitions/rarity"
+                }
+              },
+              "required": [
+                "rarity"
+              ]
+            }
+          },
+          {
+            "title": "must-have-price",
+            "type": "object",
+            "properties": {
+              "price": {
+                "$ref": "#/definitions/price"
+              }
+            },
+            "required": [
+              "price"
+            ]
+          },
+          {
+            "title": "must-have-card",
+            "type": "object",
+            "properties": {
+              "card": {
+                "$ref": "#/definitions/card"
+              }
+            },
+            "required": [
+              "card"
+            ]
+          },
+          {
+            "title": "must-have-mint",
+            "type": "object",
+            "properties": {
+              "mint": {
+                "$ref": "#/definitions/mint"
+              }
+            },
+            "required": [
+              "mint"
+            ]
+          }
         ]
       }
     }
