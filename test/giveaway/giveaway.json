@@ -5,20 +5,13 @@
       "legacy": true,
       "key": "abc123",
       "type": "SIMPLE",
-      "skus": [
-        {
-          "code": "SKU-01"
-        },
-        {
-          "code": "SKU-02"
-        }
-      ]
+      "sku": "SKU-CODE"
     },
     {
       "code": "giveaway-02",
       "key": "abc123",
       "type": "FORTUNE",
-      "skus": [
+      "fortune": [
         {
           "code": "SKU-01",
           "weight": 10

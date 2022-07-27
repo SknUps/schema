@@ -33,16 +33,18 @@
         "type": {
           "type": "string"
         },
-        "skus": {
-          "type": "array"
+        "sku": {
+          "$ref": "#/definitions/simple-sku"
+        },
+        "fortune": {
+          "$ref": "#/definitions/fortune-sku"
         }
       },
       "additionalProperties": false,
       "required": [
         "code",
         "key",
-        "type",
-        "skus"
+        "type"
       ],
       "allOf": [
         {
@@ -55,16 +57,30 @@
             }
           },
           "then": {
-            "title": "must-have-array-of-simple-sku",
-            "type": "object",
-            "properties": {
-              "skus": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/simple-sku"
+            "allOf": [
+              {
+                "title": "must-have-simple-sku",
+                "type": "object",
+                "properties": {
+                  "sku": {
+                    "$ref": "#/definitions/simple-sku"
+                  }
+                },
+                "required": ["sku"]
+              },
+              {
+                "title": "must-not-have-fortune-sku",
+                "not": {
+                  "type": "object",
+                  "properties": {
+                    "fortune": {
+                      "$ref": "#/definitions/fortune-sku"
+                    }
+                  },
+                  "required": ["fortune"]
                 }
               }
-            }
+            ]
           }
         },
         {
@@ -77,47 +93,55 @@
             }
           },
           "then": {
-            "title": "must-have-array-of-weighted-sku",
-            "type": "object",
-            "properties": {
-              "skus": {
-                "type": "array",
-                "items": {
-                  "$ref": "#/definitions/weighted-sku"
+            "allOf": [
+              {
+                "title": "must-not-have-simple-sku",
+                "not": {
+                  "type": "object",
+                  "properties": {
+                    "sku": {
+                      "$ref": "#/definitions/simple-sku"
+                    }
+                  },
+                  "required": ["sku"]
                 }
+              },
+              {
+                "title": "must-have-fortune-sku",
+                "type": "object",
+                "properties": {
+                  "fortune": {
+                    "$ref": "#/definitions/fortune-sku"
+                  }
+                },
+                "required": ["fortune"]
               }
-            }
+            ]
           }
         }
       ]
     },
     "simple-sku": {
-      "type": "object",
-      "properties": {
-        "code": {
-          "type": "string"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "code"
-      ]
+      "type": "string"
     },
-    "weighted-sku": {
-      "type": "object",
-      "properties": {
-        "code": {
-          "type": "string"
+    "fortune-sku": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "integer"
+          }
         },
-        "weight": {
-          "type": "integer"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "code",
-        "weight"
-      ]
+        "additionalProperties": false,
+        "required": [
+          "code",
+          "weight"
+        ]
+      }
     }
   }
 }
