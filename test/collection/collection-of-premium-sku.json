@@ -20,9 +20,10 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "35pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 100,
             "y": 1100
           }
@@ -31,18 +32,20 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 270
           },
           {
             "text": "${token}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 340
           }
@@ -67,9 +70,10 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "35pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 100,
             "y": 1100
           }
@@ -78,18 +82,20 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 270
           },
           {
             "text": "${token}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 340
           }
@@ -116,9 +122,10 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "35pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 100,
             "y": 1100
           }
@@ -127,18 +134,20 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 270
           },
           {
             "text": "${token}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 340
           }
@@ -163,9 +172,10 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "35pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 100,
             "y": 1100
           }
@@ -174,18 +184,20 @@
           {
             "text": "${issue}/${maximum}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 270
           },
           {
             "text": "${token}",
             "color": "#FFFFFFFF",
-            "font-size": "25pt",
-            "font-family": "Share Tech Mono",
-            "font-weight": "Regular",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
             "x": 470,
             "y": 340
           }
