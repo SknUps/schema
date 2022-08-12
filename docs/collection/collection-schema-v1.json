@@ -95,10 +95,10 @@
       "enum": [
         "GIVEAWAY",
         "EARNED",
-        "UNCOMMON",
-        "RARE",
-        "EPIC",
-        "MYTHIC"
+        "PREMIUM_1",
+        "PREMIUM_2",
+        "PREMIUM_3",
+        "PREMIUM_4"
       ]
     },
     "tier-for-giveaway-sku": {
@@ -109,10 +109,10 @@
     },
     "tier-for-premium-sku": {
       "enum": [
-        "UNCOMMON",
-        "RARE",
-        "EPIC",
-        "MYTHIC"
+        "PREMIUM_1",
+        "PREMIUM_2",
+        "PREMIUM_3",
+        "PREMIUM_4"
       ]
     },
     "quantity": {
@@ -458,13 +458,16 @@
             }
           },
           {
-            "title": "may-have-tier-for-giveaway-sku",
+            "title": "must-have-tier-for-giveaway-sku",
             "type": "object",
             "properties": {
               "tier": {
                 "$ref": "#/definitions/tier-for-giveaway-sku"
               }
-            }
+            },
+            "required": [
+              "tier"
+            ]
           }
         ]
       }
@@ -549,7 +552,10 @@
               "tier": {
                 "$ref": "#/definitions/tier-for-premium-sku"
               }
-            }
+            },
+            "required": [
+              "tier"
+            ]
           }
         ]
       }
