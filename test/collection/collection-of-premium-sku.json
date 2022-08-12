@@ -6,6 +6,7 @@
       "name": "Premium SKU 01",
       "description": "can be discovered, can be minted",
       "type": "PREMIUM",
+      "tier": "UNCOMMON",
       "discover": "STATIC",
       "quantity": 10,
       "price": {

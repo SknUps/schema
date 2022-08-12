@@ -6,6 +6,7 @@
       "name": "Giveaway SKU 01",
       "description": "can be discovered, with token",
       "type": "GIVEAWAY",
+      "tier": "GIVEAWAY",
       "discover": "STATIC",
       "card": {
         "back": [
