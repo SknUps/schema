@@ -45,6 +45,7 @@
             "PREMIUM"
           ]
         },
+        "tier": {"$ref": "#/definitions/tier"},
         "discover": {
           "enum": [
             null,
@@ -88,6 +89,30 @@
         {
           "$ref": "#/definitions/premium-sku-rules"
         }
+      ]
+    },
+    "tier": {
+      "enum": [
+        "GIVEAWAY",
+        "EARNED",
+        "UNCOMMON",
+        "RARE",
+        "EPIC",
+        "MYTHIC"
+      ]
+    },
+    "tier-for-giveaway-sku": {
+      "enum": [
+        "GIVEAWAY",
+        "EARNED"
+      ]
+    },
+    "tier-for-premium-sku": {
+      "enum": [
+        "UNCOMMON",
+        "RARE",
+        "EPIC",
+        "MYTHIC"
       ]
     },
     "quantity": {
@@ -335,6 +360,20 @@
                 "card"
               ]
             }
+          },
+          {
+            "title": "must-not-have-tier",
+            "not": {
+              "type": "object",
+              "properties": {
+                "tier": {
+                  "$ref": "#/definitions/tier"
+                }
+              },
+              "required": [
+                "tier"
+              ]
+            }
           }
         ]
       }
@@ -417,6 +456,15 @@
                 "mint"
               ]
             }
+          },
+          {
+            "title": "may-have-tier-for-giveaway-sku",
+            "type": "object",
+            "properties": {
+              "tier": {
+                "$ref": "#/definitions/tier-for-giveaway-sku"
+              }
+            }
           }
         ]
       }
@@ -493,6 +541,15 @@
             "required": [
               "mint"
             ]
+          },
+          {
+            "title": "may-have-tier-for-premium-sku",
+            "type": "object",
+            "properties": {
+              "tier": {
+                "$ref": "#/definitions/tier-for-premium-sku"
+              }
+            }
           }
         ]
       }
