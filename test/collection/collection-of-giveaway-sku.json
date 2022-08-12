@@ -29,6 +29,7 @@
       "name": "Giveaway SKU 02",
       "description": "can be discovered, without token",
       "type": "GIVEAWAY",
+      "tier": "GIVEAWAY",
       "discover": "STATIC",
       "card": {}
     },
@@ -38,6 +39,7 @@
       "name": "Giveaway SKU 03",
       "description": "cannot be discovered, with token",
       "type": "GIVEAWAY",
+      "tier": "EARNED",
       "discover": null,
       "card": {
         "back": [
@@ -60,6 +62,7 @@
       "name": "Giveaway SKU 04",
       "description": "cannot be discovered, without token",
       "type": "GIVEAWAY",
+      "tier": "EARNED",
       "discover": null,
       "card": {}
     }
