@@ -1,0 +1,123 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json",
+  "title": "SKU 3D Configuration",
+  "description": "describes the 3D environment for a SKU",
+  "type": "object",
+  "properties": {
+    "createGround": {
+      "type": "boolean"
+    },
+    "groundSize": {
+      "type": "number"
+    },
+    "groundTexture": {
+      "type": "string"
+    },
+    "groundColor": {
+      "$ref": "#/definitions/color"
+    },
+    "groundOpacity": {
+      "type": "number"
+    },
+    "enableGroundShadow": {
+      "type": "boolean"
+    },
+    "groundShadowLevel": {
+      "type": "number"
+    },
+    "enableGroundMirror": {
+      "type": "boolean"
+    },
+    "groundMirrorSizeRatio": {
+      "type": "number"
+    },
+    "groundMirrorBlurKernel": {
+      "type": "number"
+    },
+    "groundMirrorAmount": {
+      "type": "number"
+    },
+    "groundMirrorFresnelWeight": {
+      "type": "number"
+    },
+    "groundMirrorFallOffDistance": {
+      "type": "number"
+    },
+    "groundMirrorTextureType": {
+      "enum": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    },
+    "groundYBias": {
+      "type": "number"
+    },
+    "createSkybox": {
+      "type": "boolean"
+    },
+    "skyboxSize": {
+      "type": "number"
+    },
+    "skyboxTexture": {
+      "type": "string"
+    },
+    "skyboxColor": {
+      "$ref": "#/definitions/color"
+    },
+    "backgroundYRotation": {
+      "type": "number"
+    },
+    "sizeAuto": {
+      "type": "boolean"
+    },
+    "rootPosition": {
+      "$ref": "#/definitions/vector"
+    },
+    "setupImageProcessing": {
+      "type": "boolean"
+    },
+    "environmentTexture": {
+      "type": "string"
+    },
+    "cameraExposure": {
+      "type": "number"
+    },
+    "cameraContrast": {
+      "type": "number"
+    },
+    "toneMappingEnabled": {
+      "type": "boolean"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "color": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/hex-color"
+        },
+        {
+          "$ref": "#/definitions/float-color"
+        }
+      ]
+    },
+    "hex-color": {
+      "type": "string",
+      "pattern": "^#[A-F0-9]{6}$"
+    },
+    "float-color": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    },
+    "vector": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  }
+}
