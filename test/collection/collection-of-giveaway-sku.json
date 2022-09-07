@@ -39,7 +39,7 @@
       "name": "Giveaway SKU 03",
       "description": "cannot be discovered, with token",
       "type": "GIVEAWAY",
-      "tier": "EARNED",
+      "tier": "REWARD",
       "discover": null,
       "card": {
         "back": [
@@ -62,7 +62,7 @@
       "name": "Giveaway SKU 04",
       "description": "cannot be discovered, without token",
       "type": "GIVEAWAY",
-      "tier": "EARNED",
+      "tier": "REWARD",
       "discover": null,
       "card": {}
     }
