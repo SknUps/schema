@@ -94,25 +94,25 @@
     "tier": {
       "enum": [
         "GIVEAWAY",
-        "EARNED",
-        "PREMIUM_1",
-        "PREMIUM_2",
-        "PREMIUM_3",
-        "PREMIUM_4"
+        "REWARD",
+        "GREEN",
+        "BLUE",
+        "PURPLE",
+        "GOLD"
       ]
     },
     "tier-for-giveaway-sku": {
       "enum": [
         "GIVEAWAY",
-        "EARNED"
+        "REWARD"
       ]
     },
     "tier-for-premium-sku": {
       "enum": [
-        "PREMIUM_1",
-        "PREMIUM_2",
-        "PREMIUM_3",
-        "PREMIUM_4"
+        "GREEN",
+        "BLUE",
+        "PURPLE",
+        "GOLD"
       ]
     },
     "quantity": {
