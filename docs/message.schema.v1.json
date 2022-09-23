@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/message.schema.v1.json",
+  "title": "message",
+  "description": "Describes a Message which can be send to a specific user or all users",
+  "type": "object",
+  "properties": {
+    "recipient": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string",
+      "pattern": "^[A-Za-z.!? ]{1,80}$"
+    },
+    "expiry": {
+      "type": ["string", "null"],
+      "format": "date-time"
+    },
+    "action": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{1,8}$"
+        },
+        "link": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string",
+          "enum": ["_self", "_target"]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "link"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "content",
+    "expiry"
+  ]
+}
