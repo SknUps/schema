@@ -10,7 +10,7 @@
     },
     "content": {
       "type": "string",
-      "pattern": "^[A-Za-z.!? ]{1,80}$"
+      "pattern": "^[ -~]{1,100}$"
     },
     "expiry": {
       "type": ["string", "null"],
