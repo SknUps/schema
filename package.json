@@ -1,6 +1,6 @@
 {
-  "name": "schema",
-  "version": "1.0.0",
+  "name": "@sknups/schema",
+  "version": "0.0.1-snapshot.1",
   "description": "This repository hosts JSON schema files related to the SKNUPS platform.",
   "engines": {
     "node": "16",
@@ -9,16 +9,23 @@
   "directories": {
     "test": "test"
   },
+  "files": [
+    "lib",
+    "docs"
+  ],
   "scripts": {
-    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/",
-    "test": "mocha --bail --fail-zero test/**"
+    "lint": "eslint \"**/*.js\" \"**/*.ts\"",
+    "test": "mocha --bail --fail-zero test/**",
+    "auth": "npx google-artifactregistry-auth",
+    "prebuild": "rimraf lib generated-src && ts-node generate-sources.ts",
+    "build": "tsc"
   },
-  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SknUps/schema.git"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
     "chai": "^4.3.6",
@@ -27,6 +34,11 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "mocha": "^10.0.0"
+    "google-artifactregistry-auth": "^3.0.2",
+    "json-schema-to-typescript": "^11.0.2",
+    "mocha": "^10.0.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
   }
 }

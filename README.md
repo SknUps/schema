@@ -4,6 +4,13 @@ This repository hosts JSON schema files related to the SKNUPS platform.
 
 GitHub Pages will serve any file in the `/docs` directory of the `main` branch over **public** internet.
 
+## Versioning
+
+The library version is managed by github actions.
+- The `package.json` contains a fixed `0.0.1-snapshot.1` version that is used for local builds
+- A merge to the `main` branch will trigger a SNAPSHOT build with version `0.0.1-snapshot.<commit time>`
+- A tag `vX.Y.Z` will trigger a RELEASE build with version `X.Y.Z`
+
 ## Current Versions
 
 ### catalog
