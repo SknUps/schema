@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "generated-src"
+  ]
+}

@@ -4,6 +4,10 @@
     "node": true,
     "mocha": true
   },
+  "ignorePatterns": [
+    "lib",
+    "generated-src"
+  ],
   "rules": {
     "no-unused-vars": [
       "error",
@@ -17,5 +21,17 @@
     ],
     "padded-blocks": "off",
     "no-trailing-spaces": "off"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "plugins": [
+        "@typescript-eslint"
+      ],
+      "parser": "@typescript-eslint/parser"
+    }
+  ]
 }

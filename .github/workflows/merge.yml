@@ -5,26 +5,37 @@ name: Merge
   push:
     branches:
       - main
+    tags:
+      - v*
 
 jobs:
-  validation:
-    name: 'validation'
+  validate-build-publish:
+    name: Validate, Build, Publish
     runs-on: ubuntu-20.04
     steps:
 
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install Node.js 16
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: 16
+          cache: 'npm'
 
       - name: Configure npm
         run: |
           npm config set update-notifier false
           npm config set audit false
           npm config set fund false
+
+      - name: Set SNAPSHOT version
+        if: ${{ startsWith(github.ref, 'refs/heads') }}
+        run: sed -i "s/0.0.1-snapshot.1/0.0.1-snapshot.$(git log -1 --format=%ct)/" package.json
+
+      - name: Set RELEASE version
+        if: ${{ startsWith(github.ref, 'refs/tags') }}
+        run: sed -i "s/0.0.1-snapshot.1/${GITHUB_REF_NAME#v}/" package.json
 
       - name: Install npm dependencies
         run: |
@@ -34,6 +45,21 @@ jobs:
         run: |
           npm run lint
 
+      - name: Run build
+        run: |
+          npm run build
+
       - name: Run unit tests
         run: |
           npm test
+
+      - name: Auth GCP
+        id: auth
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: '${{ secrets.GCP_DEV_DRM_SA_KEY }}'
+
+      - name: Publish npm
+        run: |-
+          npm run auth
+          npm publish
