@@ -2,91 +2,79 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json",
   "title": "SKU 3D Configuration",
-  "description": "describes the 3D environment for a SKU",
+  "description": "Describes the 3D environment for a SKU",
   "type": "object",
   "properties": {
-    "createGround": {
-      "type": "boolean"
+    "version": {
+      "type": "string",
+      "description": "The sku-3d-config schema version, this is always present and set to the schema version",
+      "default": "1",
+      "enum": [
+        "1"
+      ]
     },
-    "groundSize": {
-      "type": "number"
+    "createGround": {
+      "type": "boolean",
+      "description": "Create a ground?",
+      "default": true
     },
     "groundTexture": {
-      "type": "string"
+      "type": "string",
+      "description": "Texture to be applied to the ground, often in png format",
+      "default": "assets/3d/babylonjs/environments/backgroundGround.png"
     },
     "groundColor": {
-      "$ref": "#/definitions/color"
-    },
-    "groundOpacity": {
-      "type": "number"
-    },
-    "enableGroundShadow": {
-      "type": "boolean"
-    },
-    "groundShadowLevel": {
-      "type": "number"
-    },
-    "enableGroundMirror": {
-      "type": "boolean"
-    },
-    "groundMirrorSizeRatio": {
-      "type": "number"
-    },
-    "groundMirrorBlurKernel": {
-      "type": "number"
-    },
-    "groundMirrorAmount": {
-      "type": "number"
-    },
-    "groundMirrorFresnelWeight": {
-      "type": "number"
-    },
-    "groundMirrorFallOffDistance": {
-      "type": "number"
-    },
-    "groundMirrorTextureType": {
-      "enum": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-    },
-    "groundYBias": {
-      "type": "number"
+      "$ref": "#/definitions/color",
+      "description": "The color mixed in the ground texture",
+      "default": [
+        0.08697355964132344,
+        0.08697355964132344,
+        0.2122208331110881
+      ]
     },
     "createSkybox": {
-      "type": "boolean"
-    },
-    "skyboxSize": {
-      "type": "number"
+      "type": "boolean",
+      "description": "Create a skybox?",
+      "default": true
     },
     "skyboxTexture": {
-      "type": "string"
+      "type": "string",
+      "description": "Texture to be applied to the skybox, must be in .env format. See https://doc.babylonjs.com/features/featuresDeepDive/materials/using/HDREnvironment#what-is-a-env-tech-deep-dive",
+      "default": "assets/3d/babylonjs/environments/backgroundSkybox.dds"
     },
     "skyboxColor": {
-      "$ref": "#/definitions/color"
-    },
-    "backgroundYRotation": {
-      "type": "number"
-    },
-    "sizeAuto": {
-      "type": "boolean"
-    },
-    "rootPosition": {
-      "$ref": "#/definitions/vector"
-    },
-    "setupImageProcessing": {
-      "type": "boolean"
+      "$ref": "#/definitions/color",
+      "description": "The color mixed in the skybox texture",
+      "default": "#808080"
     },
     "environmentTexture": {
-      "type": "string"
+      "type": "string",
+      "description": "Texture used as the environment texture, must be in .env format. See https://doc.babylonjs.com/features/featuresDeepDive/materials/using/HDREnvironment#what-is-a-env-tech-deep-dive",
+      "default": "assets/3d/babylonjs/textures/Studio_Softbox_2Umbrellas_cube_specular.env"
     },
-    "cameraExposure": {
-      "type": "number"
+    "modelSize": {
+      "$ref": "#/definitions/vector",
+      "description": "Specifies the maximum bounding box for the model, it will be proportionally scaled to fit this size",
+      "default": [
+        1.0,
+        1.0,
+        1.0
+      ]
     },
-    "cameraContrast": {
-      "type": "number"
+    "cameraInitialRadius": {
+      "type": "number",
+      "description": "The initial radius of the camera",
+      "default": 2.0
     },
-    "toneMappingEnabled": {
-      "type": "boolean"
+    "cameraMaximumRadius": {
+      "type": "number",
+      "description": "The maximum radius of the camera",
+      "default": 4.0
     }
   },
+  "required": [
+    "version"
+  ],
   "additionalProperties": false,
   "definitions": {
     "color": {
@@ -112,6 +100,13 @@
       "maxItems": 3
     },
     "vector": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/array-vector"
+        }
+      ]
+    },
+    "array-vector": {
       "type": "array",
       "items": {
         "type": "number"
