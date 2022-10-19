@@ -13,14 +13,27 @@ The library version is managed by github actions.
 
 ## Current Versions
 
+### brand
+[`https://sknups.github.io/schema/brand/brand-schema-v1.json`](https://sknups.github.io/schema/brand/brand-schema-v1.json)
+
 ### catalog
-[`https://sknups.github.io/schema/catalog/catalog-schema-v2.json`](https://sknups.github.io/schema/catalog/catalog-schema-v2.json)
+[`https://sknups.github.io/schema/catalog/catalog-schema-v3.json`](https://sknups.github.io/schema/catalog/catalog-schema-v3.json)
 
 ### collection
 [`https://sknups.github.io/schema/collection/collection-schema-v1.json`](https://sknups.github.io/schema/collection/collection-schema-v1.json)
 
 ### giveaway
-[`https://sknups.github.io/schema/giveaway/giveaway-schema.json`](https://sknups.github.io/schema/giveaway.schema.json)
+[`https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json`](https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json)
 
-###inventory
-[`https://sknups.github.io/schema/inventory/inventory-schema-v1.json`](https://sknups.github.io/schema/inventory.schema.v1.json)
+### inventory
+[`https://sknups.github.io/schema/inventory/inventory-schema-v1.json`](https://sknups.github.io/schema/inventory/inventory-schema-v1.json)
+
+### message
+[`https://sknups.github.io/schema/message/message-schema-v1.json`](https://sknups.github.io/schema/message/message-schema-v1.json)
+
+### platform
+[`https://sknups.github.io/schema/platform/platform-schema-v1.json`](https://sknups.github.io/schema/platform/platform-schema-v1.json)
+
+### sku-3d-config
+[`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json)
+
