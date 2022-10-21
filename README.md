@@ -20,7 +20,7 @@ The library version is managed by github actions.
 [`https://sknups.github.io/schema/catalog/catalog-schema-v3.json`](https://sknups.github.io/schema/catalog/catalog-schema-v3.json)
 
 ### collection
-[`https://sknups.github.io/schema/collection/collection-schema-v1.json`](https://sknups.github.io/schema/collection/collection-schema-v1.json)
+[`https://sknups.github.io/schema/collection/collection-schema-v2.json`](https://sknups.github.io/schema/collection/collection-schema-v2.json)
 
 ### giveaway
 [`https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json`](https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json)
