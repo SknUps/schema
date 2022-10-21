@@ -39,6 +39,12 @@
           "type": "string"
         },
         "tier": {"$ref": "#/definitions/tier"},
+        "skn": {
+          "enum": [
+            "STATIC",
+            "VIDEO"
+          ]
+        },
         "discover": {
           "enum": [
             null,
@@ -70,6 +76,7 @@
         "name",
         "description",
         "tier",
+        "skn",
         "discover"
       ],
       "allOf": [
