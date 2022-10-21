@@ -14,26 +14,26 @@ The library version is managed by github actions.
 ## Current Versions
 
 ### brand
-[`https://sknups.github.io/schema/brand/brand-schema-v1.json`](https://sknups.github.io/schema/brand/brand-schema-v1.json)
+[`https://sknups.github.io/schema/brand/brand-schema.json`](https://sknups.github.io/schema/brand/brand-schema.json)
 
 ### catalog
-[`https://sknups.github.io/schema/catalog/catalog-schema-v3.json`](https://sknups.github.io/schema/catalog/catalog-schema-v3.json)
+[`https://sknups.github.io/schema/catalog/catalog-schema.json`](https://sknups.github.io/schema/catalog/catalog-schema.json)
 
 ### collection
-[`https://sknups.github.io/schema/collection/collection-schema-v2.json`](https://sknups.github.io/schema/collection/collection-schema-v2.json)
+[`https://sknups.github.io/schema/collection/collection-schema.json`](https://sknups.github.io/schema/collection/collection-schema.json)
 
 ### giveaway
-[`https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json`](https://sknups.github.io/schema/giveaway/giveaway-schema-v1.json)
+[`https://sknups.github.io/schema/giveaway/giveaway-schema.json`](https://sknups.github.io/schema/giveaway/giveaway-schema.json)
 
 ### inventory
-[`https://sknups.github.io/schema/inventory/inventory-schema-v1.json`](https://sknups.github.io/schema/inventory/inventory-schema-v1.json)
+[`https://sknups.github.io/schema/inventory/inventory-schema.json`](https://sknups.github.io/schema/inventory/inventory-schema.json)
 
 ### message
-[`https://sknups.github.io/schema/message/message-schema-v1.json`](https://sknups.github.io/schema/message/message-schema-v1.json)
+[`https://sknups.github.io/schema/message/message-schema.json`](https://sknups.github.io/schema/message/message-schema.json)
 
 ### platform
-[`https://sknups.github.io/schema/platform/platform-schema-v1.json`](https://sknups.github.io/schema/platform/platform-schema-v1.json)
+[`https://sknups.github.io/schema/platform/platform-schema.json`](https://sknups.github.io/schema/platform/platform-schema.json)
 
 ### sku-3d-config
-[`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema-v1.json)
+[`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json)
 
