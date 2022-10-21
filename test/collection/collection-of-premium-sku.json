@@ -6,6 +6,7 @@
       "name": "Premium SKU 01",
       "description": "can be discovered, can be minted",
       "tier": "GREEN",
+      "skn": "STATIC",
       "discover": "STATIC",
       "quantity": 10,
       "price": {
@@ -58,6 +59,7 @@
       "name": "Premium SKU 02",
       "description": "can be discovered, cannot be minted",
       "tier": "GREEN",
+      "skn": "STATIC",
       "discover": "STATIC",
       "quantity": 10,
       "price": {
@@ -108,6 +110,7 @@
       "name": "Premium SKU 03",
       "description": "cannot be discovered, can be minted",
       "tier": "BLUE",
+      "skn": "STATIC",
       "discover": null,
       "quantity": 10,
       "price": {
@@ -160,6 +163,7 @@
       "name": "Premium SKU 04",
       "description": "cannot be discovered, cannot be minted",
       "tier": "GOLD",
+      "skn": "STATIC",
       "discover": null,
       "quantity": 10,
       "price": {
