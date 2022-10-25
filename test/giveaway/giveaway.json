@@ -2,22 +2,20 @@
   "giveaways": [
     {
       "code": "giveaway-01",
-      "legacy": true,
+      "enumerated": true,
       "key": "abc123",
-      "type": "SIMPLE",
       "sku": "SKU-CODE"
     },
     {
       "code": "giveaway-02",
       "key": "abc123",
-      "type": "FORTUNE",
       "fortune": [
         {
-          "code": "SKU-01",
+          "sku": "SKU-01",
           "weight": 10
         },
         {
-          "code": "SKU-02",
+          "sku": "SKU-02",
           "weight": 20
         }
       ]
