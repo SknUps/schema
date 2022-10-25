@@ -1,0 +1,141 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/giveaway/giveaway-schema-v2.json",
+  "title": "giveaways",
+  "description": "Giveaways associated with a collection of SKUs",
+  "type": "object",
+  "properties": {
+    "giveaways": {
+      "description": "A list of giveaways, in which users may claim SKNs free of charge.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/giveaway"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "giveaways"
+  ],
+  "definitions": {
+    "giveaway": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "description": "The giveaway code, a human-readable unique identifier. This must be kebab-case, between 8 and 64 characters long.  The giveaway code will be visible to the public in a Drop Link URL.",
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{6,62}[a-z0-9]$"
+        },
+        "enumerated": {
+          "description": "Whether the SKU in this giveaway are enumerated, i.e. they are Legacy SKU or Premium SKU.",
+          "type": "boolean"
+        },
+        "key": {
+          "description": "The public key which SKNUPS will use to verify Drop Links.",
+          "type": "string"
+        },
+        "sku": {
+          "$ref": "#/definitions/simple-sku"
+        },
+        "fortune": {
+          "$ref": "#/definitions/fortune-sku"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "code",
+        "key"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "sku": {
+                "$ref": "#/definitions/simple-sku"
+              }
+            },
+            "required": ["sku"]
+          },
+          "then": {
+            "title": "must-not-have-fortune-sku",
+            "not": {
+              "type": "object",
+              "properties": {
+                "fortune": {
+                  "$ref": "#/definitions/fortune-sku"
+                }
+              },
+              "required": ["fortune"]
+            }
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "fortune": {
+                "$ref": "#/definitions/fortune-sku"
+              }
+            },
+            "required": ["fortune"]
+          },
+          "then": {
+            "title": "must-not-have-simple-sku",
+            "not": {
+              "type": "object",
+              "properties": {
+                "sku": {
+                  "$ref": "#/definitions/simple-sku"
+                }
+              },
+              "required": ["sku"]
+            }
+          }
+        }
+      ],
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "sku": {
+              "$ref": "#/definitions/simple-sku"
+            }
+          },
+          "required": ["sku"]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "fortune": {
+              "$ref": "#/definitions/fortune-sku"
+            }
+          },
+          "required": ["fortune"]
+        }
+      ]
+    },
+    "simple-sku": {
+      "type": "string"
+    },
+    "fortune-sku": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sku": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "integer"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "sku",
+          "weight"
+        ]
+      }
+    }
+  }
+}
