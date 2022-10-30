@@ -1,21 +1,62 @@
 {
   "giveaways": [
     {
-      "code": "giveaway-01",
-      "enumerated": true,
+      "code": "legacy-simple",
+      "legacy": true,
       "key": "abc123",
       "sku": "SKU-CODE"
     },
     {
-      "code": "giveaway-02",
+      "code": "legacy-fortune",
+      "legacy": true,
       "key": "abc123",
       "fortune": [
         {
-          "sku": "SKU-01",
+          "sku": "SKU-CODE-01",
           "weight": 10
         },
         {
-          "sku": "SKU-02",
+          "sku": "SKU-CODE-02",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "code": "premium-simple",
+      "premium": true,
+      "key": "abc123",
+      "sku": "SKU-CODE"
+    },
+    {
+      "code": "premium-fortune",
+      "key": "abc123",
+      "premium": true,
+      "fortune": [
+        {
+          "sku": "SKU-CODE-01",
+          "weight": 10
+        },
+        {
+          "sku": "SKU-CODE-02",
+          "weight": 20
+        }
+      ]
+    },
+    {
+      "code": "giveaway-simple",
+      "key": "abc123",
+      "sku": "SKU-CODE"
+    },
+    {
+      "code": "giveaway-fortune",
+      "key": "abc123",
+      "fortune": [
+        {
+          "sku": "SKU-CODE-01",
+          "weight": 10
+        },
+        {
+          "sku": "SKU-CODE-02",
           "weight": 20
         }
       ]

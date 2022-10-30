@@ -26,8 +26,12 @@
           "type": "string",
           "pattern": "^[a-z0-9][a-z0-9-]{6,62}[a-z0-9]$"
         },
-        "enumerated": {
-          "description": "Whether the SKU in this giveaway are enumerated, i.e. they are Legacy SKU or Premium SKU.",
+        "premium": {
+          "description": "If true, all the SKU in this giveaway must be Premium SKNs.",
+          "type": "boolean"
+        },
+        "legacy": {
+          "description": "If true, all the SKU in this giveaway must be Legacy SKNs.",
           "type": "boolean"
         },
         "key": {
@@ -49,6 +53,7 @@
       "allOf": [
         {
           "if": {
+            "title": "has-sku-property",
             "type": "object",
             "properties": {
               "sku": {
@@ -58,7 +63,7 @@
             "required": ["sku"]
           },
           "then": {
-            "title": "must-not-have-fortune-sku",
+            "title": "must-not-have-fortune-property",
             "not": {
               "type": "object",
               "properties": {
@@ -72,6 +77,7 @@
         },
         {
           "if": {
+            "title": "has-fortune-property",
             "type": "object",
             "properties": {
               "fortune": {
@@ -81,7 +87,7 @@
             "required": ["fortune"]
           },
           "then": {
-            "title": "must-not-have-simple-sku",
+            "title": "must-not-have-sku-property",
             "not": {
               "type": "object",
               "properties": {
@@ -90,6 +96,54 @@
                 }
               },
               "required": ["sku"]
+            }
+          }
+        },
+        {
+          "if": {
+            "title": "has-premium-flag",
+            "type": "object",
+            "properties": {
+              "premium": {
+                "type": "boolean"
+              }
+            },
+            "required": ["premium"]
+          },
+          "then": {
+            "title": "must-not-have-legacy-flag",
+            "not": {
+              "type": "object",
+              "properties": {
+                "legacy": {
+                  "type": "boolean"
+                }
+              },
+              "required": ["legacy"]
+            }
+          }
+        },
+        {
+          "if": {
+            "title": "has-legacy-flag",
+            "type": "object",
+            "properties": {
+              "legacy": {
+                "type": "boolean"
+              }
+            },
+            "required": ["legacy"]
+          },
+          "then": {
+            "title": "must-not-have-premium-flag",
+            "not": {
+              "type": "object",
+              "properties": {
+                "premium": {
+                  "type": "boolean"
+                }
+              },
+              "required": ["premium"]
             }
           }
         }
