@@ -20,66 +20,68 @@
       "title": "SKU",
       "description": "a Stock Keeping Unit, from which individual items (\"SKNs\") can be manufactured on demand",
       "type": "object",
-      "properties": {
-        "platform": {
-          "type": "string"
-        },
-        "brand": {
-          "type": "string",
-          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
-        },
-        "code": {
-          "type": "string",
-          "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
-        },
-        "name": {
-          "type": "string"
-        },
-        "description": {
-          "type": "string"
-        },
-        "tier": {"$ref": "#/definitions/tier"},
-        "skn": {
-          "enum": [
-            "STATIC",
-            "VIDEO"
-          ]
-        },
-        "discover": {
-          "enum": [
-            null,
-            "STATIC",
-            "VIDEO",
-            "STREAMING"
-          ]
-        },
-        "quantity": {
-          "$ref": "#/definitions/quantity"
-        },
-        "rarity": {
-          "$ref": "#/definitions/rarity"
-        },
-        "price": {
-          "$ref": "#/definitions/price"
-        },
-        "card": {
-          "$ref": "#/definitions/card"
-        },
-        "mint": {
-          "$ref": "#/definitions/mint"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "brand",
-        "code",
-        "name",
-        "description",
-        "tier",
-        "skn",
-        "discover"
-      ],
       "allOf": [
+        {
+          "properties": {
+            "platform": {
+              "type": "string"
+            },
+            "brand": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+            },
+            "code": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "tier": {"$ref": "#/definitions/tier"},
+            "skn": {
+              "enum": [
+                "STATIC",
+                "VIDEO"
+              ]
+            },
+            "discover": {
+              "enum": [
+                null,
+                "STATIC",
+                "VIDEO",
+                "STREAMING"
+              ]
+            },
+            "quantity": {
+              "$ref": "#/definitions/quantity"
+            },
+            "rarity": {
+              "$ref": "#/definitions/rarity"
+            },
+            "price": {
+              "$ref": "#/definitions/price"
+            },
+            "card": {
+              "$ref": "#/definitions/card"
+            },
+            "mint": {
+              "$ref": "#/definitions/mint"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "brand",
+            "code",
+            "name",
+            "description",
+            "tier",
+            "skn",
+            "discover"
+          ]
+        },
         {
           "$ref": "#/definitions/legacy-sku-rules"
         },

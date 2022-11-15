@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "lint": "eslint \"**/*.js\" \"**/*.ts\"",
-    "test": "mocha --bail --fail-zero test/**",
+    "test": "mocha --fail-zero --exclude test/**/*catalog-loader* test/**",
+    "test-catalog": "mocha --fail-zero test/**/*catalog-loader*",
     "auth": "npx google-artifactregistry-auth",
     "prebuild": "rimraf lib generated-src && ts-node generate-sources.ts",
     "build": "tsc"

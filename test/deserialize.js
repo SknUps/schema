@@ -12,7 +12,7 @@ function deserialize (json, schema) {
   const valid = validate(JSON.parse(json))
   if (!valid) {
     console.error(JSON.stringify(validate.errors, null, 2))
-    throw new Error(`Cannot deserialize JSON ${json}`)
+    throw new Error(`Cannot deserialize JSON ${json}\nERRORS: ${JSON.stringify(validate.errors, null, 2)}`)
   }
 }
 
