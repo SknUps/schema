@@ -57,10 +57,13 @@
       "brand": "SKNUPS",
       "code": "SKNUPS-PREMIUM-02",
       "name": "Premium SKU 02",
-      "description": "can be discovered, cannot be minted",
+      "description": "can be discovered (with custom marketing), cannot be minted",
       "tier": "GREEN",
       "skn": "STATIC",
-      "discover": "STATIC",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "custom discover description"
+      },
       "quantity": 10,
       "price": {
         "retail": 1000,

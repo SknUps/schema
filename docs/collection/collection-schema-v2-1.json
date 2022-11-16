@@ -40,19 +40,30 @@
             "description": {
               "type": "string"
             },
-            "tier": {"$ref": "#/definitions/tier"},
-            "skn": {
-              "enum": [
-                "STATIC",
-                "VIDEO"
+            "tier": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/tier"
+                },
+                {
+                  "const": null
+                }
               ]
             },
+            "skn": {
+              "$ref": "#/definitions/media"
+            },
             "discover": {
-              "enum": [
-                null,
-                "STATIC",
-                "VIDEO",
-                "STREAMING"
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/discover"
+                },
+                {
+                  "$ref": "#/definitions/media"
+                },
+                {
+                  "const": null
+                }
               ]
             },
             "quantity": {
@@ -95,13 +106,34 @@
     },
     "tier": {
       "enum": [
-        null,
         "GIVEAWAY",
         "REWARD",
         "GREEN",
         "BLUE",
         "PURPLE",
         "GOLD"
+      ]
+    },
+    "discover": {
+      "type": "object",
+      "properties": {
+        "media": {
+          "$ref": "#/definitions/media"
+        },
+        "marketing": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "media"
+      ]
+    },
+    "media": {
+      "enum": [
+        "STATIC",
+        "VIDEO",
+        "STREAMING"
       ]
     },
     "quantity": {
@@ -216,7 +248,7 @@
         "Semibold"
       ]
     },
-    "align":  {
+    "align": {
       "enum": [
         "left",
         "center",
