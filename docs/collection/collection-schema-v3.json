@@ -1,0 +1,587 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/collection/collection-schema-v2.json",
+  "title": "collection",
+  "description": "a collection of SKU which may be added to the catalog",
+  "type": "object",
+  "properties": {
+    "collection": {
+      "title": "collection of SKUs",
+      "description": "an unordered list of SKU which comprise this collection",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sku"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "sku": {
+      "title": "SKU",
+      "description": "a Stock Keeping Unit, from which individual items (\"SKNs\") can be manufactured on demand",
+      "type": "object",
+      "allOf": [
+        {
+          "properties": {
+            "platform": {
+              "type": "string"
+            },
+            "brand": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+            },
+            "code": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
+            },
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "tier": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/tier"
+                },
+                {
+                  "const": null
+                }
+              ]
+            },
+            "skn": {
+              "$ref": "#/definitions/media"
+            },
+            "discover": {
+              "oneOf": [
+                {
+                  "$ref": "#/definitions/discover"
+                },
+                {
+                  "$ref": "#/definitions/media"
+                },
+                {
+                  "const": null
+                }
+              ]
+            },
+            "quantity": {
+              "$ref": "#/definitions/quantity"
+            },
+            "rarity": {
+              "$ref": "#/definitions/rarity"
+            },
+            "price": {
+              "$ref": "#/definitions/price"
+            },
+            "card": {
+              "$ref": "#/definitions/card"
+            },
+            "mint": {
+              "$ref": "#/definitions/mint"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "brand",
+            "code",
+            "name",
+            "description",
+            "tier",
+            "skn",
+            "discover"
+          ]
+        },
+        {
+          "$ref": "#/definitions/legacy-sku-rules"
+        },
+        {
+          "$ref": "#/definitions/giveaway-sku-rules"
+        },
+        {
+          "$ref": "#/definitions/premium-sku-rules"
+        }
+      ]
+    },
+    "tier": {
+      "enum": [
+        "GIVEAWAY",
+        "REWARD",
+        "GREEN",
+        "BLUE",
+        "PURPLE",
+        "GOLD"
+      ]
+    },
+    "discover": {
+      "type": "object",
+      "properties": {
+        "media": {
+          "$ref": "#/definitions/media"
+        },
+        "marketing": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "media"
+      ]
+    },
+    "media": {
+      "enum": [
+        "STATIC",
+        "VIDEO",
+        "STREAMING"
+      ]
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rarity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "price": {
+      "type": "object",
+      "properties": {
+        "retail": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 1000000
+        },
+        "wholesale": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "retail",
+        "wholesale"
+      ]
+    },
+    "card": {
+      "title": "card",
+      "description": "instructions for printing text onto the card image(s)",
+      "type": "object",
+      "properties": {
+        "front": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/label"
+          }
+        },
+        "back": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/label"
+          }
+        }
+      }
+    },
+    "label": {
+      "title": "label",
+      "description": "a piece of text which should be printed onto a card image",
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "color": {
+          "$comment": "#RGBA",
+          "type": "string",
+          "pattern": "^#[0-9A-F]{8}$"
+        },
+        "size": {
+          "type": "string"
+        },
+        "font": {
+          "$ref": "#/definitions/font"
+        },
+        "weight": {
+          "$ref": "#/definitions/weight"
+        },
+        "align": {
+          "$ref": "#/definitions/align"
+        },
+        "x": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "y": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "color",
+        "size",
+        "font",
+        "weight",
+        "align",
+        "x",
+        "y"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/font-rules"
+        }
+      ]
+    },
+    "font": {
+      "enum": [
+        "Jost",
+        "Share Tech Mono",
+        "Crimson Text"
+      ]
+    },
+    "weight": {
+      "enum": [
+        "Regular",
+        "Semibold"
+      ]
+    },
+    "align": {
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "font-rules": {
+      "allOf": [
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Jost"
+              }
+            }
+          },
+          "then": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "weight": {
+                    "const": "Regular"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "weight": {
+                    "const": "Semibold"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Share Tech Mono"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Crimson Text"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "mint": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "SOLANA"
+        ]
+      }
+    },
+    "legacy-sku-rules": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "tier": {
+            "const": null
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "title": "must-have-quantity",
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "$ref": "#/definitions/quantity"
+              }
+            },
+            "required": [
+              "quantity"
+            ]
+          },
+          {
+            "title": "must-have-rarity",
+            "type": "object",
+            "properties": {
+              "rarity": {
+                "$ref": "#/definitions/rarity"
+              }
+            },
+            "required": [
+              "rarity"
+            ]
+          },
+          {
+            "title": "must-not-have-card",
+            "not": {
+              "type": "object",
+              "properties": {
+                "card": {
+                  "$ref": "#/definitions/card"
+                }
+              },
+              "required": [
+                "card"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "giveaway-sku-rules": {
+      "if": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "GIVEAWAY"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "REWARD"
+              }
+            }
+          }
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "title": "must-not-have-quantity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "quantity": {
+                  "$ref": "#/definitions/quantity"
+                }
+              },
+              "required": [
+                "quantity"
+              ]
+            }
+          },
+          {
+            "title": "must-not-have-rarity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "rarity": {
+                  "$ref": "#/definitions/rarity"
+                }
+              },
+              "required": [
+                "rarity"
+              ]
+            }
+          },
+          {
+            "title": "must-not-have-price",
+            "not": {
+              "type": "object",
+              "properties": {
+                "price": {
+                  "$ref": "#/definitions/price"
+                }
+              },
+              "required": [
+                "price"
+              ]
+            }
+          },
+          {
+            "title": "must-have-card",
+            "type": "object",
+            "properties": {
+              "card": {
+                "$ref": "#/definitions/card"
+              }
+            },
+            "required": [
+              "card"
+            ]
+          },
+          {
+            "title": "must-not-have-mint",
+            "not": {
+              "type": "object",
+              "properties": {
+                "mint": {
+                  "$ref": "#/definitions/mint"
+                }
+              },
+              "required": [
+                "mint"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "premium-sku-rules": {
+      "if": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "GREEN"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "BLUE"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "PURPLE"
+              }
+            }
+          },
+          {
+            "type": "object",
+            "properties": {
+              "tier": {
+                "const": "GOLD"
+              }
+            }
+          }
+        ]
+      },
+      "then": {
+        "allOf": [
+          {
+            "title": "must-have-quantity",
+            "type": "object",
+            "properties": {
+              "quantity": {
+                "$ref": "#/definitions/quantity"
+              }
+            },
+            "required": [
+              "quantity"
+            ]
+          },
+          {
+            "title": "must-not-have-rarity",
+            "not": {
+              "type": "object",
+              "properties": {
+                "rarity": {
+                  "$ref": "#/definitions/rarity"
+                }
+              },
+              "required": [
+                "rarity"
+              ]
+            }
+          },
+          {
+            "title": "must-have-price",
+            "type": "object",
+            "properties": {
+              "price": {
+                "$ref": "#/definitions/price"
+              }
+            },
+            "required": [
+              "price"
+            ]
+          },
+          {
+            "title": "must-have-card",
+            "type": "object",
+            "properties": {
+              "card": {
+                "$ref": "#/definitions/card"
+              }
+            },
+            "required": [
+              "card"
+            ]
+          },
+          {
+            "title": "must-have-mint",
+            "type": "object",
+            "properties": {
+              "mint": {
+                "$ref": "#/definitions/mint"
+              }
+            },
+            "required": [
+              "mint"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
