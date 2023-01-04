@@ -1,12 +1,15 @@
-const { deserialize } = require('../deserialize')
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs';
+import { dirname, resolve } from 'path';
 
-const schema = fs.readFileSync(path.resolve(__dirname, '../../docs/brand/brand-schema.json'))
-const example = fs.readFileSync(path.resolve(__dirname, 'brand.json'))
+import { deserialize } from '../deserialize.js';
+
+const __dirname = dirname(new URL(import.meta.url).pathname);
+
+const schema = fs.readFileSync(resolve(__dirname, '../../docs/brand/brand-schema.json'));
+const example = fs.readFileSync(resolve(__dirname, './brand.json'));
 
 describe('brand-schema.json', () => {
   it('validates brand.json', () => {
-    deserialize(example, schema)
-  })
-})
+    deserialize(example, schema);
+  });
+});
