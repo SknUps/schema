@@ -1,0 +1,70 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-01",
+      "name": "Giveaway SKU 01",
+      "description": "can be discovered, with printed ownership token",
+      "tier": "GIVEAWAY",
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "card": {
+        "back": [
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "left",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-02",
+      "name": "Giveaway SKU 02",
+      "description": "can be discovered, without printed ownership token",
+      "tier": "GIVEAWAY",
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "card": {}
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-03",
+      "name": "Giveaway SKU 03",
+      "description": "cannot be discovered, with printed ownership token",
+      "tier": "REWARD",
+      "skn": "STATIC",
+      "discover": null,
+      "card": {
+        "back": [
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY-04",
+      "name": "Giveaway SKU 04",
+      "description": "cannot be discovered, without printed ownership token",
+      "tier": "REWARD",
+      "skn": "STATIC",
+      "discover": null,
+      "card": {}
+    }
+  ]
+}

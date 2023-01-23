@@ -19,8 +19,8 @@
     "prebuild": "rimraf lib generated-src && ts-node generate-sources.ts",
     "build": "tsc",
     "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/ --fix",
-    "test": "mocha --fail-zero --exclude test/**/*catalog-loader* test/**",
-    "test-catalog": "mocha --fail-zero test/**/*catalog-loader*"
+    "test": "mocha --fail-zero --exclude test/test-catalog-loader.js test/**",
+    "test-catalog": "mocha --fail-zero test/test-catalog-loader.js"
   },
   "eslintConfig": {
     "extends": "@sknups"
