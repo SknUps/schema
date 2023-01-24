@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v3.json",
+  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v4.json",
   "title": "catalog",
   "description": "the set of all SKUs",
   "type": "object",
@@ -31,7 +31,14 @@
             "type": "string"
           },
           "maximum": {
-            "type": "number"
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "name": {
             "type": "string"
@@ -58,16 +65,37 @@
             ]
           },
           "rarity": {
-            "type": "number",
-            "minimum": 0,
-            "maximum": 5
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "discover": {
-            "enum": [
-              null,
-              "STATIC",
-              "VIDEO",
-              "STREAMING"
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "media": {
+                    "enum": [
+                      "STATIC",
+                      "VIDEO",
+                      "STREAMING"
+                    ]
+                  },
+                  "marketing": {
+                    "type": "string"
+                  }
+                }
+              }
             ]
           },
           "tier": {

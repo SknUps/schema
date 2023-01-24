@@ -14,7 +14,9 @@
             "type": "string"
           }
         },
-        "required": ["name"]
+        "required": [
+          "name"
+        ]
       }
     },
     "sku": {
@@ -47,8 +49,12 @@
           },
           "price": {
             "anyOf": [
-              {"type": "number"},
-              {"type": "null"}
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "rarity": {
@@ -70,5 +76,8 @@
       }
     }
   },
-  "required": ["brand", "sku"]
+  "required": [
+    "brand",
+    "sku"
+  ]
 }

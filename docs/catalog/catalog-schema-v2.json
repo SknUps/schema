@@ -14,7 +14,9 @@
             "type": "string"
           }
         },
-        "required": ["name"]
+        "required": [
+          "name"
+        ]
       }
     },
     "sku": {
@@ -47,8 +49,12 @@
           },
           "price": {
             "anyOf": [
-              {"type": "number"},
-              {"type": "null"}
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "rarity": {
@@ -56,7 +62,7 @@
             "minimum": 0,
             "maximum": 5
           },
-          "discover":  {
+          "discover": {
             "enum": [
               null,
               "STATIC",
@@ -79,5 +85,8 @@
       }
     }
   },
-  "required": ["brand", "sku"]
+  "required": [
+    "brand",
+    "sku"
+  ]
 }
