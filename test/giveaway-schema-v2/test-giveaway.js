@@ -5,10 +5,10 @@ import { deserialize } from '../deserialize.js';
 
 const __dirname = dirname(new URL(import.meta.url).pathname);
 
-const schema = fs.readFileSync(resolve(__dirname, '../../docs/giveaway/giveaway-schema.json'));
+const schema = fs.readFileSync(resolve(__dirname, '../../docs/giveaway/giveaway-schema-v2.json'));
 const example = fs.readFileSync(resolve(__dirname, './giveaway.json'));
 
-describe('giveaway-schema.json', () => {
+describe('giveaway-schema-v2.json', () => {
   it('validates giveaway.json', () => {
     deserialize(example, schema);
   });

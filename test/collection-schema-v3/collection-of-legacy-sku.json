@@ -1,0 +1,124 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-01",
+      "name": "Legacy SKU 01",
+      "description": "for sale, can be discovered, can be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "quantity": 10,
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-02",
+      "name": "Legacy SKU 02",
+      "description": "for sale, can be discovered, cannot be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "quantity": 10,
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-03",
+      "name": "Legacy SKU 03",
+      "description": "for sale, cannot be discovered, can be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": null,
+      "quantity": 10,
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-04",
+      "name": "Legacy SKU 04",
+      "description": "for sale, cannot be discovered, cannot be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": null,
+      "quantity": 10,
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-05",
+      "name": "Legacy SKU 05",
+      "description": "for giveaway, can be discovered, can be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "quantity": 10,
+      "rarity": 1,
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-06",
+      "name": "Legacy SKU 06",
+      "description": "for giveaway, can be discovered, cannot be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": "STATIC",
+      "quantity": 10,
+      "rarity": 1,
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-07",
+      "name": "Legacy SKU 07",
+      "description": "for giveaway, cannot be discovered, can be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": null,
+      "quantity": 10,
+      "rarity": 1,
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-08",
+      "name": "Legacy SKU 08",
+      "description": "for giveaway, cannot be discovered, cannot be minted",
+      "tier": null,
+      "skn": "STATIC",
+      "discover": null,
+      "quantity": 10,
+      "rarity": 1,
+      "mint": []
+    }
+  ]
+}

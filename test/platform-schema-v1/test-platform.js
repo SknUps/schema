@@ -5,10 +5,10 @@ import { deserialize } from '../deserialize.js';
 
 const __dirname = dirname(new URL(import.meta.url).pathname);
 
-const schema = fs.readFileSync(resolve(__dirname, '../../docs/platform/platform-schema.json'));
+const schema = fs.readFileSync(resolve(__dirname, '../../docs/platform/platform-schema-v1.json'));
 const example = fs.readFileSync(resolve(__dirname, './platform.json'));
 
-describe('platform-schema.json', () => {
+describe('platform-schema-v1.json', () => {
   it('validates platform.json', () => {
     deserialize(example, schema);
   });

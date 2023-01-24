@@ -23,11 +23,21 @@ jobs:
           node-version: 16
           cache: 'npm'
 
+      - name: Auth GCP
+        id: 'auth'
+        uses: 'google-github-actions/auth@v0'
+        with:
+          credentials_json: '${{ secrets.GCP_DEV_DRM_SA_KEY }}'
+          export_environment_variables: false
+
       - name: Configure npm
+        env:
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ steps.auth.outputs.credentials_file_path }}
         run: |
           npm config set update-notifier false
           npm config set audit false
           npm config set fund false
+          npm run auth
 
       - name: Set SNAPSHOT version
         if: ${{ startsWith(github.ref, 'refs/heads') }}
@@ -53,13 +63,6 @@ jobs:
         run: |
           npm test
 
-      - name: Auth GCP
-        id: auth
-        uses: 'google-github-actions/auth@v0'
-        with:
-          credentials_json: '${{ secrets.GCP_DEV_DRM_SA_KEY }}'
-
       - name: Publish npm
-        run: |-
-          npm run auth
+        run: |
           npm publish

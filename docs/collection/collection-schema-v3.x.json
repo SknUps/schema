@@ -1,17 +1,48 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/collection/collection-schema-v4.json",
+  "$id": "https://sknups.github.io/schema/collection/collection-schema-v3.x.json",
   "title": "collection",
   "description": "a collection of SKU which may be added to the catalog",
   "type": "object",
   "properties": {
     "collection": {
-      "title": "collection of SKUs",
-      "description": "an unordered list of SKU which comprise this collection",
-      "type": "array",
-      "items": {
-        "$ref": "#/definitions/sku"
-      }
+      "title": "collection",
+      "description": "a collection of SKU which may be added to the catalog",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "title": "collection code",
+          "description": "a globally unique identifier for the collection, typically of the form <BRAND-CODE>-<COLLECTION>",
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,55}[A-Z0-9]$"
+        },
+        "name": {
+          "title": "collection name",
+          "description": "a name for the collection, must be unique within a given brand",
+          "type": "string"
+        },
+        "brand": {
+          "title": "brand",
+          "description": "the code of the brand this collection relates to",
+          "type": "string",
+          "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+        },
+        "skus": {
+          "title": "collection of SKUs",
+          "description": "an unordered list of SKU which comprise this collection",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/sku"
+          }
+        }
+      },
+      "required": [
+        "code",
+        "name",
+        "brand",
+        "skus"
+      ]
     }
   },
   "additionalProperties": false,
@@ -25,10 +56,6 @@
           "properties": {
             "platform": {
               "type": "string"
-            },
-            "brand": {
-              "type": "string",
-              "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
             },
             "code": {
               "type": "string",
@@ -51,7 +78,7 @@
               ]
             },
             "skn": {
-              "$ref": "#/definitions/sknMedia"
+              "$ref": "#/definitions/media"
             },
             "discover": {
               "oneOf": [
@@ -59,7 +86,7 @@
                   "$ref": "#/definitions/discover"
                 },
                 {
-                  "$ref": "#/definitions/discoverMedia"
+                  "$ref": "#/definitions/media"
                 },
                 {
                   "const": null
@@ -84,7 +111,6 @@
           },
           "additionalProperties": false,
           "required": [
-            "brand",
             "code",
             "name",
             "description",
@@ -118,7 +144,7 @@
       "type": "object",
       "properties": {
         "media": {
-          "$ref": "#/definitions/discoverMedia"
+          "$ref": "#/definitions/media"
         },
         "marketing": {
           "type": "string"
@@ -129,16 +155,11 @@
         "media"
       ]
     },
-    "sknMedia": {
-      "enum": [
-        "DYNAMIC",
-        "VIDEO"
-      ]
-    },
-    "discoverMedia": {
+    "media": {
       "enum": [
         "STATIC",
-        "VIDEO"
+        "VIDEO",
+        "STREAMING"
       ]
     },
     "quantity": {

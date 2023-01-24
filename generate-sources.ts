@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'fs'
 import { dirname } from 'path'
-import * as glob from 'glob'
+import glob from 'glob'
 import { compile } from 'json-schema-to-typescript'
 import { toSafeString } from 'json-schema-to-typescript/dist/src/utils.js'
 
@@ -20,9 +20,9 @@ schemaFiles.forEach(file => {
 
 /**
  * Generates typescript sources for the given json schema.
- * 
+ *
  * Most of the heavy lifting is managed by json-schema-to-typescript.
- * 
+ *
  * In addition, the following consts are defined for each schema:
  *   - SCHEMA: the parsed JSON schema
  *   - DEFAULTS: an object populated with only default values if supplied in the schema
@@ -47,7 +47,7 @@ async function generateSources (jsonSchemaFile: string, outputFile: string) {
 }
 
 /**
- * Creates a JSON object containing only the default values for the supplied schema. 
+ * Creates a JSON object containing only the default values for the supplied schema.
  */
 function jsonSchemaToDefaults (jsonSchema: any) {
   const jsonDefaults = {}
