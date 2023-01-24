@@ -1,0 +1,88 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-01",
+      "name": "Premium SKU 01",
+      "description": "can be discovered, can be minted",
+      "tier": "GREEN",
+      "discover": "STATIC",
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-02",
+      "name": "Premium SKU 02",
+      "description": "can be discovered, cannot be minted",
+      "tier": "GREEN",
+      "discover": "STATIC",
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-03",
+      "name": "Premium SKU 03",
+      "description": "cannot be discovered, can be minted",
+      "tier": "BLUE",
+      "discover": null,
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-04",
+      "name": "Premium SKU 04",
+      "description": "cannot be discovered, cannot be minted",
+      "tier": "GOLD",
+      "discover": null,
+      "quantity": 10,
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    }
+  ]
+}
