@@ -14,7 +14,9 @@
             "type": "string"
           }
         },
-        "required": ["name"]
+        "required": [
+          "name"
+        ]
       }
     },
     "sku": {
@@ -29,7 +31,14 @@
             "type": "string"
           },
           "maximum": {
-            "anyOf": [{ "type": "number" }, { "type": "null" }]
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "name": {
             "type": "string"
@@ -37,26 +46,50 @@
           "permissions": {
             "type": "array",
             "items": {
-              "enum": ["GIVEAWAY", "SELL", "DISCOVER", "METAPLEX_MINT"]
+              "enum": [
+                "GIVEAWAY",
+                "SELL",
+                "DISCOVER",
+                "METAPLEX_MINT"
+              ]
             }
           },
           "price": {
-            "anyOf": [{ "type": "number" }, { "type": "null" }]
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
           },
           "rarity": {
             "anyOf": [
-              { "type": "number", "minimum": 0, "maximum": 5 },
-              { "type": "null" }
+              {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 5
+              },
+              {
+                "type": "null"
+              }
             ]
           },
           "discover": {
             "anyOf": [
-              { "type": "null" },
+              {
+                "type": "null"
+              },
               {
                 "type": "object",
                 "properties": {
                   "media": {
-                    "enum": ["STATIC", "VIDEO", "STREAMING"]
+                    "enum": [
+                      "STATIC",
+                      "VIDEO",
+                      "STREAMING"
+                    ]
                   },
                   "marketing": {
                     "type": "string"
@@ -66,7 +99,14 @@
             ]
           },
           "tier": {
-            "anyOf": [{ "type": "string" }, { "type": "null" }]
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
           }
         },
         "additionalProperties": false,
@@ -83,5 +123,8 @@
       }
     }
   },
-  "required": ["brand", "sku"]
+  "required": [
+    "brand",
+    "sku"
+  ]
 }
