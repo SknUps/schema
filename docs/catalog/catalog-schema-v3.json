@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v2.json",
+  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v3.json",
   "title": "catalog",
   "description": "the set of all SKUs",
   "type": "object",
