@@ -9,7 +9,7 @@ const schema = fs.readFileSync(resolve(__dirname, '../../docs/giveaway/giveaway-
 const example = fs.readFileSync(resolve(__dirname, './giveaway.json'));
 
 describe('giveaway-schema-v3.json', () => {
-    it('validates giveaway.json', () => {
-        deserialize(example, schema);
-    });
+  it('validates giveaway.json', () => {
+    deserialize(example, schema);
+  });
 });
