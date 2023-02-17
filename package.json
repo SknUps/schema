@@ -1,11 +1,13 @@
 {
   "name": "@sknups/schema",
-  "version": "0.0.1-snapshot.1",
+  "version": "0.0.1-snapshot",
   "description": "This repository hosts JSON schema files related to the SKNUPS platform.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sknups/schema.git"
   },
+  "license": "UNLICENSED",
+  "author": "SKNUPS",
   "type": "module",
   "directories": {
     "test": "test"
@@ -18,15 +20,18 @@
     "auth": "npx google-artifactregistry-auth",
     "prebuild": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
     "build": "tsc",
-    "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/ --fix",
+    "lint": "eslint --fix --ext .js,.json .",
     "test": "mocha --fail-zero --exclude test/test-catalog-loader.js test/**",
     "test-catalog": "mocha --fail-zero test/test-catalog-loader.js"
   },
   "eslintConfig": {
     "extends": "@sknups"
   },
+  "dependencies": {
+    "glob": "^8.1.0"
+  },
   "devDependencies": {
-    "@sknups/eslint-config": "~1.0.0",
+    "@sknups/eslint-config": "~1.2.0",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
     "chai": "^4.3.6",
@@ -35,13 +40,10 @@
     "mocha": "^10.2.0",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "engines": {
     "node": ">=16.14.0",
     "npm": ">=8.1.0"
-  },
-  "dependencies": {
-    "glob": "^8.1.0"
   }
 }
