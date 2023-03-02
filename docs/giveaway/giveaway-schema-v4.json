@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/giveaway/giveaway-schema-v3.json",
+  "$id": "https://sknups.github.io/schema/giveaway/giveaway-schema-v4.json",
   "title": "giveaways",
   "description": "Giveaways associated with a collection of SKUs",
   "type": "object",
@@ -47,7 +47,11 @@
           "type": "boolean"
         },
         "key": {
-          "description": "The public key which SKNUPS will use to verify Drop Links.",
+          "description": "The public key which SKNUPS will use to verify v1 Drop Links.",
+          "type": "string"
+        },
+        "secret": {
+          "description": "The secret key which SKNUPS will use to verify v2 Drop Links.",
           "type": "string"
         },
         "sku": {
@@ -59,8 +63,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "code",
-        "key"
+        "code"
       ],
       "allOf": [
         {
@@ -158,6 +161,22 @@
               "required": ["premium"]
             }
           }
+        },
+        {
+          "anyOf": [
+            {
+              "properties": {
+                "key": {}
+              },
+              "required": ["key"]
+            },
+            {
+              "properties": {
+                "secret": {}
+              },
+              "required": ["secret"]
+            }
+          ]
         }
       ],
       "oneOf": [
