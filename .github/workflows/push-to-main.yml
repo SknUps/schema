@@ -27,3 +27,4 @@ jobs:
         uses: sknups/publish-npm-package@v1
         with:
           service-account-key-json: ${{ secrets.GCP_DEV_DRM_SA_KEY }}
+          run-compile: 'true'

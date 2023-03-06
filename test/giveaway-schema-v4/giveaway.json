@@ -1,80 +1,30 @@
 {
   "giveaways": [
     {
-      "code": "legacy-simple-v1",
-      "title": "Simple Legacy Giveaway",
-      "description": "Example of a Simple Legacy Giveaway",
-      "legacy": true,
-      "key": "abc123",
-      "sku": "SKU-CODE"
-    },
-    {
-      "code": "legacy-simple-v1-and-v2",
-      "title": "Simple Legacy Giveaway",
-      "description": "Example of a Simple Legacy Giveaway",
-      "legacy": true,
-      "key": "abc123",
-      "secret": "aaa",
-      "sku": "SKU-CODE"
-    },
-    {
-      "code": "legacy-simple-v2",
-      "title": "Simple Legacy Giveaway",
-      "description": "Example of a Simple Legacy Giveaway",
-      "legacy": true,
-      "secret": "aaa",
-      "sku": "SKU-CODE"
-    },
-    {
-      "code": "legacy-fortune",
-      "legacy": true,
-      "key": "abc123",
-      "fortune": [
-        {
-          "sku": "SKU-CODE-01",
-          "weight": 10
-        },
-        {
-          "sku": "SKU-CODE-02",
-          "weight": 20
-        }
-      ]
-    },
-    {
-      "code": "premium-simple",
-      "title": "Dolce&Gabbana 2084: Awakening",
-      "description": "Example of a Simple Premium Giveaway",
-      "premium": true,
-      "key": "abc123",
-      "sku": "SKU-CODE"
-    },
-    {
-      "code": "premium-fortune",
-      "title": "Fortune Premium Giveaway",
-      "description": "Example of a Fortune Premium Giveaway",
-      "key": "abc123",
-      "premium": true,
-      "fortune": [
-        {
-          "sku": "SKU-CODE-01",
-          "weight": 10
-        },
-        {
-          "sku": "SKU-CODE-02",
-          "weight": 20
-        }
-      ]
-    },
-    {
-      "code": "giveaway-simple",
+      "code": "simple-v1",
       "title": "Simple Giveaway",
       "description": "Example of a Simple Giveaway",
       "key": "abc123",
       "sku": "SKU-CODE"
     },
     {
-      "code": "giveaway-fortune",
+      "code": "simple-v1-and-v2",
+      "title": "Simple Giveaway",
+      "description": "Example of a Simple Giveaway",
       "key": "abc123",
+      "secret": "aaa",
+      "sku": "SKU-CODE"
+    },
+    {
+      "code": "simple-v2",
+      "title": "Simple Giveaway",
+      "description": "Example of a Simple Giveaway",
+      "secret": "aaa",
+      "sku": "SKU-CODE"
+    },
+    {
+      "code": "fortune-v2",
+      "secret": "aaa",
       "fortune": [
         {
           "sku": "SKU-CODE-01",
