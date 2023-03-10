@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v5.json",
+  "title": "catalog",
+  "description": "the set of all SKUs",
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "sku": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "brand": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "maximum": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "GIVEAWAY",
+                "SELL",
+                "DISCOVER",
+                "METAPLEX_MINT"
+              ]
+            }
+          },
+          "price": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "claim": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "discover": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "media": {
+                    "enum": [
+                      "STATIC",
+                      "VIDEO",
+                      "STREAMING"
+                    ]
+                  },
+                  "marketing": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          },
+          "tier": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "brand",
+          "description",
+          "maximum",
+          "name",
+          "permissions",
+          "price",
+          "claim",
+          "discover"
+        ]
+      }
+    }
+  },
+  "required": [
+    "brand",
+    "sku"
+  ]
+}
