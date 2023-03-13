@@ -1,0 +1,1779 @@
+{
+  "sku": {
+    "BENNY-ANDALLO-FUZZ-AUTUMN-ORANGE": {
+      "name": "Fuzz Dome | Autumn Orange",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Autumn Orange colourway from the Benny Andallo digital collection.",
+      "price": null,
+      "maximum": 1000000,
+      "permissions": [],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Autumn Orange colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-BABY-BLUE": {
+      "name": "Fuzz Dome | Baby Blue",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Baby Blue colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Baby Blue colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-BABY-PINK": {
+      "name": "Fuzz Dome | Baby Pink",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Baby Pink colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Baby Pink colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-ELECTRIC-BLUE": {
+      "name": "Fuzz Dome | Electric Blue",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Electric Blue colourway from the Benny Andallo digital collection.",
+      "price": null,
+      "maximum": 1000000,
+      "permissions": [],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Electric Blue colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-EMERALD-GREEN": {
+      "name": "Fuzz Dome | Emerald Green",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Emerald Green colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Emerald Green colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-GOLD": {
+      "name": "Fuzz Dome | Gold",
+      "description": "Feel the faux fur fuzz. This Gold Fuzz Dome hat from the Benny Andallo digital collection.",
+      "price": 100000,
+      "maximum": 1,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Gold Fuzz Dome hat from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-ICE": {
+      "name": "Fuzz Dome | Ice",
+      "description": "Feel the faux fur fuzz. This Ice Fuzz Dome hat from the Benny Andallo digital collection.",
+      "price": 10000,
+      "maximum": 10,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Ice Fuzz Dome hat from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-LILAC": {
+      "name": "Fuzz Dome | Lilac",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Lilac colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Lilac colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-RED": {
+      "name": "Fuzz Dome | Red",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Red colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Red colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BENNY-ANDALLO-FUZZ-YELLOW": {
+      "name": "Fuzz Dome | Yellow",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Yellow colourway from the Benny Andallo digital collection.",
+      "price": 1000,
+      "maximum": 50,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Feel the faux fur fuzz. This Fuzz Dome hat in Yellow colourway from the Benny Andallo digital collection."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-BKRCRJ-CAVTBAS": {
+      "name": "Baker Crown Juicy",
+      "description": "Every King and Queen deserves a Crown. This Baker Crown hat in Juicy colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-BKRCRL-CAVTBAS": {
+      "name": "Baker Crown Leopard",
+      "description": "Every King and Queen deserves a Crown. This Baker Crown hat in Leopard colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-FZZDMF-CAVTBAS": {
+      "name": "Fuzz Dome Fuchsia",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Fuchsia colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-FZZDMP-CAVTBAS": {
+      "name": "Fuzz Dome Purple",
+      "description": "Feel the faux fur fuzz. This Fuzz Dome hat in Purple colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-WNKDMA-CAVTBAS": {
+      "name": "Wonky Dome Acid",
+      "description": "Step off the straight and narrow… Take a walk on the Wonky side. This Wonky Dome hat in Acid colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "BNNYND-WNKDMM-CAVTBAS": {
+      "name": "Wonky Dome Moo Moo",
+      "description": "Step off the straight and narrow… Take a walk on the Wonky side.  This Wonky Dome hat in Moo Moo colourway is one of six designs for Benny Andallo's first-ever digital collection.",
+      "price": null,
+      "maximum": 170,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "BENNY-ANDALLO",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-90S-SUNGLASSES": {
+      "name": "90s Sunglasses",
+      "description": "DG crossed, black tones and gold details: a modern and unique style, drawing inspiration from the 90s.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "DG crossed, black tones and gold details: a modern and unique style, drawing inspiration from the 90s. This giveaway SKN can be claimed by visiting sknups.com/dg-2084-awakening and is also available as an AR filter."
+      },
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-CHROME-SNEAKERS": {
+      "name": "Chrome Sneakers",
+      "description": "Chrome-shielded sneakers with DG tread. This limited-edition SKN can only be unlocked by entering the DG2084: Awakening Sweepstake by 21 October 2022.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "REWARD",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-DRESS-GARTER-LOOK": {
+      "name": "Dress & Garter Look",
+      "description": "Tulle dress with lace suspender and stockings, crystal mesh choker, patent ankle boots",
+      "price": 1900,
+      "maximum": 2000,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Tulle dress with lace suspender and stockings, crystal mesh choker, patent ankle boots"
+      },
+      "tier": "BLUE",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-DRESS-GARTER-LOOK-PROMO": {
+      "name": "Dress & Garter Look | Promo Edition",
+      "description": "Tulle dress with lace suspender and stockings, crystal mesh choker, patent ankle boots",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-GRAFFITI-GILET-LOOK": {
+      "name": "Graffiti Gilet Look",
+      "description": "Graffiti print Gilet, laces and eyelets dress, fingerless glove, lace-up trekking boots",
+      "price": 1400,
+      "maximum": 2495,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Graffiti print Gilet, laces and eyelets dress, fingerless glove, lace-up trekking boots"
+      },
+      "tier": "GREEN",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-GRAFFITI-GILET-LOOK-PARTNER": {
+      "name": "Graffiti Gilet Look | Partner Edition",
+      "description": "Crocodile-print tracksuit, New Roma sneakers, DG logo glasses, DG logo headwear",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-GRAFFITI-GILET-LOOK-PROMO": {
+      "name": "Graffiti Gilet Look | Promo Edition",
+      "description": "Graffiti print Gilet, laces and eyelets dress, fingerless glove, lace-up trekking boot",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-LAYERED-BLAZER-LOOK": {
+      "name": "Layered Blazer Look",
+      "description": "Technical Turlington blazer and pants, poplin shirt and tie, gold coin necklace, 90s sunglasses, earrings, cuff and purse, ankle boot with rhinestones. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops.",
+      "price": 7900,
+      "maximum": 500,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "Technical Turlington blazer and pants, poplin shirt and tie, gold coin necklace, 90s sunglasses, earrings, cuff and purse, ankle boot with rhinestones. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops."
+      },
+      "tier": "PURPLE",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-LAYERED-BLAZER-LOOK-PROMO": {
+      "name": "Layered Blazer Look | Promo Edition",
+      "description": "Technical Turlington blazer and pants, poplin shirt and tie, gold coin necklace, 90s sunglasses, earrings, cuff and purse, ankle boot with rhinestones. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-LAYERED-FAUX-FUR-LOOK": {
+      "name": "Layered Faux Fur Look",
+      "description": "Faux fur coat, Sicilia-fit suit with gold fit shirt, Domenico sunglasses, Bandana, Derby with stone embroidery. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops.",
+      "price": 7900,
+      "maximum": 500,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "Faux fur coat, Sicilia-fit suit with gold fit shirt, Domenico sunglasses, Bandana, Derby with stone embroidery. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops."
+      },
+      "tier": "PURPLE",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-LAYERED-FAUX-FUR-LOOK-PROMO": {
+      "name": "Layered Faux Fur Look | Promo Edition",
+      "description": "Faux fur coat, Sicilia-fit suit with gold fit shirt, Domenico sunglasses, Bandana, Derby with stone embroidery. Benefits include: Early edition premium SKN from future DG2084 drop and Pre-sale access to selected future drops.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-NEXT-GENERATION-MASK": {
+      "name": "Next Generation Mask",
+      "description": "The #DGEyewear Next Generation Mask embodies the messages of the FW2021 Women Runway Show: experimentation & innovation.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The #DGEyewear Next Generation Mask embodies the messages of the FW2021 Women Runway Show: experimentation & innovation. This giveaway SKN can be claimed by visiting sknups.com/dg-2084-awakening and is also available as an AR filter."
+      },
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-RED-FAUX-FUR-LOOK": {
+      "name": "Red Faux Fur Look",
+      "description": "Red faux fur coat, Sicilia-fit suit with gold fit shirt, Domenico sunglasses, Bandana, Quartz and diamond Crown brooch, Derby with stone embroidery. Benefits include: 2x tickets to DG Menswear Show in Jan 2023 and Limited edition IRL DG Gamer Tracksuit. See sknups.com for full details.",
+      "price": 199900,
+      "maximum": 2,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GOLD",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-RED-FAUX-FUR-LOOK-PROMO": {
+      "name": "Red Faux Fur Look | Promo Edition",
+      "description": "Red faux fur coat, Sicilia-fit suit with gold fit shirt, Domenico sunglasses, Bandana, Quartz and diamond Crown brooch, Derby with stone embroidery. Benefits include: 2x tickets to DG Menswear Show in Jan 2023 and Limited edition IRL DG Gamer Tracksuit. See sknups.com for full details.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-SILVER-BLAZER-LOOK": {
+      "name": "Silver Blazer Look",
+      "description": "Silver technical Turlington blazer and pants, poplin shirt and tie, gold coin necklace, 90s sunglasses, earrings, cuff and purse, ankle boot with rhinestones. Benefits include: 2x tickets to DG Menswear Show in Jan 2023 and Limited edition IRL DG Gamer Tracksuit. See sknups.com for full details.",
+      "price": 199900,
+      "maximum": 2,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GOLD",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-SILVER-BLAZER-LOOK-PROMO": {
+      "name": "Silver Blazer Look | Promo Edition",
+      "description": "Silver technical Turlington blazer and pants, poplin shirt and tie, gold coin necklace, 90s sunglasses, earrings, cuff and purse, ankle boot with rhinestones. Benefits include: 2x tickets to DG Menswear Show in Jan 2023 and Limited edition IRL DG Gamer Tracksuit. See sknups.com for full details.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-SLOPES-LOOK": {
+      "name": "Slopes Look",
+      "description": "DG logo print jacket, cargo pants, Chrome sneaker, DG logo belt and Next Generation mask",
+      "price": 1900,
+      "maximum": 2000,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "DG logo print jacket, cargo pants, Chrome sneaker, DG logo belt and Next Generation mask"
+      },
+      "tier": "BLUE",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-SLOPES-LOOK-PROMO": {
+      "name": "Slopes Look | Promo Edition",
+      "description": "DG logo print jacket, cargo pants, Chrome sneaker, DG logo belt and Next Generation mask",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-TRACKSUIT-LOOK": {
+      "name": "Tracksuit Look",
+      "description": "Crocodile-print tracksuit, New Roma sneakers, DG logo glasses, DG logo headwear",
+      "price": 1400,
+      "maximum": 2495,
+      "permissions": ["SELL"],
+      "brand": "DOLCE-GABBANA",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Crocodile-print tracksuit, New Roma sneakers, DG logo glasses, DG logo headwear"
+      },
+      "tier": "GREEN",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-TRACKSUIT-LOOK-PARTNER": {
+      "name": "Tracksuit Look | Partner Edition",
+      "description": "Crocodile-print tracksuit, New Roma sneakers, DG logo glasses, DG logo headwear",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-2084-TRACKSUIT-LOOK-PROMO": {
+      "name": "Tracksuit Look | Promo Edition",
+      "description": "Crocodile-print tracksuit, New Roma sneakers, DG logo glasses, DG logo headwear",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "DOLCE-GABBANA-WELCOME": {
+      "name": "DG Welcome",
+      "description": "Welcome to the start of the DG journey into gaming and digital collectibles",
+      "price": null,
+      "maximum": 10000000,
+      "permissions": [],
+      "brand": "DOLCE-GABBANA",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-BOILING-POINT": {
+      "name": "Boiling Point",
+      "description": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry.",
+      "price": null,
+      "maximum": 300,
+      "permissions": [],
+      "brand": "JAMES-MACK",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-BOILING-POINT-SCENIC": {
+      "name": "Boiling Point | Scenic",
+      "description": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry.",
+      "price": 8000,
+      "maximum": 100,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "JAMES-MACK",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "A mixed medium garment using waste materials found on the seashore. Nearly 20% of global water waste is produced by the fashion industry."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-SCRAPS": {
+      "name": "SCRAPS",
+      "description": "This season's hottest trend: SCRAPS is a dress made from plastic scraps based on an estimated 80% of things we throw away being recyclable.",
+      "price": null,
+      "maximum": 300,
+      "permissions": [],
+      "brand": "JAMES-MACK",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-SCRAPS-SCENIC": {
+      "name": "SCRAPS | Scenic",
+      "description": "This season's hottest trend: SCRAPS is a dress made from plastic scraps based on an estimated 80% of things we throw away being recyclable.",
+      "price": 4000,
+      "maximum": 250,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "JAMES-MACK",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "This season's hottest trend: SCRAPS is a dress made from plastic scraps based on an estimated 80% of things we throw away being recyclable."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-WHATS-IN-YOUR-BAG": {
+      "name": "What's In Your Bag",
+      "description": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tons of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University).",
+      "price": null,
+      "maximum": 300,
+      "permissions": [],
+      "brand": "JAMES-MACK",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "JAMES-MACK-WHATS-IN-YOUR-BAG-SCENIC": {
+      "name": "What's In Your Bag | Scenic",
+      "description": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tones of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University).",
+      "price": 2000,
+      "maximum": 500,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "JAMES-MACK",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "‘What's in your bag’ is a bin bag inspired outfit exploring how the fashion industry produces 92 million tones of textile waste every year (Dr. Kirsi Niinimäki, Design Researcher at Aalto University)."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-DAODSK-CCBRBAS": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are the key to unlocking Cybermonk's inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": null,
+      "maximum": 60,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-DAODSK-CCBRPLA": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are the key to unlocking Cybermonk's inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": null,
+      "maximum": 1,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-DAODSK-CPPRBAS": {
+      "name": "Dao-Disk Gloves",
+      "description": "The Dao-Disk gloves are the key to unlocking Cybermonk's inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel.",
+      "price": null,
+      "maximum": 5,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The Dao-Disk gloves are the key to unlocking Cybermonk's inner journey. They provide insulation and protection from the elements. However, the most important function is the Dao-Disk, which serves as a digital prayer wheel."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-HDETMR-CCBRBAS": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom. ",
+      "price": null,
+      "maximum": 60,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-HDETMR-CCBRPLA": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom.",
+      "price": null,
+      "maximum": 1,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-HDETMR-CPPRBAS": {
+      "name": "Timo Rusall Hoodie",
+      "description": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom.",
+      "price": null,
+      "maximum": 5,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The SKNUPS hoodie silhouette is traditionally streetwear-inspired, however the satin texture imbues the hoodie with elements of luxury. The graphic segments create the illusion of the Chinese Pine and the Japanese Cherry Blossom."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-KAPTCH-CCBRBAS": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": null,
+      "maximum": 60,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-KAPTCH-CCBRPLA": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": null,
+      "maximum": 1,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-KAPTCH-CPPRBAS": {
+      "name": "Kap-Tec Helmet",
+      "description": "The Kap-Tec Helmet has a HUD that provides Cybermonk with navigation, health monitoring and neural tracing. Made of high density carbon, it is lightweight and extremely tough. During meditation, the HUD dims to enhance the journey toward Zen.",
+      "price": null,
+      "maximum": 5,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-LUNRGT-CCBRBAS": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": null,
+      "maximum": 60,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-LUNRGT-CCBRPLA": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": null,
+      "maximum": 1,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-LUNRGT-CPPRBAS": {
+      "name": "Luna Geta-boots",
+      "description": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns.",
+      "price": null,
+      "maximum": 5,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The Luna Geta are inspired by the Japanese wooden clog. The two-pronged stands allow Cybermonk to travel across extreme terrain. The calf padding provides insulation and protection. The Geta link to the Kap-Tec Helmet to monitor seismic patterns."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-TCTQLT-CCBRBAS": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": null,
+      "maximum": 60,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-TCTQLT-CCBRPLA": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": null,
+      "maximum": 1,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNTMR-TCTQLT-CPPRBAS": {
+      "name": "Tactiquilt Robe",
+      "description": "The Tactiquilt is a durable outer layer worn by the Cybermonk. It is light, breathable and waterproof. Both stylish and practical, it protects the Cybermonk as they brave harsh environments, and provides an ethereal glow when meditating.",
+      "price": null,
+      "maximum": 5,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TIMO-RUSALL",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CCNNBAS": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CCNNPLA": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CCNNPLB": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CCNNPLC": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CSLRBAS": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CSLRPLA": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CSLRPLB": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPCVR-CSLRPLC": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CCNNBAS": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CCNNPLA": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CCNNPLB": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CCNNPLC": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CSLRBAS": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CSLRPLA": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CSLRPLB": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DEPOCN-CSLRPLC": {
+      "name": "DEEPS BACKPACK: DEEP OCEAN",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep OCEAN Edition will allow you to submerge and focus, diving into the waters of daily life.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CCNNBAS": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CCNNPLA": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CCNNPLB": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CCNNPLC": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CSLRBAS": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CSLRPLA": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CSLRPLB": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHESC-CSLRPLC": {
+      "name": "DAPHNE DRESS: THE ESCAPE",
+      "description": "Transcend space and time with the Daphne dresses. With the ESCAPE, you may evade even Apollo himself.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-DPHSLV-CCLRBAS": {
+      "name": "Daphne Silver Dress",
+      "description": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself.",
+      "price": 2500,
+      "maximum": 5,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Transcend space and time with the Daphne dress. In this silver edition you may evade even Apollo himself."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-GVRCRY-CCLRBAS": {
+      "name": "Geode Marble Jacket",
+      "description": "Sculpted from the finest digital Marquina marble and embellished with crystal.",
+      "price": 2500,
+      "maximum": 5,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Sculpted from the finest digital Marquina marble and embellished with crystal."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-HALLOWEEN-HOODIE": {
+      "name": "Halloween Hoodie",
+      "description": "Creep it real with this Original SKNUPS Trick or Treat Hoodie, finished with Lenticular Pumpkin illustrations. Created to celebrate Halloween 2022!",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-HOLIDAY-PUFFER": {
+      "name": "Holiday Puffer",
+      "description": "Wrap up warm and keep it festive in this holiday Bauble Puffer. Yule be looking pine!",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-KHRONOS-AZURE": {
+      "name": "Olympus Khronos Sneakers - Mystify Azure",
+      "description": "Olympus Khronos Sneakers - Mystify Azure",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-KHRONOS-BRONZE": {
+      "name": "Olympus Khronos Sneakers - Mystify Bronze",
+      "description": "Olympus Khronos Sneakers - Mystify Bronze",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-OLMBKG-CCLRBAS": {
+      "name": "Olympus Black Gloss",
+      "description": "Sculpted from the finest digital Marquina marble and dipped in gold.",
+      "price": 1000,
+      "maximum": 10,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Sculpted from the finest digital Marquina marble and dipped in gold."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMBKM-CCLRBAS": {
+      "name": "Olympus Black Matte",
+      "description": "Sculpted from the finest digital Marquina marble and accented with gold.",
+      "price": 1000,
+      "maximum": 10,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Sculpted from the finest digital Marquina marble and accented with gold."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CCNNBAS": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CCNNPLA": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CCNNPLB": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CCNNPLC": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CSLRBAS": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CSLRPLA": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CSLRPLB": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHDS-CSLRPLC": {
+      "name": "OLYMPUS SNEAKER: HADES",
+      "description": "The SKNUPS Olympus sneaker line. HADES Edition: Rule the underworld, Rule the world, Rule the streets.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CCNNBAS": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CCNNPLA": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CCNNPLB": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CCNNPLC": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CSLRBAS": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CSLRPLA": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 20,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CSLRPLB": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 10,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMHER-CSLRPLC": {
+      "name": "OLYMPUS SNEAKER: HERA",
+      "description": "The SKNUPS Olympus sneaker line. HERA Edition: Olympian of the gods, always something to behold, always worth paying attention to.",
+      "price": null,
+      "maximum": 30,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMKHR-CBNRPLD": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "This is the Early Adopters limited edition of the KHRONOS Sneaker.  Thank you for joining SKNUPS for our initial drop - your timing is impeccable.",
+      "price": null,
+      "maximum": 50,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMKHR-CMYABAS": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
+      "price": null,
+      "maximum": 500000,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMKHR-CMYBBAS": {
+      "name": "OLYMPUS SNEAKER: KHRONOS",
+      "description": "The SKNUPS Olympus sneaker line. KHRONOS Edition: King of the Titans and the god of time, you’ll have all the time to shine and look like a dime.",
+      "price": null,
+      "maximum": 500000,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-OLMWHM-CCLRBAS": {
+      "name": "Olympus White Matte",
+      "description": "Sculpted from the finest digital Carrera marble and accented with gold.",
+      "price": 1000,
+      "maximum": 10,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "Sculpted from the finest digital Carrera marble and accented with gold."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-BASEBALL-CAP": {
+      "name": "SKNUPS-WARDROBE-BASEBALL-CAP",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-BOILER-SUIT": {
+      "name": "SKNUPS-WARDROBE-BOILER-SUIT",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-HOODIE": {
+      "name": "SKNUPS-WARDROBE-HOODIE",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-JEANS": {
+      "name": "SKNUPS-WARDROBE-JEANS",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-JOGGERS": {
+      "name": "SKNUPS-WARDROBE-JOGGERS",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-NEW-SCHOOL-SNEAKERS": {
+      "name": "SKNUPS-WARDROBE-NEW-SCHOOL-SNEAKERS",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-OLD-SCHOOL-SNEAKERS": {
+      "name": "SKNUPS-WARDROBE-OLD-SCHOOL-SNEAKERS",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-PARKA": {
+      "name": "SKNUPS-WARDROBE-PARKA",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-PUFFER-JACKET": {
+      "name": "SKNUPS-WARDROBE-PUFFER-JACKET",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "SKNUPS-WARDROBE-T-SHIRT": {
+      "name": "SKNUPS-WARDROBE-T-SHIRT",
+      "description": "",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "SKNUPS",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-CUBE-COMMON": {
+      "name": "Common Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": null,
+      "maximum": 1000000,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": null,
+      "tier": null,
+      "claim": null
+    },
+    "TEST-CUBE-EPIC": {
+      "name": "Epic Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 1000,
+      "maximum": 1000,
+      "permissions": ["SELL"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "TEST-CUBE-MYTHIC": {
+      "name": "Mythic Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": 10000,
+      "maximum": 100,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "TEST-CUBE-RARE": {
+      "name": "Rare Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": null,
+      "maximum": 5000,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "TEST-CUBE-UNCOMMON": {
+      "name": "Uncommon Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "price": null,
+      "maximum": 10000,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth."
+      },
+      "tier": null,
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-BLUE": {
+      "name": "Blue Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 7000,
+      "maximum": 5000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven."
+      },
+      "tier": "BLUE",
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-GIVEAWAY": {
+      "name": "Giveaway Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven."
+      },
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-GOLD": {
+      "name": "Gold Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 100000,
+      "maximum": 100,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": { "media": "VIDEO", "marketing": "Buy this SKN!" },
+      "tier": "GOLD",
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-GREEN": {
+      "name": "Green Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 3000,
+      "maximum": 10000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven."
+      },
+      "tier": "GREEN",
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-PURPLE": {
+      "name": "Purple Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": 10000,
+      "maximum": 2500,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven."
+      },
+      "tier": "PURPLE",
+      "claim": null
+    },
+    "TEST-DODECAHEDRON-REWARD": {
+      "name": "Reward Dodecahedron",
+      "description": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The most mysterious of all the polyhedra; the quintessence. Plato believed that God, architect and geometer of the universe, used dodecahedra to embroider the constellations onto heaven."
+      },
+      "tier": "REWARD",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-BLUE": {
+      "name": "Blue Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 2000,
+      "maximum": 5000,
+      "permissions": ["SELL"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "BLUE",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-GIVEAWAY": {
+      "name": "Giveaway Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-GOLD": {
+      "name": "Gold Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 10000,
+      "maximum": 100,
+      "permissions": ["SELL"],
+      "brand": "TEST",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "GOLD",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-GREEN": {
+      "name": "Green Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 1000,
+      "maximum": 10000,
+      "permissions": ["SELL"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "GREEN",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-PURPLE": {
+      "name": "Purple Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": 5000,
+      "maximum": 2500,
+      "permissions": ["SELL"],
+      "brand": "TEST",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "PURPLE",
+      "claim": null
+    },
+    "TEST-ICOSAHEDRON-REWARD": {
+      "name": "Reward Icosahedron",
+      "description": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The water element. Twenty triangles in a polyhedral soup. In nature, the icosahedron can be seen in the folded structures of bacteriophages and viruses.\n"
+      },
+      "tier": "REWARD",
+      "claim": null
+    },
+    "TEST-LOAD-TEST-2": {
+      "name": "Load Test SKU 2",
+      "description": "Load Test giveaway v2 SKU",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-OCTAHEDRON-BLUE": {
+      "name": "Blue Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 7000,
+      "maximum": 5000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": null,
+      "tier": "BLUE",
+      "claim": null
+    },
+    "TEST-OCTAHEDRON-GIVEAWAY": {
+      "name": "Giveaway Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": null,
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-OCTAHEDRON-GREEN": {
+      "name": "Green Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 3000,
+      "maximum": 10000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": null,
+      "tier": "GREEN",
+      "claim": null
+    },
+    "TEST-OCTAHEDRON-PURPLE": {
+      "name": "Purple Octahedron",
+      "description": "The air element. Octahedra are sparkling crystals of diamond, and magnetite.",
+      "price": 10000,
+      "maximum": 2500,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": null,
+      "tier": "PURPLE",
+      "claim": null
+    },
+    "TEST-TETRAHEDRON-BLUE": {
+      "name": "Blue Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 5000,
+      "maximum": 5000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices."
+      },
+      "tier": "BLUE",
+      "claim": null
+    },
+    "TEST-TETRAHEDRON-GIVEAWAY": {
+      "name": "Giveaway Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": null,
+      "maximum": null,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices."
+      },
+      "tier": "GIVEAWAY",
+      "claim": null
+    },
+    "TEST-TETRAHEDRON-GREEN": {
+      "name": "Green Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 2000,
+      "maximum": 10000,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "STATIC",
+        "marketing": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices."
+      },
+      "tier": "GREEN",
+      "claim": null
+    },
+    "TEST-TETRAHEDRON-PURPLE": {
+      "name": "Purple Tetrahedron",
+      "description": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices.",
+      "price": 10000,
+      "maximum": 2500,
+      "permissions": ["SELL", "METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": {
+        "media": "VIDEO",
+        "marketing": "The fire element. Simplest of all polyhedra, strongest of all pyramids, the tetrahedron has only four prickly vertices."
+      },
+      "tier": "PURPLE",
+      "claim": null
+    }
+  },
+  "brand": {
+    "BENNY-ANDALLO": { "name": "Benny Andallo" },
+    "DOLCE-GABBANA": { "name": "Dolce&Gabbana" },
+    "JAMES-MACK": { "name": "James Mack" },
+    "TIMO-RUSALL": { "name": "Timo Rusall" },
+    "SKNUPS": { "name": "SKNUPS" },
+    "TEST": { "name": "TEST" }
+  }
+}
