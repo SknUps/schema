@@ -18,9 +18,9 @@
   ],
   "scripts": {
     "auth": "npx google-artifactregistry-auth",
+    "build": "npm run compile",
     "precompile": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
     "compile": "tsc",
-    "build": "npm run compile",
     "lint": "eslint --fix --ext .js,.json .",
     "test": "mocha --fail-zero --exclude test/test-catalog-loader.js test/**",
     "test-catalog": "mocha --fail-zero test/test-catalog-loader.js"
