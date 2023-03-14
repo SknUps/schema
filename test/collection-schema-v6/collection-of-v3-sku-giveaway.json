@@ -1,0 +1,32 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-01",
+      "name": "v3 Giveaway SKU 01",
+      "description": "can be discovered, GIVEAWAY tier",
+      "tier": "GIVEAWAY",
+      "discover": "STATIC",
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-02",
+      "name": "v3 Giveaway SKU 02",
+      "description": "cannot be discovered, REWARD tier",
+      "tier": "REWARD",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    }
+  ]
+}
