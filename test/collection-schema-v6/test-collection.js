@@ -16,7 +16,7 @@ describe('collection-schema-v5.json', () => {
   ];
   for (const each of json) {
     it(`validates ${each}`, () => {
-      const schema = fs.readFileSync(resolve(__dirname, '../../docs/collection/collection-schema-v5.json'));
+      const schema = fs.readFileSync(resolve(__dirname, '../../docs/collection/collection-schema-v6.json'));
       const example = fs.readFileSync(resolve(__dirname, `./${each}`));
       deserialize(example, schema);
     });

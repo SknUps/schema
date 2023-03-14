@@ -19,7 +19,10 @@
         "primary": {
           "type": "STATIC"
         },
-        "secondary": []
+        "secondary": [],
+        "three": {
+          "type": "NONE"
+        }
       }
     },
     {
@@ -39,7 +42,10 @@
         "primary": {
           "type": "STATIC"
         },
-        "secondary": []
+        "secondary": [],
+        "three": {
+          "type": "SIMPLE"
+        }
       }
     },
     {
