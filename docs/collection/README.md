@@ -33,3 +33,13 @@ Permit breaking change to SKU Data Model v1 / v2 to prevent confusion between th
 Introduce SKU Data Model v3.
 
 This permits `media`, and therefore multiple `secondary` media comprising an Item Carousel.
+
+## `collection-schema-v6.json`
+
+Introduce optional 3D.
+
+This introduces an optional `three` object to `media`.  If present it allows a type to be specified:
+- SIMPLE - traditional 3D with glb and environment json
+- NONE - no 3D
+
+If absent, existing behaviour should be observed which is equivalent to type SIMPLE.
