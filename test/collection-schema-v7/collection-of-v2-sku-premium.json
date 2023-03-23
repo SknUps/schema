@@ -8,7 +8,7 @@
       "tier": "GREEN",
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "enumerated": {
+      "enumeration": {
         "quantity": 10,
         "reserved": 1,
         "withheld": 2,
@@ -66,7 +66,7 @@
       "tier": "GREEN",
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "enumerated": {
+      "enumeration": {
         "quantity": 10,
         "expires": "2023-03-23T15:06:00Z",
         "allocation": "RANDOM"
@@ -121,7 +121,7 @@
       "tier": "BLUE",
       "skn": "DYNAMIC",
       "discover": null,
-      "enumerated": {
+      "enumeration": {
         "quantity": 10
       },
       "price": {
@@ -176,7 +176,7 @@
       "tier": "GOLD",
       "skn": "DYNAMIC",
       "discover": null,
-      "enumerated": {
+      "enumeration": {
         "quantity": 10
       },
       "price": {
