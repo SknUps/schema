@@ -69,8 +69,8 @@
                 }
               ]
             },
-            "enumerated": {
-              "$ref": "#/definitions/enumerated"
+            "enumeration": {
+              "$ref": "#/definitions/enumeration"
             },
             "rarity": {
               "$ref": "#/definitions/rarity"
@@ -417,7 +417,7 @@
       "type": "integer",
       "minimum": 0
     },
-    "enumerated": {
+    "enumeration": {
       "type": "object",
       "properties": {
         "quantity": {
@@ -836,15 +836,15 @@
         "price"
       ]
     },
-    "must-be-enumerated": {
+    "must-have-enumeration": {
       "type": "object",
       "properties": {
-        "enumerated": {
-          "$ref": "#/definitions/enumerated"
+        "enumeration": {
+          "$ref": "#/definitions/enumeration"
         }
       },
       "required": [
-        "enumerated"
+        "enumeration"
       ]
     },
     "must-have-rarity": {
@@ -889,9 +889,9 @@
         "$ref": "#/definitions/must-have-price"
       }
     },
-    "must-not-be-enumerated": {
+    "must-not-have-enumeration": {
       "not": {
-        "$ref": "#/definitions/must-be-enumerated"
+        "$ref": "#/definitions/must-have-enumeration"
       }
     },
     "must-not-have-rarity": {
@@ -917,7 +917,7 @@
             "$ref": "#/definitions/must-not-have-media"
           },
           {
-            "$ref": "#/definitions/must-be-enumerated"
+            "$ref": "#/definitions/must-have-enumeration"
           },
           {
             "$ref": "#/definitions/must-have-rarity"
@@ -947,7 +947,7 @@
             "$ref": "#/definitions/must-not-have-price"
           },
           {
-            "$ref": "#/definitions/must-not-be-enumerated"
+            "$ref": "#/definitions/must-not-have-enumeration"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -977,7 +977,7 @@
             "$ref": "#/definitions/must-have-price"
           },
           {
-            "$ref": "#/definitions/must-be-enumerated"
+            "$ref": "#/definitions/must-have-enumeration"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -1007,7 +1007,7 @@
             "$ref": "#/definitions/must-not-have-price"
           },
           {
-            "$ref": "#/definitions/must-not-be-enumerated"
+            "$ref": "#/definitions/must-not-have-enumeration"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -1037,7 +1037,7 @@
             "$ref": "#/definitions/must-have-price"
           },
           {
-            "$ref": "#/definitions/must-be-enumerated"
+            "$ref": "#/definitions/must-have-enumeration"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
