@@ -5,7 +5,7 @@ import { deserialize } from '../deserialize.js';
 
 const __dirname = dirname(new URL(import.meta.url).pathname);
 
-describe('collection-schema-v6.json', () => {
+describe('collection-schema-v7.json', () => {
   const json = [
     'collection-of-v1-sku.json',
     'collection-of-v2-sku-giveaway.json',
@@ -16,7 +16,7 @@ describe('collection-schema-v6.json', () => {
   ];
   for (const each of json) {
     it(`validates ${each}`, () => {
-      const schema = fs.readFileSync(resolve(__dirname, '../../docs/collection/collection-schema-v6.json'));
+      const schema = fs.readFileSync(resolve(__dirname, '../../docs/collection/collection-schema-v7.json'));
       const example = fs.readFileSync(resolve(__dirname, `./${each}`));
       deserialize(example, schema);
     });

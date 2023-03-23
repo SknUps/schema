@@ -1,0 +1,145 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-01",
+      "name": "v1 Legacy SKU 01",
+      "description": "for sale, can be discovered, can be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10,
+        "reserved": 1,
+        "withheld": 2,
+        "expires": "2023-03-23T15:06:00Z"
+      },
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-02",
+      "name": "v1 Legacy SKU 02",
+      "description": "for sale, can be discovered, cannot be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10,
+        "expires": "2023-03-23T15:06:00Z"
+      },
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-03",
+      "name": "v1 Legacy SKU 03",
+      "description": "for sale, cannot be discovered, can be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10
+      },
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-04",
+      "name": "v1 Legacy SKU 04",
+      "description": "for sale, cannot be discovered, cannot be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10
+      },
+      "rarity": 1,
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-05",
+      "name": "v1 Legacy SKU 05",
+      "description": "for giveaway, can be discovered, can be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10
+      },
+      "rarity": 1,
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-06",
+      "name": "v1 Legacy SKU 06",
+      "description": "for giveaway, can be discovered, cannot be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10
+      },
+      "rarity": 1,
+      "mint": []
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-07",
+      "name": "v1 Legacy SKU 07",
+      "description": "for giveaway, cannot be discovered, can be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10
+      },
+      "rarity": 1,
+      "mint": [
+        "SOLANA"
+      ]
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V1-LEGACY-08",
+      "name": "v1 Legacy SKU 08",
+      "description": "for giveaway, cannot be discovered, cannot be minted",
+      "tier": null,
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10,
+        "allocation": "RANDOM"
+      },
+      "rarity": 1,
+      "mint": []
+    }
+  ]
+}

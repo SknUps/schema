@@ -1,0 +1,225 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V2-PREMIUM-01",
+      "name": "v2 Premium SKU 01",
+      "description": "can be discovered, can be minted",
+      "tier": "GREEN",
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10,
+        "reserved": 1,
+        "withheld": 2,
+        "expires": "2023-03-23T15:06:00Z"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V2-PREMIUM-02",
+      "name": "v2 Premium SKU 02",
+      "description": "can be discovered, cannot be minted",
+      "tier": "GREEN",
+      "skn": "DYNAMIC",
+      "discover": "STATIC",
+      "enumerated": {
+        "quantity": 10,
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "RANDOM"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V2-PREMIUM-03",
+      "name": "v2 Premium SKU 03",
+      "description": "cannot be discovered, can be minted",
+      "tier": "BLUE",
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V2-PREMIUM-04",
+      "name": "v2 Premium SKU 04",
+      "description": "cannot be discovered, cannot be minted",
+      "tier": "GOLD",
+      "skn": "DYNAMIC",
+      "discover": null,
+      "enumerated": {
+        "quantity": 10
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "card": {
+        "front": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "35pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 100,
+            "y": 1100
+          }
+        ],
+        "back": [
+          {
+            "text": "${issue}/${maximum}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 270
+          },
+          {
+            "text": "${token}",
+            "color": "#FFFFFFFF",
+            "size": "25pt",
+            "font": "Share Tech Mono",
+            "weight": "Regular",
+            "align": "center",
+            "x": 470,
+            "y": 340
+          }
+        ]
+      }
+    }
+  ]
+}
