@@ -69,8 +69,8 @@
                 }
               ]
             },
-            "quantity": {
-              "$ref": "#/definitions/quantity"
+            "enumerated": {
+              "$ref": "#/definitions/enumerated"
             },
             "rarity": {
               "$ref": "#/definitions/rarity"
@@ -416,6 +416,36 @@
     "quantity": {
       "type": "integer",
       "minimum": 0
+    },
+    "enumerated": {
+      "type": "object",
+      "properties": {
+        "quantity": {
+          "$ref": "#/definitions/quantity"
+        },
+        "reserved": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "withheld": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "expires": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "allocation": {
+          "enum": [
+            "SEQUENTIAL",
+            "RANDOM"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "quantity"
+      ]
     },
     "rarity": {
       "type": "integer",
@@ -806,15 +836,15 @@
         "price"
       ]
     },
-    "must-have-quantity": {
+    "must-be-enumerated": {
       "type": "object",
       "properties": {
-        "quantity": {
-          "$ref": "#/definitions/quantity"
+        "enumerated": {
+          "$ref": "#/definitions/enumerated"
         }
       },
       "required": [
-        "quantity"
+        "enumerated"
       ]
     },
     "must-have-rarity": {
@@ -859,9 +889,9 @@
         "$ref": "#/definitions/must-have-price"
       }
     },
-    "must-not-have-quantity": {
+    "must-not-be-enumerated": {
       "not": {
-        "$ref": "#/definitions/must-have-quantity"
+        "$ref": "#/definitions/must-be-enumerated"
       }
     },
     "must-not-have-rarity": {
@@ -887,7 +917,7 @@
             "$ref": "#/definitions/must-not-have-media"
           },
           {
-            "$ref": "#/definitions/must-have-quantity"
+            "$ref": "#/definitions/must-be-enumerated"
           },
           {
             "$ref": "#/definitions/must-have-rarity"
@@ -917,7 +947,7 @@
             "$ref": "#/definitions/must-not-have-price"
           },
           {
-            "$ref": "#/definitions/must-not-have-quantity"
+            "$ref": "#/definitions/must-not-be-enumerated"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -947,7 +977,7 @@
             "$ref": "#/definitions/must-have-price"
           },
           {
-            "$ref": "#/definitions/must-have-quantity"
+            "$ref": "#/definitions/must-be-enumerated"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -977,7 +1007,7 @@
             "$ref": "#/definitions/must-not-have-price"
           },
           {
-            "$ref": "#/definitions/must-not-have-quantity"
+            "$ref": "#/definitions/must-not-be-enumerated"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"
@@ -1007,7 +1037,7 @@
             "$ref": "#/definitions/must-have-price"
           },
           {
-            "$ref": "#/definitions/must-have-quantity"
+            "$ref": "#/definitions/must-be-enumerated"
           },
           {
             "$ref": "#/definitions/must-not-have-rarity"

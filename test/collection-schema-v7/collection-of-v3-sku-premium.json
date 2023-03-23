@@ -7,7 +7,13 @@
       "description": "can be discovered, can be minted",
       "tier": "GREEN",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "reserved": 1,
+        "withheld": 2,
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "RANDOM"
+      },
       "price": {
         "retail": 1000,
         "wholesale": 500
@@ -32,7 +38,11 @@
       "description": "can be discovered, cannot be minted",
       "tier": "GREEN",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "SEQUENTIAL"
+      },
       "price": {
         "retail": 1000,
         "wholesale": 500
@@ -55,7 +65,11 @@
       "description": "cannot be discovered, can be minted",
       "tier": "BLUE",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "reserved": 1,
+        "withheld": 2
+      },
       "price": {
         "retail": 1000,
         "wholesale": 500
@@ -77,7 +91,9 @@
       "description": "cannot be discovered, cannot be minted",
       "tier": "GOLD",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "price": {
         "retail": 1000,
         "wholesale": 500

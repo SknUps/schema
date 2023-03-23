@@ -8,7 +8,12 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "reserved": 1,
+        "withheld": 2,
+        "expires": "2023-03-23T15:06:00Z"
+      },
       "rarity": 1,
       "price": {
         "retail": 1000,
@@ -26,7 +31,10 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "expires": "2023-03-23T15:06:00Z"
+      },
       "rarity": 1,
       "price": {
         "retail": 1000,
@@ -42,7 +50,9 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "rarity": 1,
       "price": {
         "retail": 1000,
@@ -60,7 +70,9 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "rarity": 1,
       "price": {
         "retail": 1000,
@@ -76,7 +88,9 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "rarity": 1,
       "mint": [
         "SOLANA"
@@ -90,7 +104,9 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": "STATIC",
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "rarity": 1,
       "mint": []
     },
@@ -102,7 +118,9 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10
+      },
       "rarity": 1,
       "mint": [
         "SOLANA"
@@ -116,7 +134,10 @@
       "tier": null,
       "skn": "DYNAMIC",
       "discover": null,
-      "quantity": 10,
+      "enumerated": {
+        "quantity": 10,
+        "allocation": "RANDOM"
+      },
       "rarity": 1,
       "mint": []
     }
