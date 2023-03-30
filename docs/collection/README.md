@@ -43,3 +43,18 @@ This introduces an optional `three` object to `media`.  If present it allows a t
 - NONE - no 3D
 
 If absent, existing behaviour should be observed which is equivalent to type SIMPLE.
+
+## `collection-schema-v7.json`
+
+Add `enumeration` property.
+
+Moved `quantity` into `enumeration` property, this is the only required property for  `enumeration`
+
+Other optional properties to support new stock features
+
+- `reserved`, number of items to reserve for premium drop links. Default 0
+- `withheld`, number of items to withhold from purchase or claim. Default 0
+- `expires`, ISO 8601 date time SKU will expire and not be available for from purchase or claim. Default not set
+- `allocation`, should issue numbers be assigned in a `SEQUENTIAL` or `RANDOM` order. Default sequential
+
+Note: `allocation` can't be changed
