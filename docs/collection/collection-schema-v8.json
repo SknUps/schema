@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/collection/collection-schema-v7.json",
+  "$id": "https://sknups.github.io/schema/collection/collection-schema-v8.json",
   "title": "collection",
   "description": "a collection of SKU which may be added to the catalog",
   "type": "object",
@@ -414,22 +414,31 @@
       }
     },
     "quantity": {
-      "type": "integer",
-      "minimum": 0
+      "type": "object",
+      "properties": {
+        "overall": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "purchase": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "claim": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "overall"
+      ]
     },
     "enumeration": {
       "type": "object",
       "properties": {
         "quantity": {
           "$ref": "#/definitions/quantity"
-        },
-        "reserved": {
-          "type": "integer",
-          "minimum": 0
-        },
-        "withheld": {
-          "type": "integer",
-          "minimum": 0
         },
         "expires": {
           "type": "string",
