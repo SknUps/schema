@@ -1,0 +1,119 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-01",
+      "name": "Premium SKU 01",
+      "description": "can be discovered, can be minted",
+      "tier": "GREEN",
+      "discover": "STATIC",
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 7,
+          "claim": 1
+        },
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "RANDOM"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": [],
+        "three": {
+          "type": "NONE"
+        }
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-02",
+      "name": "Premium SKU 02",
+      "description": "can be discovered, cannot be minted",
+      "tier": "GREEN",
+      "discover": "STATIC",
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 10
+        },
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "SEQUENTIAL"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": [],
+        "three": {
+          "type": "SIMPLE"
+        }
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-03",
+      "name": "Premium SKU 03",
+      "description": "cannot be discovered, can be minted",
+      "tier": "BLUE",
+      "discover": null,
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 10
+        }
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PREMIUM-04",
+      "name": "Premium SKU 04",
+      "description": "cannot be discovered, cannot be minted",
+      "tier": "GOLD",
+      "discover": null,
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 10
+        }
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [],
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    }
+  ]
+}
