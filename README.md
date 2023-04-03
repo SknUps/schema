@@ -37,3 +37,10 @@ The library version is managed by github actions.
 ### sku-3d-config
 [`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json)
 
+## Symlinks
+
+In order to publish a new schema to GitHub pages, do this:
+
+```bash
+  ln -sf <doc>-schema-<version>.json docs/<doc>/<doc>-schema.json
+```
