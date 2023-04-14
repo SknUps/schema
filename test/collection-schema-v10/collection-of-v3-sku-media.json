@@ -1,0 +1,133 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-01",
+      "name": "v3 Giveaway SKU 01",
+      "description": "STATIC primary",
+      "tier": "GIVEAWAY",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-02",
+      "name": "v3 Giveaway SKU 02",
+      "description": "DYNAMIC primary",
+      "tier": "GIVEAWAY",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "DYNAMIC",
+          "labels": [
+            {
+              "text": "${token}",
+              "color": "#ffffffff",
+              "size": "25pt",
+              "font": "Share Tech Mono",
+              "weight": "Regular",
+              "align": "left",
+              "x": 470,
+              "y": 340
+            }
+          ]
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-03",
+      "name": "v3 Giveaway SKU 03",
+      "description": "VIDEO primary",
+      "tier": "GIVEAWAY",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "VIDEO"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-04",
+      "name": "v3 Giveaway SKU 04",
+      "description": "heterogenous secondary, no links",
+      "tier": "GIVEAWAY",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": [
+          {
+            "type": "STATIC"
+          },
+          {
+            "type": "DYNAMIC",
+            "labels": [
+              {
+                "text": "${token}",
+                "color": "#ffffffff",
+                "size": "25pt",
+                "font": "Share Tech Mono",
+                "weight": "Regular",
+                "align": "left",
+                "x": 470,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "type": "VIDEO"
+          }
+        ]
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-V3-GIVEAWAY-04",
+      "name": "v3 Giveaway SKU 04",
+      "description": "heterogenous secondary, with links",
+      "tier": "GIVEAWAY",
+      "discover": null,
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": [
+          {
+            "type": "STATIC",
+            "link": "https://sknups.com"
+          },
+          {
+            "type": "DYNAMIC",
+            "labels": [
+              {
+                "text": "${token}",
+                "color": "#ffffffff",
+                "size": "25pt",
+                "font": "Share Tech Mono",
+                "weight": "Regular",
+                "align": "left",
+                "x": 470,
+                "y": 340
+              }
+            ],
+            "link": "https://sknups.com"
+          },
+          {
+            "type": "VIDEO",
+            "link": "https://sknups.com"
+          }
+        ]
+      }
+    }
+  ]
+}

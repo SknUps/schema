@@ -58,3 +58,20 @@ Other optional properties to support new stock features
 - `allocation`, should issue numbers be assigned in a `SEQUENTIAL` or `RANDOM` order. Default sequential
 
 Note: `allocation` can't be changed
+
+## `collection-schema-v8.json`
+
+Improve `enumeration` property.
+
+- `reserved` and `withheld` are not possible
+- `quantity` is now an object with `overall`, `claim`, and `purchase`
+
+## `collection-schema-v9.json`
+
+Hex colours must now be lowercase.
+
+## `collection-schema-v10.json`
+
+Remove support for v2 SKU Data Model.
+
+Remove support for YouTube secondary media.
