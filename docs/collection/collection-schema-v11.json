@@ -1,0 +1,863 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/collection/collection-schema-v11.json",
+  "title": "collection",
+  "description": "a collection of SKU",
+  "type": "object",
+  "properties": {
+    "collection": {
+      "title": "collection of SKUs",
+      "description": "an unordered list of SKU which comprise this collection",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/sku"
+      }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "sku": {
+      "title": "SKU",
+      "description": "a Stock Keeping Unit, from which individual items (\"SKNs\") can be manufactured on demand",
+      "type": "object",
+      "allOf": [
+        {
+          "properties": {
+            "platform": {
+              "type": "string"
+            },
+            "brand": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,22}[A-Z0-9]$"
+            },
+            "code": {
+              "type": "string",
+              "pattern": "^[A-Z0-9][A-Z0-9-]{0,62}[A-Z0-9]$"
+            },
+            "name": {
+              "type": "string"
+            },
+            "tier": {
+              "type": "string"
+            },
+            "legacy": {
+              "type": "boolean"
+            },
+            "type": {
+              "$ref": "#/definitions/sku-type"
+            },
+            "description": {
+              "type": "string"
+            },
+            "discover": {
+              "$ref": "#/definitions/discover"
+            },
+            "skn": {
+              "$ref": "#/definitions/skn-media"
+            },
+            "rarity": {
+              "$ref": "#/definitions/rarity"
+            },
+            "media": {
+              "$ref": "#/definitions/item-media"
+            },
+            "enumeration": {
+              "$ref": "#/definitions/enumeration"
+            },
+            "price": {
+              "$ref": "#/definitions/price"
+            },
+            "mint": {
+              "$ref": "#/definitions/mint"
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "brand",
+            "code",
+            "name",
+            "type",
+            "description",
+            "discover"
+          ]
+        },
+        {
+          "$ref": "#/definitions/rules-for-legacy-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-non-legacy-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-giveaway-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-restricted-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-enumerated-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-purchasable-sku"
+        },
+        {
+          "$ref": "#/definitions/rules-for-mintable-sku"
+        }
+      ]
+    },
+    "sku-type": {
+      "enum": [
+        "GIVEAWAY",
+        "RESTRICTED",
+        "ENUMERATED",
+        "PURCHASABLE",
+        "MINTABLE"
+      ]
+    },
+    "discover": {
+      "type": "object",
+      "properties": {
+        "media": {
+          "$ref": "#/definitions/discover-media"
+        },
+        "marketing": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "media"
+      ]
+    },
+    "discover-media": {
+      "enum": [
+        "STATIC",
+        "VIDEO",
+        null
+      ]
+    },
+    "skn-media": {
+      "$comment": "LEGACY",
+      "enum": [
+        "DYNAMIC",
+        "VIDEO"
+      ]
+    },
+    "skn-is-present": {
+      "$comment": "LEGACY",
+      "type": "object",
+      "properties": {
+        "skn": {
+          "$ref": "#/definitions/skn-media"
+        }
+      },
+      "required": [
+        "skn"
+      ]
+    },
+    "skn-is-absent": {
+      "$comment": "LEGACY",
+      "not": {
+        "$ref": "#/definitions/skn-is-present"
+      }
+    },
+    "rarity": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 5
+    },
+    "item-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary": {
+          "$ref": "#/definitions/primary-item-medium"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/secondary-item-medium"
+          }
+        },
+        "three": {
+          "$ref": "#/definitions/three-item-medium"
+        }
+      },
+      "required": [
+        "primary",
+        "secondary"
+      ]
+    },
+    "primary-item-medium": {
+      "allOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "enum": [
+                "STATIC",
+                "DYNAMIC",
+                "VIDEO"
+              ]
+            },
+            "labels": {
+              "$ref": "#/definitions/labels"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-have-labels"
+          }
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-not-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-not-have-labels"
+          }
+        }
+      ]
+    },
+    "secondary-item-medium": {
+      "allOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "enum": [
+                "STATIC",
+                "DYNAMIC",
+                "VIDEO"
+              ]
+            },
+            "labels": {
+              "$ref": "#/definitions/labels"
+            },
+            "link": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-have-labels"
+          }
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-not-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-not-have-labels"
+          }
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-not-medium-type-which-permits-link"
+          },
+          "then": {
+            "$ref": "#/definitions/must-not-have-link"
+          }
+        }
+      ]
+    },
+    "three-item-medium": {
+      "$comment": "Enable / disable 3D model",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "NONE",
+            "SIMPLE"
+          ]
+        }
+      },
+      "required": [
+        "type"
+      ]
+    },
+    "is-medium-type-static": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "STATIC"
+        }
+      }
+    },
+    "is-medium-type-dynamic": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "DYNAMIC"
+        }
+      }
+    },
+    "is-medium-type-video": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "const": "VIDEO"
+        }
+      }
+    },
+    "is-medium-type-which-permits-link": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/is-medium-type-static"
+        },
+        {
+          "$ref": "#/definitions/is-medium-type-dynamic"
+        },
+        {
+          "$ref": "#/definitions/is-medium-type-video"
+        }
+      ]
+    },
+    "is-not-medium-type-dynamic": {
+      "not": {
+        "$ref": "#/definitions/is-medium-type-dynamic"
+      }
+    },
+    "is-not-medium-type-which-permits-link": {
+      "not": {
+        "$ref": "#/definitions/is-medium-type-which-permits-link"
+      }
+    },
+    "must-have-labels": {
+      "type": "object",
+      "properties": {
+        "labels": {
+          "$ref": "#/definitions/labels"
+        }
+      },
+      "required": [
+        "labels"
+      ]
+    },
+    "must-have-link": {
+      "type": "object",
+      "properties": {
+        "link": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "link"
+      ]
+    },
+    "must-not-have-labels": {
+      "not": {
+        "$ref": "#/definitions/must-have-labels"
+      }
+    },
+    "must-not-have-link": {
+      "not": {
+        "$ref": "#/definitions/must-have-link"
+      }
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/label"
+      },
+      "minItems": 1
+    },
+    "label": {
+      "title": "label",
+      "description": "a piece of text which should be printed onto a card image",
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "color": {
+          "$comment": "#rgba",
+          "type": "string",
+          "pattern": "^#[0-9a-f]{8}$"
+        },
+        "size": {
+          "$comment": "e.g. 12pt",
+          "type": "string"
+        },
+        "font": {
+          "$ref": "#/definitions/font"
+        },
+        "weight": {
+          "$ref": "#/definitions/weight"
+        },
+        "align": {
+          "$ref": "#/definitions/align"
+        },
+        "x": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "y": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "text",
+        "color",
+        "size",
+        "font",
+        "weight",
+        "align",
+        "x",
+        "y"
+      ],
+      "allOf": [
+        {
+          "$ref": "#/definitions/font-rules"
+        }
+      ]
+    },
+    "font": {
+      "enum": [
+        "Jost",
+        "Share Tech Mono",
+        "Crimson Text"
+      ]
+    },
+    "weight": {
+      "enum": [
+        "Regular",
+        "Semibold"
+      ]
+    },
+    "align": {
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ]
+    },
+    "font-rules": {
+      "allOf": [
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Jost"
+              }
+            }
+          },
+          "then": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "weight": {
+                    "const": "Regular"
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "weight": {
+                    "const": "Semibold"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Share Tech Mono"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "type": "object",
+            "properties": {
+              "font": {
+                "const": "Crimson Text"
+              }
+            }
+          },
+          "then": {
+            "type": "object",
+            "properties": {
+              "weight": {
+                "const": "Regular"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "enumeration": {
+      "type": "object",
+      "properties": {
+        "quantity": {
+          "$ref": "#/definitions/quantity"
+        },
+        "expires": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "allocation": {
+          "enum": [
+            "SEQUENTIAL",
+            "RANDOM"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "quantity"
+      ]
+    },
+    "quantity": {
+      "type": "object",
+      "properties": {
+        "overall": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "purchase": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "claim": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "overall"
+      ]
+    },
+    "price": {
+      "type": "object",
+      "properties": {
+        "retail": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 1000000
+        },
+        "wholesale": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 1000000
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "retail",
+        "wholesale"
+      ]
+    },
+    "mint": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "SOLANA"
+        ]
+      }
+    },
+    "must-have-enumeration": {
+      "type": "object",
+      "properties": {
+        "enumeration": {
+          "$ref": "#/definitions/enumeration"
+        }
+      },
+      "required": [
+        "enumeration"
+      ]
+    },
+    "must-have-media": {
+      "$comment": "LEGACY - this property can become mandatory once v1 SKUs are converted to v3",
+      "type": "object",
+      "properties": {
+        "media": {
+          "$ref": "#/definitions/item-media"
+        }
+      },
+      "required": [
+        "media"
+      ]
+    },
+    "must-have-mint": {
+      "type": "object",
+      "properties": {
+        "mint": {
+          "$ref": "#/definitions/mint"
+        }
+      },
+      "required": [
+        "mint"
+      ]
+    },
+    "must-have-price": {
+      "type": "object",
+      "properties": {
+        "price": {
+          "$ref": "#/definitions/price"
+        }
+      },
+      "required": [
+        "price"
+      ]
+    },
+    "must-have-rarity": {
+      "$comment": "LEGACY - only needed because of v1 SKUs",
+      "type": "object",
+      "properties": {
+        "rarity": {
+          "$ref": "#/definitions/rarity"
+        }
+      },
+      "required": [
+        "rarity"
+      ]
+    },
+    "must-have-skn": {
+      "$comment": "LEGACY - only needed because of v1 SKUs",
+      "type": "object",
+      "properties": {
+        "skn": {
+          "$ref": "#/definitions/skn-media"
+        }
+      },
+      "required": [
+        "skn"
+      ]
+    },
+    "must-not-have-enumeration": {
+      "not": {
+        "$ref": "#/definitions/must-have-enumeration"
+      }
+    },
+    "must-not-have-media": {
+      "not": {
+        "$ref": "#/definitions/must-have-media"
+      }
+    },
+    "must-not-have-mint": {
+      "not": {
+        "$ref": "#/definitions/must-have-mint"
+      }
+    },
+    "must-not-have-price": {
+      "not": {
+        "$ref": "#/definitions/must-have-price"
+      }
+    },
+    "must-not-have-rarity": {
+      "$comment": "LEGACY - only needed because of v1 SKUs",
+      "not": {
+        "$ref": "#/definitions/must-have-rarity"
+      }
+    },
+    "must-not-have-skn": {
+      "$comment": "LEGACY - only needed because of v1 SKUs",
+      "not": {
+        "$ref": "#/definitions/must-have-skn"
+      }
+    },
+    "is-legacy-sku": {
+      "type": "object",
+      "properties": {
+        "legacy": {
+          "const": true
+        }
+      },
+      "required": [
+        "legacy"
+      ]
+    },
+    "is-non-legacy-sku": {
+      "not": {
+        "$ref": "#/definitions/is-legacy-sku"
+      }
+    },
+    "rules-for-legacy-sku": {
+      "if": {
+        "$ref": "#/definitions/is-legacy-sku"
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-have-skn"
+          },
+          {
+            "$ref": "#/definitions/must-have-rarity"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-media"
+          }
+        ]
+      }
+    },
+    "rules-for-non-legacy-sku": {
+      "if": {
+        "$ref": "#/definitions/is-non-legacy-sku"
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-not-have-skn"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-rarity"
+          },
+          {
+            "$ref": "#/definitions/must-have-media"
+          }
+        ]
+      }
+    },
+    "rules-for-giveaway-sku": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "GIVEAWAY"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-not-have-enumeration"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-price"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-mint"
+          }
+        ]
+      }
+    },
+    "rules-for-restricted-sku": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "RESTRICTED"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-not-have-enumeration"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-price"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-mint"
+          }
+        ]
+      }
+    },
+    "rules-for-enumerated-sku": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "ENUMERATED"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-have-enumeration"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-price"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-mint"
+          }
+        ]
+      }
+    },
+    "rules-for-purchasable-sku": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "PURCHASABLE"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-have-enumeration"
+          },
+          {
+            "$ref": "#/definitions/must-have-price"
+          },
+          {
+            "$ref": "#/definitions/must-not-have-mint"
+          }
+        ]
+      }
+    },
+    "rules-for-mintable-sku": {
+      "if": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "const": "MINTABLE"
+          }
+        }
+      },
+      "then": {
+        "allOf": [
+          {
+            "$ref": "#/definitions/must-have-enumeration"
+          },
+          {
+            "$ref": "#/definitions/must-have-price"
+          },
+          {
+            "$ref": "#/definitions/must-have-mint"
+          }
+        ]
+      }
+    }
+  }
+}
