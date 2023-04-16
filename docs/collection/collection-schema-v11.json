@@ -38,7 +38,8 @@
               "type": "string"
             },
             "tier": {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[A-Z0-9-]{1,64}$"
             },
             "legacy": {
               "type": "boolean"
