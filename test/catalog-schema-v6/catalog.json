@@ -21,7 +21,7 @@
       "brand": "SKNUPS",
       "discover": false,
       "tier": null,
-      "claim": null
+      "claimable": false
     },
     "TEST-CUBE-UNDISCOVERABLE-VIDEO": {
       "name": "Common Cube",
@@ -47,7 +47,7 @@
       "brand": "TEST",
       "discover": false,
       "tier": null,
-      "claim": null
+      "claimable": false
     },
     "TEST-CUBE-DISCOVERABLE-IMAGE": {
       "name": "Epic Cube",
@@ -70,7 +70,7 @@
       "brand": "TEST",
       "discover": true,
       "tier": null,
-      "claim": null
+      "claimable": false
     },
     "TEST-CUBE-DISCOVERABLE-VIDEO": {
       "name": "Mythic Cube",
@@ -96,7 +96,7 @@
       "brand": "TEST",
       "discover": true,
       "tier": null,
-      "claim": null
+      "claimable": false
     },
     "TEST-CUBE-UNDISCOVERABLE-SECONDARY-MEDIA": {
       "name": "Rare Cube",
@@ -134,7 +134,7 @@
       "brand": "TEST",
       "discover": false,
       "tier": null,
-      "claim": null
+      "claimable": false
     },
     "TEST-CUBE-DISCOVERABLE-SECONDARY-MEDIA": {
       "name": "Uncommon Cube",
@@ -173,7 +173,7 @@
       "brand": "TEST",
       "discover": true,
       "tier": null,
-      "claim": null
+      "claimable": false
     }
   },
   "brand": {

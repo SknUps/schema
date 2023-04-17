@@ -77,15 +77,8 @@
               }
             ]
           },
-          "claim": {
-            "anyOf": [
-              {
-                "type": "string"
-              },
-              {
-                "type": "null"
-              }
-            ]
+          "claimable": {
+            "type": "boolean"
           },
           "discover": {
             "type": "boolean"
@@ -110,7 +103,7 @@
           "name",
           "permissions",
           "price",
-          "claim",
+          "claimable",
           "discover"
         ]
       }
