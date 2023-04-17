@@ -1,0 +1,53 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-ENUMERATED",
+      "name": "SKU Name",
+      "legacy": true,
+      "type": "ENUMERATED",
+      "description": "SKU Description",
+      "discover": {
+        "media": "STATIC"
+      },
+      "skn": "DYNAMIC",
+      "rarity": 1,
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 7,
+          "claim": 1
+        },
+        "expires": "2023-03-23T15:06:00Z"
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-LEGACY-PURCHASABLE",
+      "name": "SKU Name",
+      "legacy": true,
+      "type": "PURCHASABLE",
+      "description": "SKU Description",
+      "discover": {
+        "media": "STATIC"
+      },
+      "skn": "DYNAMIC",
+      "rarity": 1,
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 7,
+          "claim": 1
+        },
+        "expires": "2023-03-23T15:06:00Z"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 900
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    }
+  ]
+}

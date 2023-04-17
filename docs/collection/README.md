@@ -75,3 +75,15 @@ Hex colours must now be lowercase.
 Remove support for v2 SKU Data Model.
 
 Remove support for YouTube secondary media.
+
+## `collection-schema-v11.json`
+
+Enfore that each SKU declares a crude `type`.
+
+Permit a SKU to declare it is `legacy` i.e. v1 SKU Data Model.
+
+## `collection-schema-v12.json`
+
+Mild simplification of `type` - collapse `MINTABLE` into `PURCHASABLE`.
+
+Tiny bit more intelligence in regex for `tier`.
