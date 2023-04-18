@@ -60,9 +60,6 @@
             "type": "array",
             "items": {
               "enum": [
-                "GIVEAWAY",
-                "SELL",
-                "DISCOVER",
                 "METAPLEX_MINT"
               ]
             }
