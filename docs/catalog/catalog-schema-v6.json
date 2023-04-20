@@ -241,15 +241,11 @@
         },
         "webp": {
           "type": "string"
-        },
-        "png": {
-          "type": "string"
         }
       },
       "required": [
         "jpeg",
-        "webp",
-        "png"
+        "webp"
       ]
     },
     "video-media": {

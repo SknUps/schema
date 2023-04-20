@@ -9,8 +9,7 @@
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
         "secondary": []
@@ -32,8 +31,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -58,8 +56,7 @@
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
         "secondary": []
@@ -81,8 +78,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -107,8 +103,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -119,8 +114,7 @@
             "type": "VIDEO",
             "image": {
               "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-              "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
             },
             "video": {
               "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -145,8 +139,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -157,8 +150,7 @@
             "type": "VIDEO",
             "image": {
               "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-              "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
             },
             "video": {
               "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
