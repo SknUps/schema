@@ -124,6 +124,9 @@
           "items": {
             "$ref": "#/definitions/secondary-sku-media"
           }
+        },
+        "social": {
+          "$ref": "#/definitions/social-sku-media"
         }
       },
       "required": [
@@ -149,6 +152,46 @@
         {
           "$ref": "#/definitions/secondary-video"
         }
+      ]
+    },
+    "social-sku-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "$ref": "#/definitions/default-social-media"
+        },
+        "snapchat": {
+          "$ref": "#/definitions/snapchat-social-media"
+        }
+      },
+      "required": [
+        "default",
+        "snapchat"
+      ]
+    },
+    "default-social-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "image": {
+          "$ref": "#/definitions/social-image-media"
+        }
+      },
+      "required": [
+        "image"
+      ]
+    },
+    "snapchat-social-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "image": {
+          "$ref": "#/definitions/social-image-media"
+        }
+      },
+      "required": [
+        "image"
       ]
     },
     "primary-image": {
@@ -238,14 +281,22 @@
         },
         "webp": {
           "type": "string"
-        },
+        }
+      },
+      "required": [
+        "jpeg",
+        "webp"
+      ]
+    },
+    "social-image-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
         "png": {
           "type": "string"
         }
       },
       "required": [
-        "jpeg",
-        "webp",
         "png"
       ]
     },

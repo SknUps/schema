@@ -9,11 +9,22 @@
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
-        "secondary": []
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": null,
       "maximum": 190,
@@ -32,14 +43,25 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": []
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": null,
       "maximum": 1000000,
@@ -58,11 +80,22 @@
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
-        "secondary": []
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": 1000,
       "maximum": 1000,
@@ -81,14 +114,25 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": []
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": 10000,
       "maximum": 100,
@@ -107,8 +151,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -119,14 +162,25 @@
             "type": "VIDEO",
             "image": {
               "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-              "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
             },
             "video": {
               "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
             }
           }
-        ]
+        ],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": null,
       "maximum": 5000,
@@ -145,8 +199,7 @@
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-            "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           },
           "video": {
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
@@ -157,15 +210,26 @@
             "type": "VIDEO",
             "image": {
               "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp",
-              "png": "${environment.assetsBucket}/sku.${skuCode}.discover.png"
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
             },
             "video": {
               "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
             },
             "link": "https://www.sknups.com"
           }
-        ]
+        ],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
       },
       "price": null,
       "maximum": 10000,
