@@ -131,7 +131,8 @@
       },
       "required": [
         "primary",
-        "secondary"
+        "secondary",
+        "social"
       ]
     },
     "primary-sku-media": {
