@@ -100,17 +100,48 @@
       ]
     },
     "marketing": {
-      "type": "object",
-      "properties": {
-        "description": {
-          "type": "string"
+      "allOf": [
+        {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "media": {
+              "$ref": "#/definitions/marketing-medium"
+            }
+          },
+          "additionalProperties": false,
+          "required": []
         },
-        "media": {
-          "$ref": "#/definitions/marketing-medium"
+        {
+          "anyOf": [
+            {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "description"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "media": {
+                  "$ref": "#/definitions/marketing-medium"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "media"
+              ]
+            }
+          ]
         }
-      },
-      "additionalProperties": false,
-      "required": []
+      ]
     },
     "marketing-medium": {
       "type": "object",
