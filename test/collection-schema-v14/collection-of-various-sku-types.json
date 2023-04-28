@@ -1,0 +1,98 @@
+{
+  "collection": [
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-GIVEAWAY",
+      "name": "SKU Name",
+      "type": "GIVEAWAY",
+      "description": "SKU Description",
+      "advertise": false,
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-RESTRICTED",
+      "name": "SKU Name",
+      "type": "RESTRICTED",
+      "description": "SKU Description",
+      "advertise": true,
+      "marketing": {},
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-ENUMERATED",
+      "name": "SKU Name",
+      "type": "ENUMERATED",
+      "description": "SKU Description",
+      "advertise": true,
+      "marketing": {
+        "description": "Marketing Description",
+        "media": {
+          "type": "VIDEO"
+        }
+      },
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      },
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 7,
+          "claim": 1
+        },
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "RANDOM"
+      }
+    },
+    {
+      "brand": "SKNUPS",
+      "code": "SKNUPS-PURCHASABLE",
+      "name": "SKU Name",
+      "type": "PURCHASABLE",
+      "description": "SKU Description",
+      "advertise": true,
+      "marketing": {
+        "description": "Marketing Description",
+        "media": {
+          "type": "STATIC"
+        }
+      },
+      "media": {
+        "primary": {
+          "type": "STATIC"
+        },
+        "secondary": []
+      },
+      "enumeration": {
+        "quantity": {
+          "overall": 10,
+          "purchase": 7,
+          "claim": 1
+        },
+        "expires": "2023-03-23T15:06:00Z",
+        "allocation": "RANDOM"
+      },
+      "price": {
+        "retail": 1000,
+        "wholesale": 500
+      },
+      "mint": [
+        "SOLANA"
+      ]
+    }
+  ]
+}
