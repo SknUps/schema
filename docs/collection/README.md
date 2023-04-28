@@ -91,3 +91,6 @@ Tiny bit more intelligence in regex for `tier`.
 ## `collection-schema-v13.json`
 
 Remove support for v1 SKU.
+
+## `collection-schema-v14.json`
+
