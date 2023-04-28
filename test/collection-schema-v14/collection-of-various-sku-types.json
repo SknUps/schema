@@ -21,7 +21,11 @@
       "type": "RESTRICTED",
       "description": "SKU Description",
       "advertise": true,
-      "marketing": {},
+      "marketing": {
+        "media": {
+          "type": "VIDEO"
+        }
+      },
       "media": {
         "primary": {
           "type": "STATIC"
