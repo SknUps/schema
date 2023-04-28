@@ -87,3 +87,7 @@ Permit a SKU to declare it is `legacy` i.e. v1 SKU Data Model.
 Mild simplification of `type` - collapse `MINTABLE` into `PURCHASABLE`.
 
 Tiny bit more intelligence in regex for `tier`.
+
+## `collection-schema-v13.json`
+
+Remove support for v1 SKU.
