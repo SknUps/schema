@@ -30,7 +30,7 @@
       "maximum": 190,
       "permissions": ["METAPLEX_MINT"],
       "brand": "SKNUPS",
-      "discover": false,
+      "advertise": false,
       "tier": null,
       "claimable": false
     },
@@ -67,7 +67,7 @@
       "maximum": 1000000,
       "permissions": [],
       "brand": "TEST",
-      "discover": false,
+      "advertise": false,
       "tier": null,
       "claimable": false
     },
@@ -101,7 +101,7 @@
       "maximum": 1000,
       "permissions": [],
       "brand": "TEST",
-      "discover": true,
+      "advertise": true,
       "tier": null,
       "claimable": false
     },
@@ -138,7 +138,7 @@
       "maximum": 100,
       "permissions": ["METAPLEX_MINT"],
       "brand": "TEST",
-      "discover": true,
+      "advertise": true,
       "tier": null,
       "claimable": false
     },
@@ -186,7 +186,7 @@
       "maximum": 5000,
       "permissions": ["METAPLEX_MINT"],
       "brand": "TEST",
-      "discover": false,
+      "advertise": false,
       "tier": null,
       "claimable": false
     },
@@ -235,20 +235,7 @@
       "maximum": 10000,
       "permissions": ["METAPLEX_MINT"],
       "brand": "TEST",
-      "discover": true,
-      "tier": null,
-      "claimable": false
-    },
-    "TEST-CUBE-NULL-MEDIA": {
-      "name": "Uncommon Cube",
-      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
-      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
-      "media": null,
-      "price": null,
-      "maximum": 10000,
-      "permissions": ["METAPLEX_MINT"],
-      "brand": "TEST",
-      "discover": true,
+      "advertise": true,
       "tier": null,
       "claimable": false
     }

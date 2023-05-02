@@ -1,0 +1,310 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/catalog/catalog-schema-v8.json",
+  "title": "catalog",
+  "description": "the set of all SKUs",
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "sku": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "brand": {
+            "type": "string"
+          },
+          "media": {
+            "$ref": "#/definitions/sku-media"
+          },
+          "description": {
+            "type": "string"
+          },
+          "marketing": {
+            "type": "string"
+          },
+          "maximum": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "permissions": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "METAPLEX_MINT"
+              ]
+            }
+          },
+          "price": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "claimable": {
+            "type": "boolean"
+          },
+          "advertise": {
+            "type": "boolean"
+          },
+          "tier": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "brand",
+          "description",
+          "marketing",
+          "media",
+          "maximum",
+          "name",
+          "permissions",
+          "price",
+          "claimable",
+          "advertise"
+        ]
+      }
+    }
+  },
+  "required": [
+    "brand",
+    "sku"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "sku-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "primary": {
+          "$ref": "#/definitions/primary-sku-media"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/secondary-sku-media"
+          }
+        },
+        "social": {
+          "$ref": "#/definitions/social-sku-media"
+        }
+      },
+      "required": [
+        "primary",
+        "secondary",
+        "social"
+      ]
+    },
+    "primary-sku-media": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/primary-image"
+        },
+        {
+          "$ref": "#/definitions/primary-video"
+        }
+      ]
+    },
+    "secondary-sku-media": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/secondary-image"
+        },
+        {
+          "$ref": "#/definitions/secondary-video"
+        }
+      ]
+    },
+    "social-sku-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "default": {
+          "$ref": "#/definitions/default-social-media"
+        },
+        "snapchat": {
+          "$ref": "#/definitions/snapchat-social-media"
+        }
+      },
+      "required": [
+        "default",
+        "snapchat"
+      ]
+    },
+    "default-social-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "image": {
+          "$ref": "#/definitions/social-image-media"
+        }
+      },
+      "required": [
+        "image"
+      ]
+    },
+    "snapchat-social-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "image": {
+          "$ref": "#/definitions/social-image-media"
+        }
+      },
+      "required": [
+        "image"
+      ]
+    },
+    "primary-image": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "IMAGE"
+        },
+        "image": {
+          "$ref": "#/definitions/image-media"
+        }
+      },
+      "required": [
+        "type",
+        "image"
+      ]
+    },
+    "primary-video": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "VIDEO"
+        },
+        "image": {
+          "$ref": "#/definitions/image-media"
+        },
+        "video": {
+          "$ref": "#/definitions/video-media"
+        }
+      },
+      "required": [
+        "type",
+        "image",
+        "video"
+      ]
+    },
+    "secondary-image": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "IMAGE"
+        },
+        "image": {
+          "$ref": "#/definitions/image-media"
+        },
+        "link": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "image"
+      ]
+    },
+    "secondary-video": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "VIDEO"
+        },
+        "image": {
+          "$ref": "#/definitions/image-media"
+        },
+        "video": {
+          "$ref": "#/definitions/video-media"
+        },
+        "link": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "image",
+        "video"
+      ]
+    },
+    "image-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "jpeg": {
+          "type": "string"
+        },
+        "webp": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "jpeg",
+        "webp"
+      ]
+    },
+    "social-image-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "png": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "png"
+      ]
+    },
+    "video-media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "mp4": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "mp4"
+      ]
+    }
+  }
+}
