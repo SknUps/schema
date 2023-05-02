@@ -1,0 +1,247 @@
+{
+  "sku": {
+    "SKNUPS-UNDISCOVERABLE-IMAGE": {
+      "name": "DEEPS BACKPACK: DEEP COVER",
+      "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "marketing": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
+      "media": {
+        "primary": {
+          "type": "IMAGE",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          }
+        },
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": null,
+      "maximum": 190,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "SKNUPS",
+      "discover": false,
+      "tier": null,
+      "claimable": false
+    },
+    "TEST-CUBE-UNDISCOVERABLE-VIDEO": {
+      "name": "Common Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": {
+        "primary": {
+          "type": "VIDEO",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          },
+          "video": {
+            "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+          }
+        },
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": null,
+      "maximum": 1000000,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": false,
+      "tier": null,
+      "claimable": false
+    },
+    "TEST-CUBE-DISCOVERABLE-IMAGE": {
+      "name": "Epic Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": {
+        "primary": {
+          "type": "IMAGE",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          }
+        },
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": 1000,
+      "maximum": 1000,
+      "permissions": [],
+      "brand": "TEST",
+      "discover": true,
+      "tier": null,
+      "claimable": false
+    },
+    "TEST-CUBE-DISCOVERABLE-VIDEO": {
+      "name": "Mythic Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": {
+        "primary": {
+          "type": "VIDEO",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          },
+          "video": {
+            "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+          }
+        },
+        "secondary": [],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": 10000,
+      "maximum": 100,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": true,
+      "tier": null,
+      "claimable": false
+    },
+    "TEST-CUBE-UNDISCOVERABLE-SECONDARY-MEDIA": {
+      "name": "Rare Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": {
+        "primary": {
+          "type": "VIDEO",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          },
+          "video": {
+            "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+          }
+        },
+        "secondary": [
+          {
+            "type": "VIDEO",
+            "image": {
+              "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+            },
+            "video": {
+              "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+            }
+          }
+        ],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": null,
+      "maximum": 5000,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": false,
+      "tier": null,
+      "claimable": false
+    },
+    "TEST-CUBE-DISCOVERABLE-SECONDARY-MEDIA": {
+      "name": "Uncommon Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": {
+        "primary": {
+          "type": "VIDEO",
+          "image": {
+            "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+            "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+          },
+          "video": {
+            "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+          }
+        },
+        "secondary": [
+          {
+            "type": "VIDEO",
+            "image": {
+              "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
+              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
+            },
+            "video": {
+              "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
+            },
+            "link": "https://www.sknups.com"
+          }
+        ],
+        "social": {
+          "default": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/og/${skuCode}"
+            }
+          },
+          "snapchat": {
+            "image": {
+              "png": "${environment.flex}/sku/v1/card/snapsticker/${skuCode}"
+            }
+          }
+        }
+      },
+      "price": null,
+      "maximum": 10000,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": true,
+      "tier": null,
+      "claimable": false
+    }
+  },
+  "brand": {
+    "SKNUPS": { "name": "SKNUPS" },
+    "TEST": { "name": "TEST" }
+  }
+}
