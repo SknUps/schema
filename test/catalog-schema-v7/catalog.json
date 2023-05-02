@@ -238,6 +238,19 @@
       "discover": true,
       "tier": null,
       "claimable": false
+    },
+    "TEST-CUBE-NULL-MEDIA": {
+      "name": "Uncommon Cube",
+      "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
+      "media": null,
+      "price": null,
+      "maximum": 10000,
+      "permissions": ["METAPLEX_MINT"],
+      "brand": "TEST",
+      "discover": true,
+      "tier": null,
+      "claimable": false
     }
   },
   "brand": {
