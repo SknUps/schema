@@ -109,42 +109,25 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "primary": {
-          "$ref": "#/definitions/primary-sku-media"
-        },
-        "secondary": {
-          "type": "array",
-          "items": {
-            "$ref": "#/definitions/secondary-sku-media"
-          }
+        "marketing": {
+          "$ref": "#/definitions/marketing-sku-media"
         },
         "social": {
           "$ref": "#/definitions/social-sku-media"
         }
       },
       "required": [
-        "primary",
-        "secondary",
+        "marketing",
         "social"
       ]
     },
-    "primary-sku-media": {
+    "marketing-sku-media": {
       "oneOf": [
         {
-          "$ref": "#/definitions/primary-image"
+          "$ref": "#/definitions/marketing-image"
         },
         {
-          "$ref": "#/definitions/primary-video"
-        }
-      ]
-    },
-    "secondary-sku-media": {
-      "oneOf": [
-        {
-          "$ref": "#/definitions/secondary-image"
-        },
-        {
-          "$ref": "#/definitions/secondary-video"
+          "$ref": "#/definitions/marketing-video"
         }
       ]
     },
@@ -188,7 +171,7 @@
         "image"
       ]
     },
-    "primary-image": {
+    "marketing-image": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -204,7 +187,7 @@
         "image"
       ]
     },
-    "primary-video": {
+    "marketing-video": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -216,48 +199,6 @@
         },
         "video": {
           "$ref": "#/definitions/video-media"
-        }
-      },
-      "required": [
-        "type",
-        "image",
-        "video"
-      ]
-    },
-    "secondary-image": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "const": "IMAGE"
-        },
-        "image": {
-          "$ref": "#/definitions/image-media"
-        },
-        "link": {
-          "type": "string"
-        }
-      },
-      "required": [
-        "type",
-        "image"
-      ]
-    },
-    "secondary-video": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "const": "VIDEO"
-        },
-        "image": {
-          "$ref": "#/definitions/image-media"
-        },
-        "video": {
-          "$ref": "#/definitions/video-media"
-        },
-        "link": {
-          "type": "string"
         }
       },
       "required": [

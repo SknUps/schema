@@ -5,14 +5,13 @@
       "description": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
       "marketing": "When you have things, they need to go places and the DEEPS backpacks will take you there. Deep COVER Edition will allow you to accomplish all your tasks, turning heads while doing so.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
             "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
-        "secondary": [],
         "social": {
           "default": {
             "image": {
@@ -39,7 +38,7 @@
       "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
@@ -49,7 +48,6 @@
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": [],
         "social": {
           "default": {
             "image": {
@@ -76,14 +74,13 @@
       "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "IMAGE",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
             "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
           }
         },
-        "secondary": [],
         "social": {
           "default": {
             "image": {
@@ -110,7 +107,7 @@
       "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
@@ -120,7 +117,6 @@
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": [],
         "social": {
           "default": {
             "image": {
@@ -147,7 +143,7 @@
       "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
@@ -157,18 +153,6 @@
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": [
-          {
-            "type": "VIDEO",
-            "image": {
-              "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
-            },
-            "video": {
-              "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
-            }
-          }
-        ],
         "social": {
           "default": {
             "image": {
@@ -195,7 +179,7 @@
       "description": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "marketing": "The only regular solid which tessellates Euclidean space: the hexahedron.  The ancients believed this caused the solidity of the Earth.",
       "media": {
-        "primary": {
+        "marketing": {
           "type": "VIDEO",
           "image": {
             "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
@@ -205,19 +189,6 @@
             "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
           }
         },
-        "secondary": [
-          {
-            "type": "VIDEO",
-            "image": {
-              "jpeg": "${environment.assetsBucket}/sku.${skuCode}.discover.jpg",
-              "webp": "${environment.assetsBucket}/sku.${skuCode}.discover.webp"
-            },
-            "video": {
-              "mp4": "${environment.assetsBucket}/sku.${skuCode}.discover.mp4"
-            },
-            "link": "https://www.sknups.com"
-          }
-        ],
         "social": {
           "default": {
             "image": {
