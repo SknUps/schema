@@ -43,7 +43,19 @@
       "marketing": {
         "description": "Marketing Description",
         "media": {
-          "type": "VIDEO"
+          "type": "DYNAMIC",
+          "labels": [
+            {
+              "text": "${token}",
+              "color": "#ffffffff",
+              "size": "25pt",
+              "font": "Share Tech Mono",
+              "weight": "Regular",
+              "align": "left",
+              "x": 470,
+              "y": 340
+            }
+          ]
         }
       },
       "media": {

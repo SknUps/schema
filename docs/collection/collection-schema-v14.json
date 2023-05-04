@@ -144,18 +144,42 @@
       ]
     },
     "marketing-medium": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "type": {
-          "enum": [
-            "STATIC",
-            "VIDEO"
+      "allOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "enum": [
+                "STATIC",
+                "DYNAMIC",
+                "VIDEO"
+              ]
+            },
+            "labels": {
+              "$ref": "#/definitions/labels"
+            }
+          },
+          "required": [
+            "type"
           ]
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-have-labels"
+          }
+        },
+        {
+          "if": {
+            "$ref": "#/definitions/is-not-medium-type-dynamic"
+          },
+          "then": {
+            "$ref": "#/definitions/must-not-have-labels"
+          }
         }
-      },
-      "required": [
-        "type"
       ]
     },
     "item-media": {
