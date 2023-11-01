@@ -1,0 +1,36 @@
+{
+  "suffix": "$GITHUB_RUN_NUMBER",
+  "description": "evoke-model-freekhronos-predictions",
+  "model": {
+    "id": "3105999402188144640",
+    "commit": "1a85dbf"
+  },
+  "image": {
+    "count": 3,
+    "seed": 30,
+    "guidance": 7,
+    "steps": 20
+  },
+  "prompt": {
+    "limit": 1000,
+    "tokens": "one freekhronos shoe",
+    "negative": [
+      "person",
+      "leg",
+      "foot",
+      "signature",
+      "autograph",
+      "handwriting",
+      "writing",
+      "monogram",
+      "picture frame",
+      "white outline",
+      "brogue",
+      "boot",
+      "stiletto"
+    ],
+    "pose": "default",
+    "modifiers": [null],
+    "environments": ["moon"]
+  }
+}

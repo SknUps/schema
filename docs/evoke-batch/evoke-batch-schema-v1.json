@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sknups.github.io/schema/evoke-batch/evoke-batch-schema-v1.json",
+  "title": "Evoke Batch Schema v1",
+  "description": "Expected input of the evoke-prediction-create-job function",
+  "type": "object",
+  "properties": {
+    "suffix": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "commit": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "commit"
+      ]
+    },
+    "image": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer"
+        },
+        "seed": {
+          "type": "integer"
+        },
+        "guidance": {
+          "type": "integer"
+        },
+        "steps": {
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "count",
+        "seed",
+        "guidance",
+        "steps"
+      ]
+    },
+    "prompt": {
+      "type": "object",
+      "properties": {
+        "limit": {
+          "type": "integer"
+        },
+        "tokens": {
+          "type": "string"
+        },
+        "negative": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "pose": {
+          "type": "string"
+        },
+        "styles": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "environments": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "modifiers": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "tokens"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "suffix",
+    "description",
+    "model",
+    "image",
+    "prompt"
+  ]
+}

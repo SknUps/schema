@@ -11,7 +11,24 @@ The library version is managed by github actions.
 - A merge to the `main` branch will trigger a SNAPSHOT build with version `0.0.1-snapshot.<commit time>`
 - A tag `vX.Y.Z` will trigger a RELEASE build with version `X.Y.Z`
 
-## Current Versions
+## Symlinks
+
+There should be a symbolic link to the latest stable version of each schema.
+Create symbolic link to version 1 of your schema like this:
+
+```bash
+cd docs/foo
+ln -sf foo-schema-v1.json foo-schema.json
+git add foo-schema.json
+```
+
+## Generative AI
+
+### Evoke
+
+[`https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json`](https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json)
+
+## SKNUPS B2C Platform
 
 ### brand
 [`https://sknups.github.io/schema/brand/brand-schema.json`](https://sknups.github.io/schema/brand/brand-schema.json)
@@ -36,11 +53,3 @@ The library version is managed by github actions.
 
 ### sku-3d-config
 [`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json)
-
-## Symlinks
-
-In order to publish a new schema to GitHub pages, do this:
-
-```bash
-  ln -sf <doc>-schema-<version>.json docs/<doc>/<doc>-schema.json
-```
