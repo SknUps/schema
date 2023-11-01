@@ -19,6 +19,9 @@
         },
         "commit": {
           "type": "string"
+        },
+        "pose": {
+          "type": "string"
         }
       },
       "additionalProperties": false,
@@ -65,9 +68,6 @@
           "items": {
             "type": "string"
           }
-        },
-        "pose": {
-          "type": "string"
         },
         "styles": {
           "type": "array",

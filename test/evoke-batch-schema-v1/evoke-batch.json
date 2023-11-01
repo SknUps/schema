@@ -3,7 +3,8 @@
   "description": "evoke-model-freekhronos-predictions",
   "model": {
     "id": "3105999402188144640",
-    "commit": "1a85dbf"
+    "commit": "1a85dbf",
+    "pose": "default"
   },
   "image": {
     "count": 3,
@@ -29,7 +30,6 @@
       "boot",
       "stiletto"
     ],
-    "pose": "default",
     "modifiers": [null],
     "environments": ["moon"]
   }
