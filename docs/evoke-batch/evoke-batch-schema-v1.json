@@ -33,11 +33,11 @@
     "image": {
       "type": "object",
       "properties": {
-        "count": {
-          "type": "integer"
-        },
-        "seed": {
-          "type": "integer"
+        "seeds": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
         },
         "guidance": {
           "type": "integer"
@@ -48,8 +48,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "count",
-        "seed",
+        "seeds",
         "guidance",
         "steps"
       ]
