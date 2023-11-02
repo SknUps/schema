@@ -6,22 +6,25 @@
   "type": "object",
   "properties": {
     "suffix": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
+      "type": "string",
+      "pattern": "[a-z0-9-]{1,64}",
+      "description": "This is appended to the model identifier to create the job identifier. It should be unique for each job."
     },
     "model": {
       "type": "object",
       "properties": {
         "id": {
-          "type": "string"
+          "type": "string",
+          "description": "Identifies a series of machine learning models in Vertex Model Registry."
         },
         "commit": {
-          "type": "string"
+          "type": "string",
+          "description": "Identifies the specific machine learning model artifact in Vertex Model Registry. This is the 'source_git_hash' label of the desired model."
         },
         "pose": {
-          "type": "string"
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,30}[a-z0-9]$",
+          "description": "This does not influence the images being generated. If supplied, this can describe the specific pose the model is trained to generate; this later becomes metadata of each generated image."
         }
       },
       "additionalProperties": false,
@@ -33,40 +36,39 @@
     "image": {
       "type": "object",
       "properties": {
+        "count": {
+          "type": "integer",
+          "description": "The number of images to generate."
+        },
+        "shuffle": {
+          "type": "string",
+          "description": "A seed used by a pRNG to shuffle prompts, expressed as a string, defaulting to \"evoke\".  This is NOT the seed used by Stable Diffusion."
+        },
         "seeds": {
           "type": "array",
           "items": {
             "type": "integer"
-          }
+          },
+          "description": "Numerical seed[s] used by Stable Diffusion during image generation."
         },
         "guidance": {
-          "type": "integer"
+          "type": "integer",
+          "description": "CFG value used by Stable Diffusion during image generation."
         },
         "steps": {
-          "type": "integer"
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "seeds",
-        "guidance",
-        "steps"
-      ]
-    },
-    "prompt": {
-      "type": "object",
-      "properties": {
-        "limit": {
-          "type": "integer"
+          "type": "integer",
+          "description": "Number of inference steps used by Stable Diffusion during image generation."
         },
         "tokens": {
-          "type": "string"
+          "type": "string",
+          "description": "Caption describing the DreamBooth object.  This becomes part of the positive prompt shared amongst all generated images."
         },
         "negative": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "description": "Fragments comprising the negative prompt shared amongst all generated images."
         },
         "styles": {
           "type": "array",
@@ -75,7 +77,8 @@
               "string",
               "null"
             ]
-          }
+          },
+          "description": "Restricts the list of styles used for prompt generation."
         },
         "environments": {
           "type": "array",
@@ -84,7 +87,8 @@
               "string",
               "null"
             ]
-          }
+          },
+          "description": "Restricts the list of environments used for prompt generation."
         },
         "modifiers": {
           "type": "array",
@@ -93,11 +97,15 @@
               "string",
               "null"
             ]
-          }
+          },
+          "description": "Restricts the list of modifiers used for prompt generation."
         }
       },
       "additionalProperties": false,
       "required": [
+        "seeds",
+        "guidance",
+        "steps",
         "tokens"
       ]
     }
@@ -105,9 +113,7 @@
   "additionalProperties": false,
   "required": [
     "suffix",
-    "description",
     "model",
-    "image",
-    "prompt"
+    "image"
   ]
 }
