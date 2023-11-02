@@ -7,8 +7,7 @@
     "pose": "default"
   },
   "image": {
-    "count": 3,
-    "seed": 30,
+    "seeds": [30, 31, 32],
     "guidance": 7,
     "steps": 20
   },
