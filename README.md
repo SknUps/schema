@@ -17,39 +17,36 @@ There should be a symbolic link to the latest stable version of each schema.
 Create symbolic link to version 1 of your schema like this:
 
 ```bash
-cd docs/foo
-ln -sf foo-schema-v1.json foo-schema.json
-git add foo-schema.json
+# from root of Git repository
+ln -sf prediction-schema-v1.json docs/evoke/prediction/prediction-schema.json
 ```
 
-## Generative AI
+## Evoke
 
-### Evoke
+[`https://sknups.github.io/schema/evoke/prediction/prediction-schema.json`](https://sknups.github.io/schema/evoke/prediction/prediction-schema.json)
 
-[`https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json`](https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json)
-
-## SKNUPS B2C Platform
+## SKNUPS Collectibles Platform
 
 ### brand
-[`https://sknups.github.io/schema/brand/brand-schema.json`](https://sknups.github.io/schema/brand/brand-schema.json)
+[`https://sknups.github.io/schema/collectibles/brand/brand-schema.json`](https://sknups.github.io/schema/collectibles/brand/brand-schema.json)
 
 ### catalog
-[`https://sknups.github.io/schema/catalog/catalog-schema.json`](https://sknups.github.io/schema/catalog/catalog-schema.json)
+[`https://sknups.github.io/schema/collectibles/catalog/catalog-schema.json`](https://sknups.github.io/schema/collectibles/catalog/catalog-schema.json)
 
 ### collection
-[`https://sknups.github.io/schema/collection/collection-schema.json`](https://sknups.github.io/schema/collection/collection-schema.json)
+[`https://sknups.github.io/schema/collectibles/collection/collection-schema.json`](https://sknups.github.io/schema/collectibles/collection/collection-schema.json)
 
 ### giveaway
-[`https://sknups.github.io/schema/giveaway/giveaway-schema.json`](https://sknups.github.io/schema/giveaway/giveaway-schema.json)
+[`https://sknups.github.io/schema/collectibles/giveaway/giveaway-schema.json`](https://sknups.github.io/schema/collectibles/giveaway/giveaway-schema.json)
 
 ### inventory
-[`https://sknups.github.io/schema/inventory/inventory-schema.json`](https://sknups.github.io/schema/inventory/inventory-schema.json)
+[`https://sknups.github.io/schema/collectibles/inventory/inventory-schema.json`](https://sknups.github.io/schema/collectibles/inventory/inventory-schema.json)
 
 ### message
-[`https://sknups.github.io/schema/message/message-schema.json`](https://sknups.github.io/schema/message/message-schema.json)
+[`https://sknups.github.io/schema/collectibles/message/message-schema.json`](https://sknups.github.io/schema/collectibles/message/message-schema.json)
 
 ### platform
-[`https://sknups.github.io/schema/platform/platform-schema.json`](https://sknups.github.io/schema/platform/platform-schema.json)
+[`https://sknups.github.io/schema/collectibles/platform/platform-schema.json`](https://sknups.github.io/schema/collectibles/platform/platform-schema.json)
 
 ### sku-3d-config
-[`https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json`](https://sknups.github.io/schema/sku-3d-config/sku-3d-config-schema.json)
+[`https://sknups.github.io/schema/collectibles/sku-3d-config/sku-3d-config-schema.json`](https://sknups.github.io/schema/collectibles/sku-3d-config/sku-3d-config-schema.json)
