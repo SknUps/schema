@@ -13,13 +13,10 @@
     "model": {
       "type": "object",
       "properties": {
-        "id": {
+        "name": {
           "type": "string",
-          "description": "Identifies a series of machine learning models in Vertex Model Registry."
-        },
-        "commit": {
-          "type": "string",
-          "description": "Identifies the specific machine learning model artifact in Vertex Model Registry. This is the 'source_git_hash' label of the desired model."
+          "pattern": "^[a-z0-9][a-z0-9-]{0,62}[a-z0-9]$",
+          "description": "Identifies a machine learning model in Vertex Model Registry, e.g. red-donkey"
         },
         "pose": {
           "type": "string",
@@ -29,8 +26,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "id",
-        "commit"
+        "name"
       ]
     },
     "image": {
