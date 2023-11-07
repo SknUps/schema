@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://sknups.github.io/schema/evoke-batch/evoke-batch-schema-v1.json",
-  "title": "Evoke Batch Schema v1",
+  "$id": "https://sknups.github.io/schema/evoke/prediction/prediction-schema-v1.json",
+  "title": "Evoke Prediction Schema v1",
   "description": "Expected input of the evoke-prediction-create-job function",
   "type": "object",
   "properties": {

@@ -17,14 +17,13 @@ There should be a symbolic link to the latest stable version of each schema.
 Create symbolic link to version 1 of your schema like this:
 
 ```bash
-cd docs/foo
-ln -sf foo-schema-v1.json foo-schema.json
-git add foo-schema.json
+# from root of Git repository
+ln -sf prediction-schema-v1.json docs/evoke/prediction/prediction-schema.json
 ```
 
 ## Evoke
 
-[`https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json`](https://sknups.github.io/schema/evoke-batch/evoke-batch-schema.json)
+[`https://sknups.github.io/schema/evoke/prediction/prediction-schema.json`](https://sknups.github.io/schema/evoke/prediction/prediction-schema.json)
 
 ## SKNUPS Collectibles Platform
 
