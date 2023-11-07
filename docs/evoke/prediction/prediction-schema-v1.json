@@ -13,13 +13,9 @@
     "model": {
       "type": "object",
       "properties": {
-        "id": {
+        "friendlyName": {
           "type": "string",
-          "description": "Identifies a series of machine learning models in Vertex Model Registry."
-        },
-        "commit": {
-          "type": "string",
-          "description": "Identifies the specific machine learning model artifact in Vertex Model Registry. This is the 'source_git_hash' label of the desired model."
+          "description": "Identifies a machine learning model in Vertex Model Registry."
         },
         "pose": {
           "type": "string",
@@ -29,8 +25,7 @@
       },
       "additionalProperties": false,
       "required": [
-        "id",
-        "commit"
+        "friendlyName"
       ]
     },
     "image": {
