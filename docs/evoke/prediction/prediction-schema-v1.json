@@ -15,23 +15,10 @@
       "description": "This is the run number of the prediction workflow"
     },
     "model": {
-      "type": "object",
-      "properties": {
-        "name": {
-          "type": "string",
-          "pattern": "^[a-z0-9][a-z0-9-]{0,62}[a-z0-9]$",
-          "description": "Identifies a machine learning model in Vertex Model Registry, e.g. red-donkey"
-        },
-        "pose": {
-          "type": "string",
-          "pattern": "^[a-z0-9][a-z0-9-]{0,30}[a-z0-9]$",
-          "description": "This does not influence the images being generated. If supplied, this can describe the specific pose the model is trained to generate; this later becomes metadata of each generated image."
-        }
-      },
-      "additionalProperties": false,
-      "required": [
-        "name"
-      ]
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/model"
+      }
     },
     "image": {
       "type": "object",
@@ -116,5 +103,26 @@
     "workflow",
     "model",
     "image"
-  ]
+  ],
+  "definitions": {
+    "model" : {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,62}[a-z0-9]$",
+          "description": "Identifies a machine learning model in Vertex Model Registry, e.g. red-donkey"
+        },
+        "pose": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]{0,30}[a-z0-9]$",
+          "description": "This does not influence the images being generated. If supplied, this can describe the specific pose the model is trained to generate; this later becomes metadata of each generated image."
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "name"
+      ]
+    }
+  }
 }
