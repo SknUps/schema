@@ -22,8 +22,8 @@
     "precompile": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
     "compile": "tsc",
     "lint": "eslint --fix --ext .js,.json .",
-    "test": "mocha --fail-zero --exclude test/test-catalog-loader.js test/**",
-    "test-catalog": "mocha --fail-zero test/test-catalog-loader.js"
+    "test": "mocha --fail-zero --exclude test/collectibles/test-catalog-loader.js test/collectibles/**/*.js",
+    "test-catalog": "mocha --fail-zero test/collectibles/test-catalog-loader.js"
   },
   "eslintConfig": {
     "extends": "@sknups"

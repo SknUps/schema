@@ -1,0 +1,20 @@
+import fs from 'fs';
+import { dirname, resolve } from 'path';
+
+import { deserialize } from '../../deserialize.js';
+
+const __dirname = dirname(new URL(import.meta.url).pathname);
+
+describe('collection-schema-v13.json', () => {
+  const json = [
+    'collection-of-various-sku-media.json',
+    'collection-of-various-sku-types.json',
+  ];
+  for (const each of json) {
+    it(`validates ${each}`, () => {
+      const schema = fs.readFileSync(resolve(__dirname, '../../../docs/collectibles/collection/collection-schema-v13.json'));
+      const example = fs.readFileSync(resolve(__dirname, `./${each}`));
+      deserialize(example, schema);
+    });
+  }
+});
