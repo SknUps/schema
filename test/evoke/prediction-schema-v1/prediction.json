@@ -1,7 +1,7 @@
 {
   "suffix": "17",
   "model": {
-    "friendlyName": "red_badger",
+    "name": "red-badger",
     "pose": "default"
   },
   "image": {
@@ -10,7 +10,7 @@
     "seeds": [33, 34, 35],
     "guidance": 7,
     "steps": 20,
-    "tokens": "one freekhronos shoe",
+    "tokens": "(one freekhronos shoe)",
     "negative": [
       "watermark",
       "monogram",
