@@ -1,7 +1,7 @@
 {
   "prefix": "khronos",
   "workflow": 17,
-  "model": [{
+  "models": [{
     "name": "red-badger",
     "pose": "default"
   }],

@@ -14,7 +14,7 @@
       "type": "number",
       "description": "This is the run number of the prediction workflow"
     },
-    "model": {
+    "models": {
       "type": "array",
       "items": {
         "$ref": "#/definitions/model"
@@ -101,7 +101,7 @@
   "required": [
     "prefix",
     "workflow",
-    "model",
+    "models",
     "image"
   ],
   "definitions": {
