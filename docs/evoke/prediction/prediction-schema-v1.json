@@ -27,6 +27,10 @@
           "type": "integer",
           "description": "The number of images to generate."
         },
+        "parallel": {
+          "type": "integer",
+          "description": "The number of parallel jobs to run to generate the images."
+        },
         "shuffle": {
           "type": "string",
           "description": "A seed used by a pRNG to shuffle prompts, expressed as a string, defaulting to \"evoke\".  This is NOT the seed used by Stable Diffusion."
