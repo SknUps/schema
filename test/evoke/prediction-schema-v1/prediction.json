@@ -1,10 +1,10 @@
 {
   "prefix": "khronos",
   "workflow": 17,
-  "model": {
+  "model": [{
     "name": "red-badger",
     "pose": "default"
-  },
+  }],
   "image": {
     "count": 600,
     "shuffle": "evoke",
