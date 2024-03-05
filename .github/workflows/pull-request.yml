@@ -10,5 +10,10 @@ jobs:
 
   build:
     name: Build
-    uses: ./.github/workflows/build.yml
-    secrets: inherit
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        uses: ./.github/actions/build

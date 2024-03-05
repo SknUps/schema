@@ -1,5 +1,5 @@
 {
-  "name": "@sknups/schema",
+  "name": "@sknups-internal/schema",
   "version": "0.0.1-snapshot",
   "description": "This repository hosts JSON schema files related to the SKNUPS platform.",
   "repository": {
@@ -17,9 +17,8 @@
     "docs"
   ],
   "scripts": {
-    "build": "npm run compile",
-    "precompile": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
-    "compile": "tsc",
+    "prebuild": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
+    "build": "tsc",
     "lint": "eslint --fix --ext .js,.json .",
     "test": "mocha --fail-zero --exclude test/collectibles/test-catalog-loader.js test/collectibles/**/*.js test/evoke/**/*.js",
     "test-catalog": "mocha --fail-zero test/collectibles/test-catalog-loader.js"
