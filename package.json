@@ -1,5 +1,5 @@
 {
-  "name": "@sknups/schema",
+  "name": "@sknups-internal/schema",
   "version": "0.0.1-snapshot",
   "description": "This repository hosts JSON schema files related to the SKNUPS platform.",
   "repository": {
@@ -17,10 +17,8 @@
     "docs"
   ],
   "scripts": {
-    "auth": "npx google-artifactregistry-auth",
-    "build": "npm run compile",
-    "precompile": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
-    "compile": "tsc",
+    "prebuild": "rimraf lib generated-src && ts-node-esm ./generate-sources.ts",
+    "build": "tsc",
     "lint": "eslint --fix --ext .js,.json .",
     "test": "mocha --fail-zero --exclude test/collectibles/test-catalog-loader.js test/collectibles/**/*.js test/evoke/**/*.js",
     "test-catalog": "mocha --fail-zero test/collectibles/test-catalog-loader.js"
@@ -32,11 +30,10 @@
     "glob": "^8.1.0"
   },
   "devDependencies": {
-    "@sknups/eslint-config": "~1.2.0",
+    "@sknups/eslint-config": "~1.3.0",
     "ajv": "^8.11.0",
     "ajv-formats": "^2.1.1",
     "chai": "^4.3.6",
-    "google-artifactregistry-auth": "^3.0.2",
     "json-schema-to-typescript": "^11.0.2",
     "mocha": "^10.2.0",
     "rimraf": "^3.0.2",
