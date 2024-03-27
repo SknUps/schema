@@ -85,42 +85,6 @@ function build {
     yamllint -s "${YAML}" || error
   done
 
-  echo "Checking package.json..."
-  if ! [[ $(command -v jq) ]] ; then
-    error "jq must be installed!"
-  fi
-
-  # modify package.json to have correct Git repository URL
-  PACKAGE_GIT_REPOSITORY=$(jq -r '.repository.url' package.json)
-  EXPECTED_GIT_REPOSITORY="git+$(git config --get remote.origin.url)"
-  if [[ "${PACKAGE_GIT_REPOSITORY}" != "${EXPECTED_GIT_REPOSITORY}" ]] ; then
-    echo "Setting Git repository to ${EXPECTED_GIT_REPOSITORY}"
-    JQ_COMMAND=".repository.url = \"${EXPECTED_GIT_REPOSITORY}\""
-    jq "${JQ_COMMAND}" package.json > package.json.modified
-    mv package.json.modified package.json
-  fi
-
-  # if npm package is going to be published to Artifact Registry...
-  PACKAGE_PRIVATE=$(jq -r '.private' package.json)
-  if [ "$PACKAGE_PRIVATE" != "true" ] ; then
-
-    # ...check package name HAS been modified since it was cloned from template
-    PACKAGE_NAME=$(jq -r '.name' package.json)
-    if [[ "${PACKAGE_NAME}" =~ ^.*-template$ ]] ; then
-      error "Did you forget to change the package name?"
-    fi
-    if ! [[ "${PACKAGE_NAME}" =~ ^@sknups/.*$ ]] ; then
-      error "Package name must be scoped, e.g. @sknups/foo"
-    fi
-
-    # ...check package version has NOT been modified since it was cloned from template
-    PACKAGE_VERSION=$(jq -r '.version' package.json)
-    if [ "$PACKAGE_VERSION" != "0.0.1-snapshot" ] ; then
-      error "The package version MUST remain \"0.0.1-snapshot\"!"
-    fi
-
-  fi
-
   if ! [[ $(command -v node) ]] ; then
     error "Node.js must be installed!"
   fi
@@ -133,7 +97,7 @@ function build {
   if [[ "${OFFLINE}" == "false" ]] ; then
 
     echo "Authenticating npm..."
-    npm run auth --silent || error
+    npx --yes google-artifactregistry-auth@latest --silent || error
 
     echo "Installing npm dependencies..."
     npm install --silent || error
@@ -143,14 +107,14 @@ function build {
   echo "Running eslint..."
   npm run lint --silent || error
 
-  echo "Running Mocha..."
+  echo "Running Typescript compiler..."
+  npm run compile --silent || error
+
+  echo "Running Jest..."
   npm run test --silent || error
 
   echo "Sorting package.json ..."
-  npx sort-package-json || error
-
-  echo "Running build..."
-  npm run build || error
+  npx --yes sort-package-json || error
 
 }
 
