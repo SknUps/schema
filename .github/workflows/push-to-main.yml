@@ -5,7 +5,6 @@ name: Push to main
   push:
     branches:
       - 'main'
-      - 'PLATFORM-3881'
     tags:
       - 'v*'
     paths-ignore:
