@@ -114,7 +114,7 @@ function build {
   npm run test --silent || error
 
   echo "Sorting package.json ..."
-  npx sort-package-json || error
+  npx --yes sort-package-json || error
 
 }
 
